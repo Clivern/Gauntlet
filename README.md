@@ -218,6 +218,7 @@
 * [Sales Is Just Bad Marketing By GaryVee.](https://www.youtube.com/watch?v=nGW3yBpffsY)
 * [Tech Talks](https://www.digitalocean.com/community/tags/tech-talks)
 * [Getting started with Grafana 8](https://grafana.com/go/webinar/getting-started-with-grafana/)
+* [Grafana 9 deep dive](https://grafana.com/go/grafanaconline/2022/grafana-9-deep-dive/)
 
 
 💮 Podcasts:
