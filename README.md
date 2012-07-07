@@ -354,4 +354,5 @@
 * [Learn LangChain](https://github.com/gkamradt/langchain-tutorials)
 * [Cosine similarity using GPT models](https://medium.com/@khiljidanial/cosine-similarity-using-gpt-models-35b6b9685d70)
 * [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413)
+* [Introduction to Machine Learning with scikit-learn](https://courses.dataschool.io/introduction-to-machine-learning-with-scikit-learn)
 
