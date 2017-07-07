@@ -352,3 +352,5 @@
 * [Deploy Llama 2 for your Entire Organisation](https://www.youtube.com/watch?v=Ror2xOOA-VE)
 * [Greg Kamradt - Data Indy](https://www.youtube.com/@DataIndependent/featured)
 * [Learn LangChain](https://github.com/gkamradt/langchain-tutorials)
+* [Cosine similarity using GPT models](https://medium.com/@khiljidanial/cosine-similarity-using-gpt-models-35b6b9685d70)
+
