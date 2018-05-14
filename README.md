@@ -7,4 +7,5 @@
   <li><a href="https://www.youtube.com/watch?v=hnpzNAPiC0E">📹 Scaling Instagram.</a></li>
   <li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04">📋 Running Nginx as Web Server/Reverse Proxy for Python Apps</a></li>
     <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04">📋 Running Nginx as Web Server/Reverse Proxy for PHP Apps</a></li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-manage-logfiles-with-logrotate-on-ubuntu-16-04">📋 Manage Log Files with logrotate on Ubuntu</a></li>
 </ul>
