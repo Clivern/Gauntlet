@@ -1,5 +1,6 @@
 # Scalability
-:orange_book: A Cool Guides to Build a Large-Scale Distributed Systems.
+
+:orange_book: A Cool Guides to Build a Large-Scale Distributed Systems:
 
 <ul>
   <li><a href="https://www.nginx.com/blog/scaling-web-applications-nginx-part-load-balancing/">📋 Scaling Web Applications with NGINX, Part 1: Load Balancing</li>
@@ -9,3 +10,5 @@
     <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04">📋 Running Nginx as Web Server/Reverse Proxy for PHP Apps</a></li>
   <li><a href="https://www.digitalocean.com/community/tutorials/how-to-manage-logfiles-with-logrotate-on-ubuntu-16-04">📋 Manage Log Files with logrotate on Ubuntu</a></li>
 </ul>
+
+📙 Some Tools to Build a Scalable Infrastructure:
