@@ -20,4 +20,5 @@
 :zap: Some Tools to Consider:
 <ul>
   <li><a href="https://docs.locust.io/en/latest/what-is-locust.html">:zap: Load Testing Tool</a></li>
+  <li><a href="https://github.com/clivern/monk">:zap: Chef to Automate IT Infrastructure.</a></li>
 </ul>
