@@ -11,6 +11,7 @@
   <li><a href="https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8">📋 Modern Software Over-Engineering Mistakes</a></li>
   <li><a href="https://architecht.io/lessons-from-facebook-on-engineering-for-scale-f5716f0afc7a">📋 Automate and abstract: Lessons from Facebook on engineering for scale</a></li>
   <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-prometheus-on-ubuntu-16-04">📋 How To Install Prometheus on Ubuntu 16.04.</a></li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-kubernetes-1-10-cluster-using-kubeadm-on-ubuntu-16-04">📋 How To Create a Kubernetes 1.10 Cluster Using Kubeadm on Ubuntu 16.04</a></li>
 </ul>
 
 📹  Some Videos to Watch:
