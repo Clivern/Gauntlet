@@ -14,7 +14,7 @@
   <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-prometheus-on-ubuntu-16-04">📋 How To Install Prometheus on Ubuntu 16.04.</a></li>
   <li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-kubernetes-1-10-cluster-using-kubeadm-on-ubuntu-16-04">📋 How To Create a Kubernetes 1.10 Cluster Using Kubeadm on Ubuntu 16.04</a></li>
   <li><a href="https://linuxconfig.org/how-to-install-kubernetes-on-ubuntu-18-04-bionic-beaver-linux">📋 How to Install Kubernetes on Ubuntu 18.04 Bionic Beaver Linux.</a></li>
-  <li><a href="http://containertutorials.com/index.html#">Container Tutorials</a></li>
+  <li><a href="http://containertutorials.com/index.html#">📋 Container Tutorials</a></li>
 </ul>
 
 📹  Some Videos to Watch:
