@@ -99,3 +99,6 @@ Commands:
 
 Run 'docker COMMAND --help' for more information on a command.
 ```
+
+Working With Images
+-------------------
