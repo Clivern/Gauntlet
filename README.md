@@ -20,6 +20,7 @@
 📹  Some Videos to Watch:
 <ul>
   <li><a href="https://www.youtube.com/watch?v=hnpzNAPiC0E">📹 Scaling Instagram.</a></li>
+  <li><a href="https://serversforhackers.com/">📹 Servers For Hackers.</a></li>
 </ul>
   
 :zap: Some Tools to Consider:
