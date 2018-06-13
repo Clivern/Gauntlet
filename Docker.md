@@ -226,3 +226,88 @@ the recommendation is use `CMD` in your Dockerfile when you want the user of you
 In contrast, `ENTRYPOINT` should be used in scenarios where you want the container to behave exclusively as if it were the executable it's wrapping. That is, when you don't want or expect the user to override the executable you've specified.
 
 For More Info, [Please read this guide.](https://www.ctl.io/developers/blog/post/dockerfile-entrypoint-vs-cmd/)
+
+
+Networks
+--------
+
+We can create a network for containers to be added to:
+
+```bash
+# List networks
+$ docker network ls
+
+# Create a network
+$ docker network create appnet
+```
+
+Then Create a MySQL Container
+
+```bash
+$ docker run -d \
+    --name=mysql \
+    --network=appnet \
+    -e MYSQL_ROOT_PASSWORD=root \
+    -e MYSQL_DATABASE=homestead \
+    -e MYSQL_USER=homestead \
+    -e MYSQL_USER_PASSWORD=secret \
+    mysql:5.7
+```
+
+Then Create App Container and Connected to the same network `appnet`.
+
+```bash
+# Create a Docker File
+FROM ubuntu:trusty
+ENTRYPOINT ["/bin/ping","mysql"]
+
+# Then Create Container of That Image
+$ docker run -d \
+    --name=app \
+    --network=appnet \
+     app
+```
+
+You can access the app container with the following command
+
+```bash
+$ docker exec -it app bash
+
+$ ping mysql
+PING mysql (172.18.0.2) 56(84) bytes of data.
+64 bytes from mysql.appnet (172.18.0.2): icmp_seq=1 ttl=64 time=0.173 ms
+64 bytes from mysql.appnet (172.18.0.2): icmp_seq=2 ttl=64 time=0.130 ms
+
+$ getent hosts mysql
+172.18.0.2      mysql
+
+$ apt-get install mysql-client
+
+$ mysql -h 172.18.0.2 -u root -p
+Enter password: root
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 9
+Server version: 5.7.22 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| homestead          |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.00 sec)
+```
+
+[For More Info, Check Networks Guide.](https://docs.docker.com/network/)
