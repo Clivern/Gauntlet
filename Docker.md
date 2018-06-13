@@ -172,3 +172,54 @@ server {
     error_page 404 /index.php;
 }
 ```
+
+ENTRYPOINT or CMD
+-----------------
+
+Basically both `ENTRYPOINT` and `CMD` give you a way to identify which executable should be run when a container is started from your image
+
+For example, let's say that we have the following Dockerfile
+
+```bash
+FROM ubuntu:trusty
+CMD ["/bin/ping","localhost"]
+
+# Then Build The Image
+docker build -t app .
+```
+
+We can create a container that run this command `/bin/ping localhost` or override it.
+
+```bash
+$ docker run -it app
+PING localhost (127.0.0.1) 56(84) bytes of data.
+64 bytes from localhost (127.0.0.1): icmp_seq=1 ttl=64 time=0.043 ms
+64 bytes from localhost (127.0.0.1): icmp_seq=2 ttl=64 time=0.097 ms
+
+# Override it with bash
+$ docker run -it app bash
+```
+
+Also the same could happen to `ENTRYPOINT`.
+
+```bash
+FROM ubuntu:trusty
+ENTRYPOINT ["/bin/ping","localhost"]
+
+# Then Build The Image
+docker build -t app .
+```
+
+Then you can run a container as interactive or daemon.
+```bash
+# interactive
+$ docker run -it app
+
+# daemon
+$ docker run -d app
+```
+
+the recommendation is use `CMD` in your Dockerfile when you want the user of your image to have the flexibility to run whichever executable they choose when starting the container. 
+In contrast, `ENTRYPOINT` should be used in scenarios where you want the container to behave exclusively as if it were the executable it's wrapping. That is, when you don't want or expect the user to override the executable you've specified.
+
+For More Info, [Please read this guide.](https://www.ctl.io/developers/blog/post/dockerfile-entrypoint-vs-cmd/)
