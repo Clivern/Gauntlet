@@ -77,7 +77,7 @@ LABEL maintainer="Clivern"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get FROM ubuntu:18.04  LABEL maintainer=" update \
+RUN apt-get update \
     && apt-get install -y gnupg tzdata \
     && echo "UTC" > /etc/timezone \
     && dpkg-reconfigure -f noninteractive tzdata
