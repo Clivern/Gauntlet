@@ -310,4 +310,16 @@ mysql> show databases;
 5 rows in set (0.00 sec)
 ```
 
+Add another container which is published on port `8080`
+
+```bash
+$ docker create --name my-nginx \
+    --network appnet \
+    --publish 8080:80 \
+    nginx:latest
+
+# You should be able to see nginx on host machine on port 8080
+$ docker start my-nginx
+```
+
 [For More Info, Check Networks Guide.](https://docs.docker.com/network/)
