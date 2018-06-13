@@ -58,6 +58,9 @@ $ docker tag <image_id> <account_name>/clivernnginx:ubuntu
 $ docker push <account_name>/clivernnginx
 ```
 
+[For More Info, Check Docker Guide.](https://docs.docker.com/engine/reference/commandline/images/)
+
+
 Using Dockerfiles
 -----------------
 
