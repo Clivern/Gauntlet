@@ -328,5 +328,20 @@ A Good Catch
 ------------
 ```bash
 # Get Logs with Stream
-docker logs --follow <container-name>
+$ docker logs --follow <container-name>
+
+# Show Docker Info
+$ docker info
+
+# Get a live data stream for running containers
+$ docker stats
+
+# Get a live data stream for one or two containers
+$ docker stats <container_name> <?container_name>
+
+# Get a live CPU & Memory Stats for one or more containers
+$ docker stats --all --format "table {{.Container}}\t{{.CPUPerc}}\t{{.MemUsage}}" <container_name> <?container_name>
+
+# Get a live CPU & Memory Stats ... etc for one or more containers
+$ docker stats --all --format "table {{.Container}}\t{{.Name}}\t{{.ID}}\t{{.CPUPerc}}\t{{.MemUsage}}\t{{.NetIO}}\t{{.BlockIO}}\t{{.MemPerc}}\t{{.PIDs}}" <container_name> <?container_name>
 ```
