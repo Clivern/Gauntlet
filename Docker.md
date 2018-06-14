@@ -323,3 +323,10 @@ $ docker start my-nginx
 ```
 
 [For More Info, Check Networks Guide.](https://docs.docker.com/network/)
+
+A Good Catch
+------------
+```bash
+# Get Logs with Stream
+docker logs --follow <container-name>
+```
