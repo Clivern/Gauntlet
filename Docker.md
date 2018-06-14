@@ -344,4 +344,30 @@ $ docker stats --all --format "table {{.Container}}\t{{.CPUPerc}}\t{{.MemUsage}}
 
 # Get a live CPU & Memory Stats ... etc for one or more containers
 $ docker stats --all --format "table {{.Container}}\t{{.Name}}\t{{.ID}}\t{{.CPUPerc}}\t{{.MemUsage}}\t{{.NetIO}}\t{{.BlockIO}}\t{{.MemPerc}}\t{{.PIDs}}" <container_name> <?container_name>
+
+# Inspect the changes to container
+$ docker diff <container_name>
+
+# Get Docker Events
+$ docker events --format '{{json .}}'
+
+# Get Docker Events With Filter
+$ docker events --filter 'type=container' --format 'Type={{.Type}}  Status={{.Status}}  ID={{.ID}}'
+$ docker events --since '2017-01-05'
+$ docker events --filter 'event=stop'
+$ docker events --filter 'image=alpine'
+$ docker events --filter 'container=test'
+$ docker events --filter 'container=test' --filter 'container=container_id'
+$ docker events --filter 'container=test' --filter 'event=stop'
+$ docker events --filter 'type=volume'
+$ docker events --filter 'type=network'
+$ docker events --filter 'container=container_1' --filter 'container=container_2'
+$ docker events --filter 'type=volume'
+$ docker events --filter 'type=network'
+$ docker events --filter 'type=plugin'
+$ docker events -f type=service
+$ docker events -f type=node
+$ docker events -f type=secret
+$ docker events -f type=config
+$ docker events --filter 'scope=swarm'
 ```
