@@ -261,6 +261,9 @@ Then Create App Container and Connected to the same network `appnet`.
 FROM ubuntu:trusty
 ENTRYPOINT ["/bin/ping","mysql"]
 
+# Then Build The Image
+docker build -t app .
+
 # Then Create Container of That Image
 $ docker run -d \
     --name=app \
@@ -322,7 +325,49 @@ $ docker create --name my-nginx \
 $ docker start my-nginx
 ```
 
+You can connect and disconnect containers from network like this:
+
+```bash
+$ docker network disconnect appnet app
+$ docker network connect appnet app
+```
+
+You can also inspect the container or the network to get some info about container network or containers connected to same network or even ip of container to access from another.
+
+```bash
+$ docker inspect app
+$ docker network inspect appnet
+```
+
+Replace and Connect containers to a new network.
+
+```bash
+$ docker network disconnect appnet app
+$ docker network disconnect appnet mysql
+
+# Create a network
+$ docker network create appnet2
+
+# Connect to a new network
+$ docker network connect appnet2 app
+$ docker network connect appnet2 mysql
+
+# Restart Container
+$ docker restart app mysql
+
+# This shall show connected containers
+$ docker network inspect appnet2
+```
+
 [For More Info, Check Networks Guide.](https://docs.docker.com/network/)
+
+
+Limiting Container's Resources
+------------------------------
+
+* [Resource Constraints.](https://docs.docker.com/v17.09/engine/admin/resource_constraints/)
+* [Kernel doesn't Support cgroup Swap Limit Capabilities.](https://docs.docker.com/install/linux/linux-postinstall/#your-kernel-does-not-support-cgroup-swap-limit-capabilities)
+
 
 A Good Catch
 ------------
