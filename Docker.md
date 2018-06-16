@@ -362,6 +362,59 @@ $ docker network inspect appnet2
 [For More Info, Check Networks Guide.](https://docs.docker.com/network/)
 
 
+Docker Storage
+--------------
+
+### Volumes
+
+```bash
+# Create a Volume
+$ docker volume create my-vol
+
+# List Volumes
+$ docker volume ls
+
+# Inspect Volume
+$ docker volume inspect my-vol
+
+# Remove a Volume
+$ docker volume rm my-vol
+
+# To remove all unused volumes and free up space
+$ docker volume prune
+
+# Start a container with a volume (Host machine path will be /var/lib/docker/volumes/nginx-vol-1/_data)
+$ docker run -d \
+    --name=nginx1 \
+    --mount source=nginx-vol-1,destination=/usr/share/nginx/html \
+    --publish 8000:80 \
+    nginx:latest
+
+# Inspect Docker Container
+$ docker inspect nginx1
+
+# Stop the container and remove the volume. Note volume removal is a separate step.
+$ docker container stop nginx1
+$ docker container rm nginx1
+$ docker volume rm nginx-vol-1
+
+# Use a read-only volume
+$ docker run -d \
+    --name=nginx2 \
+    --mount source=nginx-vol-2,destination=/usr/share/nginx/html,readonly \
+    --publish 8000:80 \
+    nginx:latest
+
+# Backup a container volume as tar
+$ docker run --rm --volumes-from nginx1 -v $(pwd):/backup ubuntu tar cvf /backup/backup.tar /usr/share/nginx/html
+```
+
+### Bind mounts
+
+
+### `tmpfs` mounts
+
+
 Limiting Container's Resources
 ------------------------------
 
