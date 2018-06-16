@@ -391,7 +391,7 @@ $ docker run -d \
     nginx:latest
 
 # Inspect Docker Container
-$ docker inspect nginx1
+$ docker container inspect nginx1
 
 # Stop the container and remove the volume. Note volume removal is a separate step.
 $ docker container stop nginx1
@@ -411,8 +411,48 @@ $ docker run --rm --volumes-from nginx1 -v $(pwd):/backup ubuntu tar cvf /backup
 
 ### Bind mounts
 
+```bash
+$ mkdir app
+$ echo "Hello World" > app/README.md
+
+# Bind mount to container
+$ docker run -d \
+    --name=nginx1 \
+    --mount type=bind,source="$(pwd)"/app,target=/app \
+    --publish 8000:80 \
+    nginx:latest
+
+# Use a read-only bind mount
+$ docker run -d \
+    --name=nginx1 \
+    --mount type=bind,source="$(pwd)"/app,target=/app,readonly \
+    --publish 8000:80 \
+    nginx:latest
+
+$ docker exec -it nginx1 bash
+$ ls ./app
+```
 
 ### `tmpfs` mounts
+
+As opposed to volumes and bind mounts, a `tmpfs` mount is temporary, and only persisted in the host memory. When the container stops, the `tmpfs` mount is removed, and files written there won’t be persisted.
+
+```bash
+$ docker run -d \
+    --name=nginx1 \
+    --mount type=tmpfs,destination=/app \
+    --publish 8000:80 \
+    nginx:latest
+
+# Inspect Docker Container
+$ docker container inspect nginx1
+
+$ docker exec -it nginx1 bash
+$ ls ./app
+$ echo "Hello World" > app/README.md
+$ exit
+$ docker restart nginx1 # This should clear the README.md file
+```
 
 
 Limiting Container's Resources
