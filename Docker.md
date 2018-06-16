@@ -242,6 +242,75 @@ FROM ubuntu
 ENTRYPOINT ["ping", "8.8.8.8"]
 ```
 
+### VOLUME
+
+The `VOLUME` instruction creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other containers.
+
+```bash
+FROM ubuntu
+RUN mkdir /myvol
+RUN echo "hello world" > /myvol/greeting
+VOLUME /myvol
+```
+
+### USER
+
+The `USER` instruction sets the user name (or UID) and optionally the user group (or GID) to use when running the image and for any `RUN`, `CMD` and `ENTRYPOINT` instructions that follow it in the `Dockerfile`.
+
+```bash
+USER patrick
+```
+
+### WORKDIR
+
+The `WORKDIR` instruction sets the working directory for any `RUN`, `CMD`, `ENTRYPOINT`, `COPY` and `ADD` instructions that follow it in the `Dockerfile`. If the `WORKDIR` doesn’t exist, it will be created even if it’s not used in any subsequent `Dockerfile` instruction.
+
+The `WORKDIR` instruction can be used multiple times in a `Dockerfile`. If a relative path is provided, it will be relative to the path of the previous `WORKDIR` instruction. For example:
+
+```bash
+WORKDIR /a
+WORKDIR b
+WORKDIR c
+RUN pwd # should be /a/b/c
+```
+
+```bash
+ENV DIRPATH /path
+WORKDIR $DIRPATH/app
+RUN pwd # should be /path/app
+```
+
+### ARG
+
+The `ARG` instruction defines a variable that users can pass at build-time to the builder with the docker build command using the `--build-arg <varname>=<value>` flag. If a user specifies a build argument that was not defined in the `Dockerfile`, the build outputs a warning.
+
+`Dockerfile` may include one or more `ARG` instructions. For example, the following is a valid Dockerfile:
+
+```bash
+FROM busybox
+ARG user
+ARG buildno
+
+RUN echo $user
+```
+
+```bash
+docker build --build-arg user=what_user .
+```
+
+### HEALTHCHECK
+
+The `HEALTHCHECK` instruction has two forms:
+* `HEALTHCHECK [OPTIONS] CMD command` (check container health by running a command inside the container)
+* `HEALTHCHECK NONE` (disable any healthcheck inherited from the base image)
+
+The `HEALTHCHECK` instruction tells Docker how to test a container to check that it is still working. When a container has a healthcheck specified, it has a health status in addition to its normal status. This status is initially `starting`. Whenever a health check passes, it becomes `healthy` (whatever state it was previously in). After a certain number of consecutive failures, it becomes `unhealthy`.
+
+```bash
+HEALTHCHECK --interval=5m --timeout=3s \
+  CMD curl -f http://localhost/ || exit 1
+```
+
 
 Using Dockerfiles
 -----------------
