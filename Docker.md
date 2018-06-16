@@ -61,6 +61,133 @@ $ docker push <account_name>/clivernnginx
 [For More Info, Check Docker Guide.](https://docs.docker.com/engine/reference/commandline/images/)
 
 
+Dockerfile
+----------
+Docker can build images automatically by reading the instructions from a `Dockerfile`. A `Dockerfile` is a text document that contains all the commands a user could call on the command line to assemble an image.
+
+```bash
+docker build -t clivern/app .
+```
+
+Here is the format of the Dockerfile:
+
+```bash
+# Comment
+INSTRUCTION arguments
+```
+
+### FROM
+
+The `FROM` instruction initializes a new build stage and sets the Base Image for subsequent instructions.
+
+```bash
+FROM <image> [AS <name>]
+
+## Or
+
+FROM <image>[:<tag>] [AS <name>]
+
+## Or
+
+FROM <image>[@<digest>] [AS <name>]
+
+## Or
+
+FROM nginx:latest
+```
+
+### RUN
+
+The `RUN` instruction will execute any commands in a new layer on top of the current image and commit the results. The resulting committed image will be used for the next step in the `Dockerfile`.
+
+`RUN` has 2 forms:
+
+* `RUN <command>` (shell form, the command is run in a shell, which by default is `/bin/sh -c` on Linux or `cmd /S /C` on Windows)
+* `RUN ["executable", "param1", "param2"]` (exec form)
+
+```bash
+## One Line Command
+RUN apt-get update
+
+## Two Lines Command
+RUN apt-get update \
+    apt-get install git
+
+RUN echo "Hello World"
+
+## To use a different shell, other than /bin/sh, use the exec form passing in the desired shell.
+RUN ["/bin/bash", "-c", "echo hello"]
+```
+
+### CMD
+
+The CMD instruction has three forms:
+
+* `CMD ["executable","param1","param2"]` (exec form, this is the preferred form)
+* `CMD ["param1","param2"]` (as default parameters to ENTRYPOINT)
+* `CMD command param1 param2` (shell form)
+
+
+There can only be one `CMD` instruction in a `Dockerfile`. If you list more than one `CMD` then only the last `CMD` will take effect.
+
+The main purpose of a `CMD` is to provide defaults for an executing container. These defaults can include an executable, or they can omit the executable, in which case you must specify an `ENTRYPOINT` instruction as well.
+
+*Note: Don’t confuse `RUN` with `CMD`. `RUN` actually runs a command and commits the result; `CMD` does not execute anything at build time, but specifies the intended command for the image.*
+
+### LABEL
+
+The `LABEL` instruction adds metadata to an image.
+
+```bash
+LABEL "com.example.vendor"="ACME Incorporated"
+LABEL com.example.label-with-value="foo"
+LABEL version="1.0"
+LABEL description="This text illustrates \
+that label-values can span multiple lines."
+
+LABEL multi.label1="value1" multi.label2="value2" other="value3"
+```
+
+### MAINTAINER (deprecated)
+
+Use `LABEL` Instead.
+
+### EXPOSE
+
+The `EXPOSE` instruction informs Docker that the container listens on the specified network ports at runtime. You can specify whether the port listens on `TCP` or `UDP`, and the default is `TCP` if the protocol is not specified.
+
+```bash
+EXPOSE <port> [<port>/<protocol>...]
+
+EXPOSE 80
+# OR
+EXPOSE 80/tcp
+# OR
+EXPOSE 80/udp
+```
+
+Regardless of the `EXPOSE` settings, you can override them at runtime by using the `-p` flag.
+
+```bash
+docker run -p 80:80/tcp ...
+```
+
+### ENV
+
+The `ENV` instruction sets the environment variable `<key>` to the value `<value>`. This value will be in the environment for all subsequent instructions in the build stage and can be replaced inline in many as well.
+
+```bash
+ENV myName John Doe
+ENV myDog Rex The Dog
+ENV myCat fluffy
+```
+
+```bash
+# Override ENV vars
+docker run --env <key>=<value>
+```
+
+
 Using Dockerfiles
 -----------------
 
