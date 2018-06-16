@@ -187,6 +187,61 @@ ENV myCat fluffy
 docker run --env <key>=<value>
 ```
 
+### ADD
+
+The `ADD` instruction copies new files, directories or remote file URLs from `<src>` and adds them to the filesystem of the image at the path `<dest>`.
+
+`ADD` has two forms:
+* `ADD [--chown=<user>:<group>] <src>... <dest>`
+* `ADD [--chown=<user>:<group>] ["<src>",... "<dest>"]` (this form is required for paths containing whitespace)
+
+The `--chown` feature is only supported on `Dockerfiles` used to build Linux containers.
+
+```bash
+ADD test relativeDir/          # adds "test" to `WORKDIR`/relativeDir/
+ADD test /absoluteDir/         # adds "test" to /absoluteDir/
+
+ADD --chown=www-data:www-data test relativeDir/          # adds "test" to `WORKDIR`/relativeDir/
+```
+
+### COPY
+
+The `COPY` instruction copies new files or directories from `<src>` and adds them to the filesystem of the container at the path `<dest>`.
+
+COPY has two forms:
+* `COPY [--chown=<user>:<group>] <src>... <dest>`
+* `COPY [--chown=<user>:<group>] ["<src>",... "<dest>"]` (this form is required for paths containing whitespace).
+
+The `--chown` feature is only supported on `Dockerfiles` used to build Linux containers.
+
+```bash
+COPY test relativeDir/   # adds "test" to `WORKDIR`/relativeDir/
+COPY test /absoluteDir/  # adds "test" to /absoluteDir/
+
+COPY --chown=www-data:www-data test relativeDir/          # adds "test" to `WORKDIR`/relativeDir/
+```
+
+### ENTRYPOINT
+
+An `ENTRYPOINT` allows you to configure a container that will run as an executable.
+
+`ENTRYPOINT` has two forms:
+* `ENTRYPOINT ["executable", "param1", "param2"]` (exec form, preferred)
+* `ENTRYPOINT command param1 param2` (shell form)
+
+You can override the `ENTRYPOINT` instruction using the `docker run --entrypoint` flag.
+
+```bash
+# You can see that top is the only process
+FROM ubuntu
+ENTRYPOINT ["top", "-b"]
+
+## OR
+
+FROM ubuntu
+ENTRYPOINT ["ping", "8.8.8.8"]
+```
+
 
 Using Dockerfiles
 -----------------
