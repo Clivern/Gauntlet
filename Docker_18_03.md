@@ -713,6 +713,147 @@ Limiting Container's Resources
 * [Kernel doesn't Support cgroup Swap Limit Capabilities.](https://docs.docker.com/install/linux/linux-postinstall/#your-kernel-does-not-support-cgroup-swap-limit-capabilities)
 
 
+Docker Compose
+--------------
+
+### Installation
+
+To Install docker compose, run the following command:
+
+```bash
+sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+$ docker-compose --version
+docker-compose version 1.21.2, build a133471
+```
+
+### Getting Started.
+
+Let's create a simple python app running with two containers.
+
+```bash
+$ mkdir app
+```
+
+Create `app/app.py`, `app/requirements.txt`, `app/Dockerfile` and `app/docker-compose.yml`.
+
+```bash
+## app/app.py
+
+import time
+
+import redis
+from flask import Flask
+
+
+app = Flask(__name__)
+cache = redis.Redis(host='redis', port=6379)
+
+
+def get_hit_count():
+    retries = 5
+    while True:
+        try:
+            return cache.incr('hits')
+        except redis.exceptions.ConnectionError as exc:
+            if retries == 0:
+                raise exc
+            retries -= 1
+            time.sleep(0.5)
+
+
+@app.route('/')
+def hello():
+    count = get_hit_count()
+    file = open("testfile.txt","w")
+    file.write('Hello World! I have been seen {} times.\n'.format(count))
+    file.close()
+    return 'Hello World! I have been seen {} times.\n'.format(count)
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", debug=True)
+```
+
+```bash
+## app/requirements.txt
+
+flask
+redis
+```
+
+```bash
+## app/Dockerfile
+
+FROM python:3.4-alpine
+ADD . /app
+WORKDIR /app
+RUN pip install -r requirements.txt
+CMD ["python", "app.py"]
+```
+
+```bash
+## app/docker-compose.yml
+
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+     - "5000:5000"
+    volumes:
+     - .:/app
+  redis:
+    image: "redis:alpine"
+```
+
+Now Build and run your app with Compose.
+
+```bash
+$ cd app
+
+$ docker-compose run web env
+Creating network "app_default" with the default driver
+PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+HOSTNAME=a50e74216d8d
+TERM=xterm
+LANG=C.UTF-8
+GPG_KEY=97FC712E4C024BBEA48A61ED3A5CA953F73C700D
+PYTHON_VERSION=3.4.8
+PYTHON_PIP_VERSION=10.0.1
+HOME=/root
+
+$ docker-compose run redis env
+HOSTNAME=fc45a291fcb0
+SHLVL=1
+HOME=/root
+REDIS_DOWNLOAD_SHA=1db67435a704f8d18aec9b9637b373c34aa233d65b6e174bdac4c1b161f38ca4
+TERM=xterm
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+REDIS_DOWNLOAD_URL=http://download.redis.io/releases/redis-4.0.10.tar.gz
+REDIS_VERSION=4.0.10
+PWD=/data
+
+$ docker-compose up -d
+$ docker ps
+$ docker-compose ps
+
+# Go to http://fqdn:5000
+# file response.txt should appear and its content change on page refresh
+
+# Stop the applications
+$ docker-compose stop
+
+# Restart the applications
+$ docker-compose restart
+
+# Start the applications
+$ docker-compose start
+
+# Remove containers entirely
+$ docker-compose down --volumes
+```
+
 Recap and Cheat Sheet
 ---------------------
 ```bash
