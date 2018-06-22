@@ -1,7 +1,6 @@
 # Scalable Architecture
 
-> Continuous improvement is better than delayed perfection.
-> - Mark Twain
+`Continuous improvement is better than delayed perfection ~ Mark Twain`
 
 Strategy 1
 ----------
@@ -10,3 +9,11 @@ Strategy 1
     <img src="https://raw.githubusercontent.com/Clivern/Scalability/master/graphs/strategy_1.png">
     <br/><br/>
 </p>
+
+```
+~ Characteristics
+
+~ Target
+
+~ Setbacks
+```
