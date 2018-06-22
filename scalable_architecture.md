@@ -5,9 +5,9 @@ The first step to alleviating any problem – in software or otherwise – is to
 
 Once you’ve got a much better sense of what the problem is, you should start to tackle it by trying the simplest solution that directly addresses the issues – remember, we’re always trying to avoid adding unnecessary complexity.
 
-Also the Perfect Architecture is a Myth because Evolution cannot be predicted. The users will always be able to surprise us
+Also the Perfect Architecture is a Myth because Evolution cannot be predicted. The users will always be able to surprise us.
 
-`Continuous Improvement is Better Than Delayed Perfection ~ Mark Twain`
+> Continuous Improvement is Better Than Delayed Perfection ~ Mark Twain
 
 ### Strategy 1
 <p align="center">
