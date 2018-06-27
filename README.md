@@ -33,7 +33,7 @@
   <li><a href="https://docs.locust.io/en/latest/what-is-locust.html">:zap: Load Testing Tool</a></li>
   <li><a href="https://github.com/clivern/monk">:zap: Chef to Automate IT Infrastructure.</a></li>
   <li><a href="https://github.com/Kong/kong">:zap: The Microservice API Gateway.</a></li>
-  <li><a href="https://github.com/deviantony/docker-elk">ELK Stack on Docker.</a></li>
+  <li><a href="https://github.com/deviantony/docker-elk">:zap: ELK Stack on Docker.</a></li>
 </ul>
 
 🐉Books to Delve Into:
