@@ -34,3 +34,9 @@
   <li><a href="https://github.com/clivern/monk">:zap: Chef to Automate IT Infrastructure.</a></li>
   <li><a href="https://github.com/Kong/kong">:zap: The Microservice API Gateway.</a></li>
 </ul>
+
+🐉Books to Delve Into:
+<ul>
+  <li><a href="http://shop.oreilly.com/product/0636920033158.do">🐉 Building Microservices: Designing Fine-Grained Systems.</a></li>
+  <li><a href="http://shop.oreilly.com/product/0636920050308.do">🐉 Microservice Architecture: Aligning Principles, Practices, and Culture.</a></li>
+</ul>
