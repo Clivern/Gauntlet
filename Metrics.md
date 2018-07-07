@@ -18,6 +18,8 @@ docker run -d\
  graphiteapp/graphite-statsd
 ```
 
+[Check the API docs here.](http://graphite-api.readthedocs.io/en/latest/api.html)
+
 Grafana
 -------
 
@@ -32,3 +34,5 @@ docker run \
   -e "GF_SECURITY_ADMIN_PASSWORD=admin" \
   grafana/grafana
 ```
+
+[Check the API docs here.](http://docs.grafana.org/)
