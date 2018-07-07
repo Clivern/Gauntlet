@@ -18,7 +18,48 @@ docker run -d\
  graphiteapp/graphite-statsd
 ```
 
-[Check the API docs here.](http://graphite-api.readthedocs.io/en/latest/api.html)
+### Push Some Data
+
+```python
+#!/usr/bin/env python
+
+import socket
+import time
+
+
+CARBON_SERVER = 'xxx.yyy.z.kkk'
+CARBON_PORT = 2003
+DELAY = 3  # secs
+
+
+def send_msg(message):
+    print 'sending message:\n%s' % message
+    sock = socket.socket()
+    sock.connect((CARBON_SERVER, CARBON_PORT))
+    sock.sendall(message)
+    sock.close()
+
+
+if __name__ == '__main__':
+    i = 1
+    j = 1
+    k = 1
+    while True:
+        i += 1
+        j += 2
+        k += 3
+        timestamp = int(time.time())
+        lines = [
+            'parent1.parent2.child %s %d' % (i, timestamp),
+            'parent1.parent2.child %s %d' % (j, timestamp),
+            'parent1.parent2.child %s %d' % (k, timestamp)
+        ]
+        message = '\n'.join(lines) + '\n'
+        send_msg(message)
+        time.sleep(DELAY)
+```
+
+[Check the API Docs.](http://graphite-api.readthedocs.io/en/latest/api.html)
 
 Grafana
 -------
@@ -35,4 +76,4 @@ docker run \
   grafana/grafana
 ```
 
-[Check the API docs here.](http://docs.grafana.org/)
+[Check the API Docs.](http://docs.grafana.org/)
