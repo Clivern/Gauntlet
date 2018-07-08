@@ -28,3 +28,29 @@ bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
 # Start a consumer
 bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
 ```
+
+To Send and Receive with Python
+
+```bash
+pip install kafka-python
+```
+
+```python
+# Send.py
+from kafka import KafkaProducer
+
+producer = KafkaProducer(bootstrap_servers='localhost:9092')
+
+for _ in range(100):
+    producer.send('test', b'some_message_bytes')
+```
+
+```python
+# Receive.py
+from kafka import KafkaProducer
+
+producer = KafkaProducer(bootstrap_servers='localhost:9092')
+
+for _ in range(100):
+    producer.send('test', b'some_message_bytes')
+```
