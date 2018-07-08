@@ -47,10 +47,10 @@ for _ in range(100):
 
 ```python
 # Receive.py
-from kafka import KafkaProducer
+from kafka import KafkaConsumer
 
-producer = KafkaProducer(bootstrap_servers='localhost:9092')
+consumer = KafkaConsumer('test')
 
-for _ in range(100):
-    producer.send('test', b'some_message_bytes')
+for msg in consumer:
+    print (msg)
 ```
