@@ -21,6 +21,7 @@
   <li><a href="https://linuxconfig.org/how-to-install-kubernetes-on-ubuntu-18-04-bionic-beaver-linux">📋 How to Install Kubernetes on Ubuntu 18.04 Bionic Beaver Linux.</a></li>
   <li><a href="http://containertutorials.com/index.html#">📋 Container Tutorials.</a></li>
   <li><a href="https://www.martinfowler.com/articles/microservices.html">📋 Microservices by Martin Fowler.</a></li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04">📋 How To Install Jenkins on Ubuntu 18.04.</a></li>
 </ul>
 
 📹  Some Videos to Watch:
