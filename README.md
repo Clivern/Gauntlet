@@ -22,6 +22,7 @@
   <li><a href="http://containertutorials.com/index.html#">📋 Container Tutorials.</a></li>
   <li><a href="https://www.martinfowler.com/articles/microservices.html">📋 Microservices by Martin Fowler.</a></li>
   <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04">📋 How To Install Jenkins on Ubuntu 18.04.</a></li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/object-storage-vs-block-storage-services">📋 Object Storage vs. Block Storage Services.</a></li>
 </ul>
 
 📹  Some Videos to Watch:
@@ -36,6 +37,7 @@
   <li><a href="https://github.com/clivern/monk">:zap: Chef to Automate IT Infrastructure.</a></li>
   <li><a href="https://github.com/Kong/kong">:zap: The Microservice API Gateway.</a></li>
   <li><a href="https://github.com/deviantony/docker-elk">:zap: ELK Stack on Docker.</a></li>
+  <li><a href="https://www.minio.io/">:zap: Minio - Object Storage Server.</a></li>
 </ul>
 
 🐉Books to Delve Into:
