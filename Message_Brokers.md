@@ -1,8 +1,8 @@
 Message Brokers 
 ===============
 
-Working With Apache Kafka
--------------------------
+Apache Kafka
+------------
 ```bash
 # Install Java
 sudo add-apt-repository ppa:webupd8team/java
@@ -53,4 +53,26 @@ consumer = KafkaConsumer('test')
 
 for msg in consumer:
     print (msg)
+```
+
+
+RabbitMQ
+--------
+
+### Install with Docker 
+
+```bash
+docker pull rabbitmq
+docker run -d --hostname my-rabbit --name some-rabbit -p 4369:4369 -p 5671:5671 -p 5672:5672 -p 15672:15672 rabbitmq
+docker exec some-rabbit rabbitmq-plugins enable rabbitmq_management
+
+# Login at http://localhost:15672/ (or the IP of your docker host)
+# using guest/guest
+```
+
+
+### Simple Use Case
+
+```bash
+pip install pika
 ```
