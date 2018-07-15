@@ -30,6 +30,7 @@
   <li><a href="https://www.youtube.com/watch?v=hnpzNAPiC0E">📹 Scaling Instagram.</a></li>
   <li><a href="https://serversforhackers.com/">📹 Servers For Hackers.</a></li>
   <li><a href="https://www.youtube.com/watch?v=sqnDAnZgyLs">📹 Microservices at Squarespace - Doug Jones and Kevin Lynch.</a></li>
+  <li><a href="https://www.youtube.com/playlist?list=PL7Og3MgqGrDR6YjnwJTphPQmkaZNWjEBS">📹 Microservices.com Practitioner Summit 2017.</a></li>
 </ul>
   
 :zap: Some Tools to Consider:
