@@ -39,6 +39,7 @@
   <li><a href="https://github.com/deviantony/docker-elk">:zap: ELK Stack on Docker.</a></li>
   <li><a href="https://www.minio.io/">:zap: Minio - Object Storage Server.</a></li>
   <li><a href="https://vibora.io/">:zap: Vibora - Asynchronous Python Framework.</a></li>
+  <li><a href="https://zipkin.io/">:zap: Zipkin - a Distributed Tracing System.</a></li>
 </ul>
 
 🐉Books to Delve Into:
