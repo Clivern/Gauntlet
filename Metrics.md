@@ -74,6 +74,7 @@ wget https://github.com/prometheus/prometheus/releases/download/v2.3.2/prometheu
 sha256sum prometheus-*.tar.gz
 
 tar xvfz prometheus-*.tar.gz
+rm prometheus-*.tar.gz
 cd prometheus-*
 ./prometheus --help
 ```
