@@ -61,6 +61,85 @@ if __name__ == '__main__':
 
 [Check the API Docs.](http://graphite-api.readthedocs.io/en/latest/api.html)
 
+
+Prometheus
+----------
+
+### Install on Linux
+
+```bash
+wget https://github.com/prometheus/prometheus/releases/download/v2.3.2/prometheus-2.3.2.linux-amd64.tar.gz
+
+# Should Be ~> 351931fe9bb252849b7d37183099047fbe6d7b79dcba013fb6ae19cc1bbd8552
+sha256sum prometheus-*.tar.gz
+
+tar xvfz prometheus-*.tar.gz
+cd prometheus-*
+./prometheus --help
+```
+
+Create a basic config file to scrape prometheus metrics every 15 seconds.
+
+```
+# prometheus.yml
+global:
+  scrape_interval:     15s
+  evaluation_interval: 15s
+
+rule_files:
+  # - "first.rules"
+  # - "second.rules"
+
+scrape_configs:
+  - job_name: prometheus
+    static_configs:
+      - targets: ['localhost:9090']
+```
+
+Start prometheus server.
+
+```bash
+./prometheus --config.file=prometheus.yml
+```
+
+### Install With Docker
+
+Bind-mount your `prometheus.yml` from the host by running
+
+```bash
+docker run -p 9090:9090 -v /tmp/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+```
+
+Or use an additional volume for the config
+
+```bash
+docker run -p 9090:9090 -v /prometheus-data prom/prometheus --config.file=/prometheus-data/prometheus.yml
+```
+
+
+### Getting Started
+
+we can add `localhost:5000` to be scraped and run new app with [flask](http://flask.pocoo.org/) listening on port `5000`:
+
+```bash
+pip install Flask
+```
+
+```python
+# hello.py
+
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/metrics")
+def hello():
+    return 'item_to_trace 46'
+````
+
+```bash
+FLASK_APP=hello.py flask run --host=0.0.0.0
+```
+
 Grafana
 -------
 
