@@ -23,6 +23,7 @@
   <li><a href="https://www.martinfowler.com/articles/microservices.html">📋 Microservices by Martin Fowler.</a></li>
   <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04">📋 How To Install Jenkins on Ubuntu 18.04.</a></li>
   <li><a href="https://www.digitalocean.com/community/tutorials/object-storage-vs-block-storage-services">📋 Object Storage vs. Block Storage Services.</a></li>
+  <li><a href="https://github.com/donnemartin/system-design-primer">📋 System Design Primer.</a></li>
 </ul>
 
 📹  Some Videos to Watch:
