@@ -39,6 +39,8 @@ $ systemctl start jenkins.service
 $ systemctl status jenkins.service
 ```
 
+### Using Docker with Pipeline
+
 Create a Docker Image `Dockerfile`.
 
 ```bash
@@ -114,3 +116,5 @@ pipeline {
   }
 }
 ```
+
+For More info, [Please check this guide](https://jenkins.io/doc/book/pipeline/docker/).
