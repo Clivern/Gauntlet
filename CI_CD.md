@@ -83,16 +83,16 @@ CMD ["php", "-a"]
 Then Build The Image
 
 ```bash
-docker build -t clivern_php71 .
+docker build -t clivern_php72 .
 ```
 
-Create a Jenkinsfile to do testing using that docker image.
+Create a `Jenkinsfile` to do testing using that docker image.
 
 ```
 pipeline {
   agent {
     docker {
-      image 'clivern_php71:latest'
+      image 'clivern_php72:latest'
     }
   }
   stages {
