@@ -35,6 +35,11 @@
   <li><a href="https://www.youtube.com/playlist?list=PL7Og3MgqGrDR6YjnwJTphPQmkaZNWjEBS">📹 Microservices.com Practitioner Summit 2017.</a></li>
 </ul>
   
+:sound: Podcasts to Listen:
+<ul>
+<li><a href="https://softwareengineeringdaily.com/">:sound: Software Engineering Daily.</a></li>
+</ul>
+
 :zap: Some Tools to Consider:
 <ul>
   <li><a href="https://docs.locust.io/en/latest/what-is-locust.html">:zap: Load Testing Tool</a></li>
