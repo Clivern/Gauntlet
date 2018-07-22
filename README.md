@@ -45,6 +45,7 @@
   <li><a href="https://vibora.io/">:zap: Vibora - Asynchronous Python Framework.</a></li>
   <li><a href="https://zipkin.io/">:zap: Zipkin - a Distributed Tracing System.</a></li>
   <li><a href="https://jenkins.io/doc/">:zap: Jenkins User Docs.</a></li>
+  <li><a href="https://swagger.io/solutions/api-design/">:zap: API Desing with Swagger.</a></li>
 </ul>
 
 🐉Books to Delve Into:
