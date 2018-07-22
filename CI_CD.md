@@ -90,7 +90,7 @@ docker build -t clivern_php72 .
 
 Create a `Jenkinsfile` to do testing using that docker image.
 
-```
+```groovy
 pipeline {
   agent {
     docker {
@@ -111,6 +111,26 @@ pipeline {
     stage('Test') {
       steps {
         sh './vendor/bin/simple-phpunit'
+      }
+    }
+  }
+}
+```
+
+Or to use the `Dockerfile` Directly.
+
+```groovy
+pipeline {
+  agent { dockerfile true }
+  stages {
+    stage('Build') {
+      steps {
+        sh 'php --version'
+      }
+    }
+    stage('Testing') {
+      steps {
+        sh 'make ci'
       }
     }
   }
