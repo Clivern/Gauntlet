@@ -796,15 +796,16 @@ CMD ["python", "app.py"]
 ## app/docker-compose.yml
 
 version: '3'
+
 services:
-  web:
-    build: .
-    ports:
-     - "5000:5000"
-    volumes:
-     - .:/app
-  redis:
-    image: "redis:alpine"
+    web:
+        build: .
+        ports:
+            - "5000:5000"
+        volumes:
+            - .:/app
+    redis:
+        image: "redis:alpine"
 ```
 
 Now Build and run your app with Compose.
@@ -853,6 +854,168 @@ $ docker-compose start
 # Remove containers entirely
 $ docker-compose down --volumes
 ```
+
+
+Compose file Version 3 
+----------------------
+
+The Compose file is a YAML file defining `services`, `networks` and `volumes`. The default path for a Compose file is `./docker-compose.yml`.
+
+A service definition contains configuration that is applied to each container started for that service, much like passing command-line parameters to `docker container create`. Likewise, network and volume definitions are analogous to `docker network create` and `docker volume create`
+
+As with `docker container create`, options specified in the `Dockerfile`, such as `CMD`, `EXPOSE`, `VOLUME`, `ENV`, are respected by default - you don’t need to specify them again in `docker-compose.yml`.
+
+Here is the configuration options supported by a service definition in version 3.
+
+### BUILD
+
+Configuration options that are applied at build time.
+
+
+```yaml
+version: '3'
+
+services:
+    webapp:
+        build: ./dir # it will use the Dockerfile inside ./dir
+```
+
+```yaml
+version: '3'
+
+services:
+    webapp:
+        build:
+            context: ./dir  # Either a path to a directory containing a Dockerfile, or a url to a git repository.
+                            # When the value supplied is a relative path, it is interpreted as relative to the location of the Compose file. 
+                            # This directory is also the build context that is sent to the Docker daemon.
+            dockerfile: Dockerfile-alternate    # Compose uses an alternate file to build with. A build path must also be specified
+        args:
+            buildno: 1  # Add build arguments, which are environment variables accessible only during the build process.
+                        # But we need to specify the arguments in your Dockerfile
+            gitcommithash: "23442...."
+```
+
+```yaml
+version: '3'
+
+services:
+    webapp:
+        build:
+            context: . # Will use Dockerfile on the current directory as image
+            args:
+                buildno: 1
+                gitcommithash: cdc3b19
+```
+
+```
+# Dockerfile-alternate file 
+
+ARG buildno
+ARG gitcommithash
+
+RUN echo "Build number: $buildno"
+RUN echo "Based on commit: $gitcommithash"
+
+```
+
+**Please note that The docker stack command accepts only pre-built images.**
+
+
+### CACHE_FROM
+
+This option is new in v3.2. A list of images that the engine uses for cache resolution.
+
+```yaml
+version: '3'
+
+services:
+    webapp:
+        build:
+            context: .
+            cache_from:
+                - alpine:latest
+                - corp/web_app:3.14
+```
+
+
+### LABELS
+
+This option is new in v3.3. Add metadata to the resulting image using Docker labels. You can use either an array or a dictionary.
+It’s recommended that you use reverse-DNS notation to prevent your labels from conflicting with those used by other software.
+
+```yaml
+
+version: '3'
+
+services:
+    webapp:
+        build:
+            context: .
+            labels:
+                com.example.description: "Accounting webapp"
+                com.example.department: "Finance"
+                com.example.label-with-empty-value: ""
+```
+```yaml
+version: '3'
+
+services:
+    webapp:
+        build:
+            context: .
+            labels:
+                - "com.example.description=Accounting webapp"
+                - "com.example.department=Finance"
+                - "com.example.label-with-empty-value"
+```
+
+
+### SHM_SIZE
+
+Set the size of the `/dev/shm` partition for this build’s containers. Specify as an integer value representing the number of bytes or as a string expressing a byte value.
+
+```yaml
+version: '3'
+
+services:
+    webapp:
+        build:
+            context: .
+            shm_size: '2gb'
+``` 
+```yaml
+version: '3'
+
+services:
+    webapp:
+        build:
+            context: .
+            shm_size: 10000000
+```
+
+
+### IMAGE
+
+Specify the image to start the container from. Can either be a `repository/tag` or a `partial image ID`.
+
+```yaml
+image: redis
+image: ubuntu:14.04
+image: tutum/influxdb
+image: example-registry.com:4000/postgresql
+image: a4bc65fd
+```
+
+```yaml
+version: '3'
+
+services:
+    webapp:
+        image: ubuntu:14.04
+```
+
+If the image does not exist, Compose attempts to pull it, unless you have also specified build, in which case it builds it using the specified options and tags it with the specified tag.
 
 Recap and Cheat Sheet
 ---------------------
