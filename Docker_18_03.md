@@ -71,7 +71,7 @@ docker build -t clivern/app .
 
 Here is the format of the Dockerfile:
 
-```bash
+```dockerfile
 # Comment
 INSTRUCTION arguments
 ```
@@ -80,7 +80,7 @@ INSTRUCTION arguments
 
 The `FROM` instruction initializes a new build stage and sets the Base Image for subsequent instructions.
 
-```bash
+```dockerfile
 FROM <image> [AS <name>]
 
 ## Or
@@ -105,7 +105,7 @@ The `RUN` instruction will execute any commands in a new layer on top of the cur
 * `RUN <command>` (shell form, the command is run in a shell, which by default is `/bin/sh -c` on Linux or `cmd /S /C` on Windows)
 * `RUN ["executable", "param1", "param2"]` (exec form)
 
-```bash
+```dockerfile
 ## One Line Command
 RUN apt-get update
 
@@ -138,7 +138,7 @@ The main purpose of a `CMD` is to provide defaults for an executing container. T
 
 The `LABEL` instruction adds metadata to an image.
 
-```bash
+```dockerfile
 LABEL "com.example.vendor"="ACME Incorporated"
 LABEL com.example.label-with-value="foo"
 LABEL version="1.0"
@@ -156,7 +156,7 @@ Use `LABEL` Instead.
 
 The `EXPOSE` instruction informs Docker that the container listens on the specified network ports at runtime. You can specify whether the port listens on `TCP` or `UDP`, and the default is `TCP` if the protocol is not specified.
 
-```bash
+```dockerfile
 EXPOSE <port> [<port>/<protocol>...]
 
 EXPOSE 80
@@ -176,7 +176,7 @@ docker run -p 80:80/tcp ...
 
 The `ENV` instruction sets the environment variable `<key>` to the value `<value>`. This value will be in the environment for all subsequent instructions in the build stage and can be replaced inline in many as well.
 
-```bash
+```dockerfile
 ENV myName John Doe
 ENV myDog Rex The Dog
 ENV myCat fluffy
@@ -197,7 +197,7 @@ The `ADD` instruction copies new files, directories or remote file URLs from `<s
 
 The `--chown` feature is only supported on `Dockerfiles` used to build Linux containers.
 
-```bash
+```dockerfile
 ADD test relativeDir/          # adds "test" to `WORKDIR`/relativeDir/
 ADD test /absoluteDir/         # adds "test" to /absoluteDir/
 
@@ -214,7 +214,7 @@ COPY has two forms:
 
 The `--chown` feature is only supported on `Dockerfiles` used to build Linux containers.
 
-```bash
+```dockerfile
 COPY test relativeDir/   # adds "test" to `WORKDIR`/relativeDir/
 COPY test /absoluteDir/  # adds "test" to /absoluteDir/
 
@@ -231,7 +231,7 @@ An `ENTRYPOINT` allows you to configure a container that will run as an executab
 
 You can override the `ENTRYPOINT` instruction using the `docker run --entrypoint` flag.
 
-```bash
+```dockerfile
 # You can see that top is the only process
 FROM ubuntu
 ENTRYPOINT ["top", "-b"]
@@ -246,7 +246,7 @@ ENTRYPOINT ["ping", "8.8.8.8"]
 
 The `VOLUME` instruction creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other containers.
 
-```bash
+```dockerfile
 FROM ubuntu
 RUN mkdir /myvol
 RUN echo "hello world" > /myvol/greeting
@@ -257,7 +257,7 @@ VOLUME /myvol
 
 The `USER` instruction sets the user name (or UID) and optionally the user group (or GID) to use when running the image and for any `RUN`, `CMD` and `ENTRYPOINT` instructions that follow it in the `Dockerfile`.
 
-```bash
+```dockerfile
 USER patrick
 ```
 
@@ -267,14 +267,14 @@ The `WORKDIR` instruction sets the working directory for any `RUN`, `CMD`, `ENTR
 
 The `WORKDIR` instruction can be used multiple times in a `Dockerfile`. If a relative path is provided, it will be relative to the path of the previous `WORKDIR` instruction. For example:
 
-```bash
+```dockerfile
 WORKDIR /a
 WORKDIR b
 WORKDIR c
 RUN pwd # should be /a/b/c
 ```
 
-```bash
+```dockerfile
 ENV DIRPATH /path
 WORKDIR $DIRPATH/app
 RUN pwd # should be /path/app
@@ -286,7 +286,7 @@ The `ARG` instruction defines a variable that users can pass at build-time to th
 
 `Dockerfile` may include one or more `ARG` instructions. For example, the following is a valid Dockerfile:
 
-```bash
+```dockerfile
 FROM busybox
 ARG user
 ARG buildno
@@ -306,7 +306,7 @@ The `HEALTHCHECK` instruction has two forms:
 
 The `HEALTHCHECK` instruction tells Docker how to test a container to check that it is still working. When a container has a healthcheck specified, it has a health status in addition to its normal status. This status is initially `starting`. Whenever a health check passes, it becomes `healthy` (whatever state it was previously in). After a certain number of consecutive failures, it becomes `unhealthy`.
 
-```bash
+```dockerfile
 HEALTHCHECK --interval=5m --timeout=3s \
   CMD curl -f http://localhost/ || exit 1
 ```
@@ -324,7 +324,7 @@ $ mkdir app
 
 Then Create Dockerfile to Install PHP stuff `app/Dockerfile`.
 
-```bash
+```dockerfile
 FROM ubuntu:18.04
 
 LABEL maintainer="Clivern"
@@ -366,7 +366,7 @@ $ docker run -it clivern/app bash
 
 If we want to add some files to nginx after installation
 
-```bash
+```dockerfile
 FROM ubuntu:18.04
 
 LABEL maintainer="Clivern"
@@ -434,7 +434,7 @@ Basically both `ENTRYPOINT` and `CMD` give you a way to identify which executabl
 
 For example, let's say that we have the following Dockerfile
 
-```bash
+```dockerfile
 FROM ubuntu:trusty
 CMD ["/bin/ping","localhost"]
 
@@ -456,7 +456,7 @@ $ docker run -it app bash
 
 Also the same could happen to `ENTRYPOINT`.
 
-```bash
+```dockerfile
 FROM ubuntu:trusty
 ENTRYPOINT ["/bin/ping","localhost"]
 
@@ -507,7 +507,7 @@ $ docker run -d \
 
 Then Create App Container and Connected to the same network `appnet`.
 
-```bash
+```dockerfile
 # Create a Docker File
 FROM ubuntu:trusty
 ENTRYPOINT ["/bin/ping","mysql"]
@@ -782,7 +782,7 @@ flask
 redis
 ```
 
-```bash
+```dockerfile
 ## app/Dockerfile
 
 FROM python:3.4-alpine
@@ -792,7 +792,7 @@ RUN pip install -r requirements.txt
 CMD ["python", "app.py"]
 ```
 
-```bash
+```yaml
 ## app/docker-compose.yml
 
 version: '3'
@@ -908,7 +908,7 @@ services:
                 gitcommithash: cdc3b19
 ```
 
-```
+```Dockerfile
 # Dockerfile-alternate file 
 
 ARG buildno
