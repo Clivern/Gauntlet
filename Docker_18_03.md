@@ -1017,6 +1017,162 @@ services:
 
 If the image does not exist, Compose attempts to pull it, unless you have also specified build, in which case it builds it using the specified options and tags it with the specified tag.
 
+
+### COMMAND
+
+Override the default command.
+
+```yaml
+version: '3'
+
+services:
+    webapp:
+        image: ubuntu:14.04
+        command: bundle exec thin -p 3000
+```
+
+The command can also be a list, in a manner similar to dockerfile:
+
+```yaml
+version: '3'
+
+services:
+    webapp:
+        image: ubuntu:14.04
+        command: ["bundle", "exec", "thin", "-p", "3000"]
+```
+
+
+### CONFIGS
+
+Grant access to configs on a per-service basis using the per-service configs configuration.
+
+The following example uses the short syntax to grant the redis service access to the `my_config` and `my_other_config` configs. The value of `my_config` is set to the contents of the file `./my_config.txt`, and `my_other_config` is defined as an external resource, which means that it has already been defined in Docker, either by running the `docker config create` command or by another stack deployment. If the external config does not exist, the stack deployment fails with a `config not found error`.
+
+```yaml
+version: "3.3"
+services:
+    redis:
+        image: redis:latest
+        deploy:
+            replicas: 1
+        configs:
+            - my_config
+            - my_other_config
+configs:
+    my_config:
+        file: ./my_config.txt
+    my_other_config:
+        external: true
+```
+
+To work with configs through docker commands
+
+```bash
+docker config create
+docker config inspect
+docker config ls
+docker config rm
+```
+
+a simple example to attach config to redis container
+
+```bash
+$ echo "This is a config" | docker config create my-config -
+
+
+$ docker service create --name redis --config my-config redis:alpine
+
+
+$ docker service ps redis
+
+ID            NAME     IMAGE         NODE              DESIRED STATE  CURRENT STATE          ERROR  PORTS
+bkna6bpn8r1a  redis.1  redis:alpine  ip-172-31-46-109  Running        Running 8 seconds ago  
+
+
+$ docker ps --filter name=redis -q
+
+5cb1c2348a59
+
+$ docker container exec $(docker ps --filter name=redis -q) ls -l /my-config
+
+-r--r--r--    1 root     root            12 Jun  5 20:49 my-config                                                     
+
+$ docker container exec $(docker ps --filter name=redis -q) cat /my-config
+
+This is a config
+
+
+$ docker config ls
+
+ID                          NAME                CREATED             UPDATED
+fzwcfuqjkvo5foqu7ts7ls578   hello               31 minutes ago      31 minutes ago
+
+
+$ docker config rm my-config
+
+Error response from daemon: rpc error: code = 3 desc = config 'my-config' is
+in use by the following service: redis
+
+
+$ docker service update --config-rm my-config redis
+
+
+$ docker container exec -it $(docker ps --filter name=redis -q) cat /my-config
+
+cat: can't open '/my-config': No such file or directory
+
+
+$ docker service rm redis
+
+
+$ docker config rm my-config
+```
+
+The following example sets the name of `my_config` to `redis_config` within the container, sets the mode to `0440` (group-readable) and sets the user and group to `103`. The redis service does not have access to the `my_other_config` config.
+
+```yaml
+version: "3.3"
+services:
+    redis:
+        image: redis:latest
+        deploy:
+            replicas: 1
+        configs:
+            - source: my_config
+            target: /redis_config
+            uid: '103'
+            gid: '103'
+            mode: 0440
+configs:
+    my_config:
+        file: ./my_config.txt
+    my_other_config:
+        external: true
+```
+
+Configs cannot be writable because they are mounted in a temporary filesystem, so if you set the writable bit, it is ignored.
+
+You can grant a service access to multiple configs and you can mix long and short syntax. Defining a config does not imply granting a service access to it.
+
+
+### CONTAINER_NAME
+
+Specify a custom container name, rather than a generated default name.
+
+```yaml
+version: "3.3"
+services:
+    redis:
+        image: redis:latest
+        container_name: my-redis-container
+```
+
+Because Docker container names must be unique, you cannot scale a service beyond 1 container if you have specified a custom name. Attempting to do so results in an error.
+
+This option is ignored when deploying a stack in swarm mode with a (version 3) Compose file.
+
+
 Recap and Cheat Sheet
 ---------------------
 ```bash
