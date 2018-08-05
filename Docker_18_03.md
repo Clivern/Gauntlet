@@ -1173,6 +1173,26 @@ Because Docker container names must be unique, you cannot scale a service beyond
 This option is ignored when deploying a stack in swarm mode with a (version 3) Compose file.
 
 
+### DEPLOY
+
+Specify configuration related to the deployment and running of services. This only takes effect when deploying to a swarm with docker stack deploy, and is ignored by `docker-compose up` and `docker-compose run`
+
+```yaml
+version: '3'
+
+services:
+    redis:
+        image: redis:alpine
+        deploy:
+            replicas: 6
+            update_config:
+                parallelism: 2
+                delay: 10s
+            restart_policy:
+                condition: on-failure
+```
+
+
 Recap and Cheat Sheet
 ---------------------
 ```bash
