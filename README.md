@@ -27,6 +27,12 @@
   <li><a href="https://medium.com/@Pinterest_Engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f">📋 Sharding Pinterest: How we scaled our MySQL fleet.</a></li>
 </ul>
 
+:newspaper: Nice Blogs:
+<ul>
+  <li><a href="https://8thlight.com/blog/">:cookie: 8thlight Blog.</a></li>
+</ul>
+
+
 📹  Some Videos to Watch:
 <ul>
   <li><a href="https://www.youtube.com/watch?v=hnpzNAPiC0E">📹 Scaling Instagram.</a></li>
