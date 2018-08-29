@@ -257,3 +257,31 @@ curl -X GET \
     }
 ]
 ```
+
+
+#### KV Store Endpoints
+
+```bash
+# Create & Update Item
+curl -X PUT \
+    -d '2days' http://localhost:8500/v1/kv/mocha_flush
+
+
+# Get Item
+curl -X GET \
+     http://localhost:8500/v1/kv/mocha_flush | python -m json.tool
+[
+    {
+        "CreateIndex": 3827,
+        "Flags": 0,
+        "Key": "mocha_flush",
+        "LockIndex": 0,
+        "ModifyIndex": 3827, # base64-encoded blob
+        "Value": "MjNkYXlz"
+    }
+]
+
+# Delete Item
+curl -X DELETE \
+    http://localhost:8500/v1/kv/mocha_flush
+```
