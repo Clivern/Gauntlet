@@ -112,7 +112,7 @@ systemctl start consul.service
 ```
 
 
-#### Service Definition
+### Service Definition
 
 Just create a [web services definition](https://www.consul.io/docs/agent/services.html) `web.json` on `/tmp/consul_services` directory
 
@@ -263,7 +263,7 @@ curl -X GET \
 ```
 
 
-#### KV Store Endpoints
+### KV Store Endpoints
 
 ```bash
 # Create & Update Item
