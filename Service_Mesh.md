@@ -141,15 +141,36 @@ Just create a [web services definition](https://www.consul.io/docs/agent/service
 Services should interact on realtime with consul cluster to register, unregister itself and enable & disable maintenance mode. So if we have microservice `Mocha` running on server x.x.x.x on port 5000 and Consul already running on that server. Service can simply do the following to join the cluster and also to leave on failure.
 
 ```bash
-# Register Service
-curl -X PUT -H "Content-Type: application/json" -d '{"ID": "mocha","Name": "Mocha","Port": 5000, "Address": "x.x.x.x","Tags": ["primary","v1"],"Check": {"Args": ["curl","http://localhost:5000"],"Interval": "10s"}}' "http://localhost:8500/v1/agent/service/register"
+# Register A Service (Mocha) 
+curl -X PUT \
+    -d '{
+        "ID": "mocha",
+        "Name": "Mocha",
+        "Port": 5000,
+        "Address": "x.x.x.x",
+        "Tags": 
+            [
+                "primary",
+                "v1"
+            ],
+        "Check": {
+            "Args": [
+                "curl",
+                "http://localhost:5000"
+            ],
+            "Interval": "10s"
+        }
+    }' "http://localhost:8500/v1/agent/service/register"
 
 # Enable Maintenance Mode
-curl -X PUT -d '' "http://localhost:8500/v1/agent/service/maintenance/mocha?enable=true&reason=Something+goes+wrong!"
+curl -X PUT \
+    -d '' "http://localhost:8500/v1/agent/service/maintenance/mocha?enable=true&reason=Something+goes+wrong!"
 
 # Disable Maintenance Mode
-curl -X PUT -d '' "http://localhost:8500/v1/agent/service/maintenance/mocha?enable=false&reason=I+am+back!"
+curl -X PUT \
+     -d '' "http://localhost:8500/v1/agent/service/maintenance/mocha?enable=false&reason=I+am+back!"
 
-# Unregister Service
-curl -X PUT -d '' "http://localhost:8500/v1/agent/service/deregister/mocha"
+# Unregister A Service (Mocha)
+curl -X PUT \
+    -d '' "http://localhost:8500/v1/agent/service/deregister/mocha"
 ```
