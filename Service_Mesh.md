@@ -1,9 +1,11 @@
 Consul
 ------
 
+
 ### Why
 
 Load balancers aren't efficient in a dynamic environment where we scale services up or down. Consul uses a registry to keep a real-time list of services, their location, and their health. Services query the registry to discover the location of upstream services and then connect directly. This allows services to scale up/down and gracefully handle failure.
+
 
 ### Installation
 
@@ -27,6 +29,7 @@ ufw allow 8600
 mkdir /tmp/consul_services
 mkdir /tmp/consul
 ```
+
 
 #### Run Consul Leader
 
@@ -78,6 +81,7 @@ systemctl daemon-reload
 systemctl start consul.service
 ```
 
+
 #### Run Consul Client
 
 You need to create a system service for consul `nano /etc/systemd/system/consul.service`
@@ -102,6 +106,7 @@ Then
 systemctl daemon-reload
 systemctl start consul.service
 ```
+
 
 #### Service Definition
 
@@ -135,6 +140,7 @@ Just create a [web services definition](https://www.consul.io/docs/agent/service
    ]
 }
 ```
+
 
 ### Working With Consul Cluster
 
@@ -173,4 +179,81 @@ curl -X PUT \
 # Unregister A Service (Mocha)
 curl -X PUT \
     -d '' "http://localhost:8500/v1/agent/service/deregister/mocha"
+```
+
+
+### Health Endpoints
+
+For a complete guide, [go here](https://www.consul.io/api/health.html) but for the important stuff, check the following:
+
+```bash
+# Get All Healthy Services on Consul Cluster
+curl -X GET \
+    http://localhost:8500/v1/health/state/passing | python -m json.tool
+
+
+# List Healthy Checks for a Service (Mocha)
+curl -X GET \
+    http://localhost:8500/v1/health/checks/mocha | python -m json.tool
+
+
+# Get Healthy Services with nodes data, This can be used for dynamic load balancing
+curl -X GET \
+    http://localhost:8500/v1/health/service/mocha?passing=true | python -m json.tool
+[
+    {
+        "Checks": [
+
+        ],
+        "Node": {
+
+        },
+        "Service": {
+            "Address": "x.x.x.x",
+            "Connect": {
+                "Native": false,
+                "Proxy": null
+            },
+            "CreateIndex": 3121,
+            "EnableTagOverride": false,
+            "ID": "mocha",
+            "Meta": null,
+            "ModifyIndex": 3121,
+            "Port": 5000,
+            "ProxyDestination": "",
+            "Service": "Mocha",
+            "Tags": [
+                "primary",
+                "v1"
+            ]
+        }
+    },
+    {
+        "Checks": [
+
+        ],
+        "Node": {
+ 
+        },
+        "Service": {
+            "Address": "y.y.y.y",
+            "Connect": {
+                "Native": false,
+                "Proxy": null
+            },
+            "CreateIndex": 3318,
+            "EnableTagOverride": false,
+            "ID": "mocha",
+            "Meta": null,
+            "ModifyIndex": 3318,
+            "Port": 5000,
+            "ProxyDestination": "",
+            "Service": "Mocha",
+            "Tags": [
+                "secondary",
+                "v1"
+            ]
+        }
+    }
+]
 ```
