@@ -15,6 +15,10 @@ To Install Consul on Ubuntu
 apt-get update
 cd /usr/local/bin
 wget https://releases.hashicorp.com/consul/1.2.2/consul_1.2.2_linux_amd64.zip
+wget https://releases.hashicorp.com/consul/1.2.2/consul_1.2.2_SHA256SUMS
+sha256sum consul_1.2.2_linux_amd64.zip
+grep "consul_1.2.2_linux_amd64.zip" consul_1.2.2_SHA256SUMS
+rm consul_1.2.2_SHA256SUMS
 unzip *.zip
 rm *.zip
 
