@@ -25,6 +25,8 @@
   <li><a href="https://www.digitalocean.com/community/tutorials/object-storage-vs-block-storage-services">📋 Object Storage vs. Block Storage Services.</a></li>
   <li><a href="https://github.com/donnemartin/system-design-primer">📋 System Design Primer.</a></li>
   <li><a href="https://medium.com/@Pinterest_Engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f">📋 Sharding Pinterest: How we scaled our MySQL fleet.</a></li>
+   <li><a href="https://www.digitalocean.com/community/tutorials/modernizing-applications-for-kubernetes">📋 Modernizing Applications for Kubernetes.</a></li>
+   <li><a href="https://12factor.net/">📋 12 Factor.</a></li>  
 </ul>
 
 :newspaper: Nice Blogs:
