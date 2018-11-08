@@ -67,3 +67,7 @@ print(SecondSolution(data,target))
 print(WorstCaseWithData(data))
 print(WorstCaseWithLenght(len(data)))
 ```
+
+### References
+
+- [Algorithms by Khan Academy.](https://www.khanacademy.org/computing/computer-science/algorithms)
