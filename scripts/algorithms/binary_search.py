@@ -12,7 +12,7 @@ def binarySearch(arr, leftE, rightE, target):
         mid = int(leftE + (rightE - leftE)/2)
 
         # If element is present at the middle itself
-        if arr[mid] == x:
+        if arr[mid] == target:
             return mid
 
         # If element is smaller than mid, then it
