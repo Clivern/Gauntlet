@@ -1,4 +1,8 @@
-# Scalability
+<p align="center">
+    <img alt="Scalability Logo" src="https://raw.githubusercontent.com/Clivern/Scalability/master/images/logo.png" height="80" />
+    <h3 align="center">Scalability</h3>
+    <p align="center">Don't Rely on QA to Find Mistakes!</p>
+</p>
 
 :rocket: My Experiments:
 <ul>
@@ -26,7 +30,7 @@
   <li><a href="https://github.com/donnemartin/system-design-primer">📋 System Design Primer.</a></li>
   <li><a href="https://medium.com/@Pinterest_Engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f">📋 Sharding Pinterest: How we scaled our MySQL fleet.</a></li>
    <li><a href="https://www.digitalocean.com/community/tutorials/modernizing-applications-for-kubernetes">📋 Modernizing Applications for Kubernetes.</a></li>
-   <li><a href="https://12factor.net/">📋 12 Factor.</a></li>  
+   <li><a href="https://12factor.net/">📋 12 Factor.</a></li>
 </ul>
 
 :newspaper: Nice Blogs:
@@ -42,7 +46,7 @@
   <li><a href="https://www.youtube.com/watch?v=sqnDAnZgyLs">📹 Microservices at Squarespace - Doug Jones and Kevin Lynch.</a></li>
   <li><a href="https://www.youtube.com/playlist?list=PL7Og3MgqGrDR6YjnwJTphPQmkaZNWjEBS">📹 Microservices.com Practitioner Summit 2017.</a></li>
 </ul>
-  
+
 :sound: Podcasts to Listen:
 <ul>
 <li><a href="https://softwareengineeringdaily.com/">:sound: Software Engineering Daily.</a></li>
