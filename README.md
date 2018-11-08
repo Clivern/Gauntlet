@@ -1,13 +1,13 @@
 <p align="center">
     <img alt="Scalability Logo" src="https://raw.githubusercontent.com/Clivern/Scalability/master/images/logo.png" height="80" />
     <h3 align="center">Scalability</h3>
-    <p align="center">Don't Rely on QA to Find Mistakes!</p>
 </p>
+<br/>
 
 :rocket: My Experiments:
 <ul>
   <li><a href="https://github.com/Clivern/Bull">:rocket: Microservices Architecture With Symfony 4.</a></li>
-  <li><a href="https://github.com/Clivern/Kevin">:rocket: Building High-Quality Django Apps at Scale.</a></li>
+  <li><a href="https://github.com/Clivern/Kraven">:rocket: Building High-Quality Django Apps at Scale.</a></li>
 </ul>
 
 :orange_book: Some Guides to Read:
