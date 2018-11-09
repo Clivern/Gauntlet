@@ -19,7 +19,11 @@ Data Structures and Algorithms
 - [Selection Sort.](scripts/algorithms/selection_sort.py)
 - [Shell Sort.](scripts/algorithms/shell_sort.py)
 
+---
+
 ### Problems
+- [Problem 1](scripts/problems/problem1.py)
+- [Problem 2](scripts/problems/problem2.py)
 
 ---
 
