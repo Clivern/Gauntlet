@@ -30,6 +30,7 @@
   <li><a href="https://github.com/donnemartin/system-design-primer">📋 System Design Primer.</a></li>
   <li><a href="https://medium.com/@Pinterest_Engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f">📋 Sharding Pinterest: How we scaled our MySQL fleet.</a></li>
    <li><a href="https://www.digitalocean.com/community/tutorials/modernizing-applications-for-kubernetes">📋 Modernizing Applications for Kubernetes.</a></li>
+    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-18-04">📋 How to Set Up an NFS Mount on Ubuntu 18.04.</a></li>
    <li><a href="https://12factor.net/">📋 12 Factor.</a></li>
 </ul>
 
