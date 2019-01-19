@@ -1,0 +1,3 @@
+[submodule "awesome-scalability"]
+	path = awesome-scalability
+	url = git@github.com:binhnguyennus/awesome-scalability.git
