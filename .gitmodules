@@ -1,3 +1,7 @@
 [submodule "awesome-scalability"]
 	path = awesome-scalability
 	url = git@github.com:binhnguyennus/awesome-scalability.git
+
+[submodule "awesome-python"]
+	path = awesome-python
+	url = git@github.com:vinta/awesome-python.git
