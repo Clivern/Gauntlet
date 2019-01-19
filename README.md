@@ -32,6 +32,7 @@
    <li><a href="https://www.digitalocean.com/community/tutorials/modernizing-applications-for-kubernetes">📋 Modernizing Applications for Kubernetes.</a></li>
     <li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-18-04">📋 How to Set Up an NFS Mount on Ubuntu 18.04.</a></li>
    <li><a href="https://12factor.net/">📋 12 Factor.</a></li>
+   <li><a href="https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/">📋 12 Design Principles.</a></li>
 </ul>
 
 :newspaper: Nice Blogs:
