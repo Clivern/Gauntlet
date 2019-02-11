@@ -27,3 +27,8 @@ PRIMARY_ID = (241294492511762325 >>  0) & 0xFFFFFFFFF = 7075733
 ```
 
 We expect foreign keys to work as expected because all user data will be on same db and same shard. but we have one problem that we may have a really big lookup table.
+
+
+References
+----------
+* [Understanding Database Sharding](https://www.digitalocean.com/community/tutorials/understanding-database-sharding)
