@@ -36,6 +36,7 @@
 
    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-and-use-lxd-on-ubuntu-16-04">📋 Setting Up LXD 16.04.</a></li>
    <li><a href="https://tutorials.ubuntu.com/tutorial/tutorial-setting-up-lxd-1604">📋 Setting Up LXD 16.04.</a></li>
+   <li><a href="https://www.hostinger.com/tutorials/iptables-tutorial">📋 Securing Ubuntu VPS with Linux Firewall.</a></li>
 </ul>
 
 :newspaper: Nice Blogs:
