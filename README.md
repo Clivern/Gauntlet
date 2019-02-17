@@ -69,6 +69,8 @@
   <li><a href="https://zipkin.io/">:zap: Zipkin - a Distributed Tracing System.</a></li>
   <li><a href="https://jenkins.io/doc/">:zap: Jenkins User Docs.</a></li>
   <li><a href="https://swagger.io/solutions/api-design/">:zap: API Desing with Swagger.</a></li>
+  <li><a href="https://github.com/celery/celery">:zap: Celery.</a></li>
+  <li><a href="https://github.com/mher/flower">:zap: Flower.</a></li>
 </ul>
 
 🐉Books to Delve Into:
