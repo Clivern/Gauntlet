@@ -39,6 +39,7 @@
    <li><a href="https://www.hostinger.com/tutorials/iptables-tutorial">📋 Securing Ubuntu VPS with Linux Firewall.</a></li>
    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-multi-node-mysql-cluster-on-ubuntu-18-04">📋 How To Create a Multi-Node MySQL Cluster on Ubuntu 18.04.</a></li>
    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-migrate-a-docker-compose-workflow-to-kubernetes">📋 How To Migrate a Docker Compose Workflow to Kubernetes.</a></li>
+   <li><a href="https://blog.disqus.com/scaling-django-to-8-billion-page-views">📋 Scaling Django to 8 Billion Page Views.</a></li>
 </ul>
 
 :newspaper: Nice Blogs:
