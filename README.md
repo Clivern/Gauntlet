@@ -39,7 +39,9 @@
    <li><a href="https://www.hostinger.com/tutorials/iptables-tutorial">📋 Securing Ubuntu VPS with Linux Firewall.</a></li>
    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-multi-node-mysql-cluster-on-ubuntu-18-04">📋 How To Create a Multi-Node MySQL Cluster on Ubuntu 18.04.</a></li>
    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-migrate-a-docker-compose-workflow-to-kubernetes">📋 How To Migrate a Docker Compose Workflow to Kubernetes.</a></li>
-   <li><a href="https://blog.disqus.com/scaling-django-to-8-billion-page-views">📋 Scaling Django to 8 Billion Page Views.</a></li>
+   <li><a href="https://blog.disqus.com/scaling-django-to-8-billion-page-views">📋 Scaling Django to 8 Billion Page Views.</a>
+    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-zabbix-to-securely-monitor-remote-servers-on-ubuntu-18-04">📋 Configure Zabbix to Securely Monitor Remote Servers on Ubuntu 18.04.</a></li>
+</li>
 </ul>
 
 :newspaper: Nice Blogs:
@@ -74,6 +76,8 @@
   <li><a href="https://swagger.io/solutions/api-design/">:zap: API Desing with Swagger.</a></li>
   <li><a href="https://github.com/celery/celery">:zap: Celery.</a></li>
   <li><a href="https://github.com/mher/flower">:zap: Flower.</a></li>
+    <li><a href="https://www.zabbix.com/download">:zap: Zabbix</a></li>
+    <li><a href="https://clickhouse.yandex/">:zap: Clickhouse.</a></li>
 </ul>
 
 🐉Books to Delve Into:
