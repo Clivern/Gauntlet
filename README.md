@@ -42,6 +42,7 @@
    <li><a href="https://blog.disqus.com/scaling-django-to-8-billion-page-views">📋 Scaling Django to 8 Billion Page Views.</a>
     <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-zabbix-to-securely-monitor-remote-servers-on-ubuntu-18-04">📋 Configure Zabbix to Securely Monitor Remote Servers on Ubuntu 18.04.</a></li>
     <li><a href="https://www.digitalocean.com/community/tutorial_series/how-to-troubleshoot-issues-in-mysql">📋 Troubleshoot Issues in MySQL.</a></li>
+    <li><a href="https://www.unixmen.com/how-to-install-and-configure-qemu-in-ubuntu/">📋 Install And Configure QEMU In Ubuntu.</a></li>
     <li><a href="https://blog.digitalocean.com/introducing-go-qemu-and-go-libvirt/">📋 Introducing go-qemu and go-libvirt.</a></li>
 </li>
 </ul>
