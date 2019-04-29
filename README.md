@@ -81,6 +81,7 @@
   <li><a href="https://github.com/mher/flower">:zap: Flower.</a></li>
     <li><a href="https://clickhouse.yandex/">:zap: Clickhouse.</a></li>
     <li><a href="https://github.com/github/orchestrator">:zap: Orchestrator.</a></li>
+    <li><a href="https://github.com/hellofresh/janus">:zap: Janus.</a></li>
 </ul>
 
 🐉Books to Delve Into:
