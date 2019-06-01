@@ -46,6 +46,7 @@
     <li><a href="https://blog.digitalocean.com/introducing-go-qemu-and-go-libvirt/">📋 Introducing go-qemu and go-libvirt.</a></li>
 <li><a href="https://github.blog/2016-12-08-orchestrator-github/">📋 Orchestrator at GitHub.</a></li>
 <li><a href="https://ericchiang.github.io/post/containers-from-scratch/">📋 Containers from Scratch.</a></li>
+<li><a href="https://medium.com/s/story/technical-debt-is-like-tetris-168f64d8b700">📋 Technical Debt Is Like Tetris.</a></li>
 </ul>
 
 :newspaper: Nice Blogs:
