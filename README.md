@@ -47,6 +47,8 @@
 <li><a href="https://github.blog/2016-12-08-orchestrator-github/">📋 Orchestrator at GitHub.</a></li>
 <li><a href="https://ericchiang.github.io/post/containers-from-scratch/">📋 Containers from Scratch.</a></li>
 <li><a href="https://medium.com/s/story/technical-debt-is-like-tetris-168f64d8b700">📋 Technical Debt Is Like Tetris.</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04">📋 How To Configure BIND as a Private Network DNS Server on Ubuntu 18.04.</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-deploy-and-manage-your-dns-using-dnscontrol-on-ubuntu-18-04">📋 How To Deploy and Manage Your DNS using DNSControl on Ubuntu 18.04</a></li>
 </ul>
 
 :newspaper: Nice Blogs:
