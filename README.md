@@ -93,4 +93,5 @@
 <ul>
   <li><a href="http://shop.oreilly.com/product/0636920033158.do">🐉 Building Microservices: Designing Fine-Grained Systems.</a></li>
   <li><a href="http://shop.oreilly.com/product/0636920050308.do">🐉 Microservice Architecture: Aligning Principles, Practices, and Culture.</a></li>
+    <li><a href"https://landing.google.com/sre/books/">🐉 Site Reliability Engineering & The Site Reliability Workbook.</a></li>
 </ul>
