@@ -1,11 +1,12 @@
-Kubernetes 1.10
-===============
-
-Follow the following to run Kubernetes 1.10 Cluster Using Kubeadm on Ubuntu 16.04 / 18.04
+<p align="center">
+    <img alt="Kubernets Logo" src="https://cdn.worldvectorlogo.com/logos/kubernets.svg" height="150" />
+</p>
 
 
 Setup
 -----
+
+Follow the following to run Kubernetes 1.10 Cluster Using Kubeadm on Ubuntu 16.04 / 18.04
 
 ### Nodes
 
