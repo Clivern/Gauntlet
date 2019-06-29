@@ -53,7 +53,7 @@ $ sudo apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main"
 $ sudo apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-bionic main"
 
 $ apt-get update
-$ sudo apt install kubeadm 
+$ sudo apt install kubeadm
 ```
 
 We need to disable swap memory on all your nodes (master & slave) If Kubernetes will refuse to function:
@@ -85,7 +85,7 @@ kub-master:~$ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 ### Deploy a pod network
 
-We need to deploy a pod network. The pod network is used for communication between nodes within the Kubernetes cluster. 
+We need to deploy a pod network. The pod network is used for communication between nodes within the Kubernetes cluster.
 
 ```bash
 kub-master:~$ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
@@ -151,6 +151,34 @@ Then delete the deployment:
 
 ```bash
 kub-master:~$ kubectl delete deployment nginx
+```
+
+
+Pocket Reference
+----------------
+
+```bash
+// kubectl on linux
+$ curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.15.0/bin/linux/amd64/kubectl
+$ chmod +x ./kubectl
+$ sudo mv ./kubectl /usr/local/bin/kubectl
+$ kubectl version
+
+
+// kubectl on mac
+$ curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.15.0/bin/darwin/amd64/kubectl
+$ chmod +x ./kubectl
+$ sudo mv ./kubectl /usr/local/bin/kubectl
+$ kubectl version
+
+
+$ export KUBECONFIG="/path/to/kubeconfig.yaml"
+
+// help
+$ kubectl help
+
+// get nodes list
+$ kubectl get nodes
 ```
 
 
