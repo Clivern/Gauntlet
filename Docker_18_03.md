@@ -1,4 +1,6 @@
-# Docker
+<p align="center">
+    <img alt="Docker Logo" src="https://cdn.worldvectorlogo.com/logos/docker-1.svg" height="80" />
+</p>
 
 
 Install Docker
