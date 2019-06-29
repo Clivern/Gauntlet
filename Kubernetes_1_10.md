@@ -152,3 +152,8 @@ Then delete the deployment:
 ```bash
 kub-master:~$ kubectl delete deployment nginx
 ```
+
+
+References
+----------
+- [Kubernetes Concepts.](https://kubernetes.io/docs/concepts/)
