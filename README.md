@@ -1,14 +1,9 @@
 <p align="center">
     <img alt="Scalability Logo" src="https://raw.githubusercontent.com/Clivern/Scalability/master/images/logo.png" height="80" />
     <h3 align="center">Scalability</h3>
+    <p align="center"><b>“Hope is not a strategy.”</b> ~ Someone probably said that</p>
 </p>
 <br/>
-
-:rocket: My Experiments:
-<ul>
-  <li><a href="https://github.com/Clivern/Bull">:rocket: Microservices Architecture With Symfony 4.</a></li>
-  <li><a href="https://github.com/silverbackhq/silverback">:rocket: Building High-Quality Django Apps at Scale.</a></li>
-</ul>
 
 :orange_book: Some Guides to Read:
 <ul>
