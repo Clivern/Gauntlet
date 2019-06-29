@@ -7,7 +7,7 @@
 :rocket: My Experiments:
 <ul>
   <li><a href="https://github.com/Clivern/Bull">:rocket: Microservices Architecture With Symfony 4.</a></li>
-  <li><a href="https://github.com/Clivern/Kraven">:rocket: Building High-Quality Django Apps at Scale.</a></li>
+  <li><a href="https://github.com/silverbackhq/silverback">:rocket: Building High-Quality Django Apps at Scale.</a></li>
 </ul>
 
 :orange_book: Some Guides to Read:
