@@ -8,3 +8,6 @@
 [submodule "nginx-quick-reference"]
 	path = nginx-quick-reference
 	url = git@github.com:trimstray/nginx-quick-reference.git
+[submodule "mongodb"]
+	path = mongodb
+	url = git@github.com:Clivern/MongoPlaybook.git
