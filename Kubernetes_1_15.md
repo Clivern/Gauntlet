@@ -153,6 +153,29 @@ Then delete the deployment:
 kub-master:~$ kubectl delete deployment nginx
 ```
 
+Architecture
+------------
+
+
+
+Working with the Cluster
+------------------------
+
+### Recommended Labels
+
+You can visualize and manage Kubernetes objects with more tools than kubectl and the dashboard. A common set of labels allows tools to work interoperably, describing objects in a common manner that all tools can understand.
+
+In order to take full advantage of using these labels, they should be applied on every resource object.
+
+| Key                                   | Description                                                       | Example                     | Type   |
+| --------------------------------------|-------------------------------------------------------------------|---------------------------- |--------|
+| app.kubernetes.io/name                | The name of the application                                       | mysql                       | string |
+| app.kubernetes.io/instance            | A unique name identifying the instance of an application          | wordpress-abcxzy            | string |
+| app.kubernetes.io/version             | The current version of the application                            | 5.7.21                      | string |
+| app.kubernetes.io/component           | The component within the architecture                             | database                    | string |
+| app.kubernetes.io/part-of             | The name of a higher level application this one is part of        | wordpress                   | string |
+| app.kubernetes.io/managed-by          | The tool being used to manage the operation of an application     | helm                        | string |
+
 
 Pocket Reference
 ----------------
@@ -171,7 +194,6 @@ $ chmod +x ./kubectl
 $ sudo mv ./kubectl /usr/local/bin/kubectl
 $ kubectl version
 
-
 $ export KUBECONFIG="/path/to/kubeconfig.yaml"
 
 // help
@@ -179,9 +201,87 @@ $ kubectl help
 
 // get nodes list
 $ kubectl get nodes
+
+// Create the objects defined in a configuration file
+$ kubectl create -f nginx.yaml
+
+// Delete the objects defined in two configuration files:
+$ kubectl delete -f nginx.yaml -f redis.yaml
+
+// Update the objects defined in a configuration file by overwriting the live configuration:
+$ kubectl replace -f nginx.yaml
+
+// Process all object configuration files in the configs directory, and create or patch the live objects.
+// You can first diff to see what changes are going to be made, and then apply:
+$ kubectl diff -f configs/
+$ kubectl apply -f configs/
+
+// Recursively process directories
+$ kubectl diff -R -f configs/
+$ kubectl apply -R -f configs/
+
+// To set the namespace for a current request, use the --namespace flag.
+$ kubectl run nginx --image=nginx --namespace=<insert-namespace-name-here>
+$ kubectl get pods --namespace=<insert-namespace-name-here>
+
+// Setting the namespace preference
+// You can permanently save the namespace for all subsequent kubectl commands in that context.
+$ kubectl config set-context --current --namespace=<insert-namespace-name-here>
+# Validate it
+$ kubectl config view | grep namespace:
+
+// Most Kubernetes resources (e.g. pods, services, replication controllers, and others) are in some namespaces.
+// However namespace resources are not themselves in a namespace. And low-level resources, such as nodes and persistentVolumes,
+// are not in any namespace.
+// To see which Kubernetes resources are and aren’t in a namespace:
+# In a namespace
+$ kubectl api-resources --namespaced=true
+
+# Not in a namespace
+$ kubectl api-resources --namespaced=false
+
+
+// label selector styles can be used to list or watch resources
+//   apiVersion: v1
+//   kind: Pod
+//   metadata:
+//     name: label-demo
+//     labels:
+//       environment: production
+//       app: nginx
+//   spec:
+//     containers:
+//     - name: nginx
+//       image: nginx:1.7.9
+//       ports:
+//       - containerPort: 80
+$ kubectl get pods -l environment=production,tier=frontend
+$ kubectl get pods -l 'environment in (production),tier in (frontend)'
+$ kubectl get pods -l 'environment in (production, qa)'
+$ kubectl get pods -l 'environment,environment notin (frontend)'
+
+
+// Field selectors let you select Kubernetes resources based on the value of one or more resource fields.
+$ kubectl get pods --field-selector status.phase=Running
+$ kubectl get pods --field-selector metadata.name=my-service
+$ kubectl get pods --field-selector metadata.namespace!=default
+$ kubectl get pods --field-selector status.phase=Pending
+
+// Field selectors are essentially resource filters. By default, no selectors/filters are applied,
+// meaning that all resources of the specified type are selected. This makes the following kubectl queries equivalent:
+$ kubectl get pods
+$ kubectl get pods --field-selector ""
+
+// This selects all Kubernetes Services that aren’t in the default namespace
+$ kubectl get services  --all-namespaces --field-selector metadata.namespace!=default
+
+
+// This kubectl command selects all Pods for which the status.phase does not equal Running and the spec.restartPolicy field equals Always:
+$ kubectl get pods --field-selector=status.phase!=Running,spec.restartPolicy=Always
 ```
 
 
 References
 ----------
 - [Kubernetes Concepts.](https://kubernetes.io/docs/concepts/)
+- [Kubectl Docs.](https://kubectl.docs.kubernetes.io/)
