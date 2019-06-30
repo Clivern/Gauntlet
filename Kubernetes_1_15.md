@@ -176,6 +176,19 @@ In order to take full advantage of using these labels, they should be applied on
 | app.kubernetes.io/part-of             | The name of a higher level application this one is part of        | wordpress                   | string |
 | app.kubernetes.io/managed-by          | The tool being used to manage the operation of an application     | helm                        | string |
 
+for example
+```yaml
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  labels:
+    app.kubernetes.io/name: mysql
+    app.kubernetes.io/instance: wordpress-abcxzy
+    app.kubernetes.io/version: "5.7.21"
+    app.kubernetes.io/component: database
+    app.kubernetes.io/part-of: wordpress
+    app.kubernetes.io/managed-by: helm
+```
 
 Pocket Reference
 ----------------
