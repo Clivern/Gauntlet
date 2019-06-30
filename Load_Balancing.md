@@ -11,7 +11,7 @@ We need to Create at least 2 Servers:
 
 ### Configure The Master
 
-```bash
+```console
 ssh root@178.128.252.199
 # Install MySQL
 sudo apt-get install mysql-server mysql-client
@@ -69,7 +69,7 @@ mysql> QUIT;
 
 ### Configure The Slave
 
-```bash
+```console
 ssh root@178.128.252.201
 
 # Install MySQL

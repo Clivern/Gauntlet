@@ -6,7 +6,7 @@ Jenkins
 
 ### Installation
 
-```bash
+```console
 # Install Docker
 $ apt-get update
 $ sudo apt install docker.io
@@ -43,7 +43,7 @@ $ systemctl status jenkins.service
 
 Create a Docker Image `Dockerfile`.
 
-```bash
+```console
 FROM ubuntu:18.04
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -84,7 +84,7 @@ CMD ["php", "-a"]
 
 Then Build The Image
 
-```bash
+```console
 docker build -t clivern_php72 .
 ```
 

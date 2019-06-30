@@ -6,7 +6,7 @@ Graphite
 
 ### Install With Docker
 
-```bash
+```console
 docker run -d\
  --name graphite\
  --restart=always\
@@ -67,7 +67,7 @@ Prometheus
 
 ### Install on Linux
 
-```bash
+```console
 wget https://github.com/prometheus/prometheus/releases/download/v2.3.2/prometheus-2.3.2.linux-amd64.tar.gz
 
 # Should Be ~> 351931fe9bb252849b7d37183099047fbe6d7b79dcba013fb6ae19cc1bbd8552
@@ -99,7 +99,7 @@ scrape_configs:
 
 Start prometheus server.
 
-```bash
+```console
 ./prometheus --config.file=prometheus.yml
 ```
 
@@ -107,13 +107,13 @@ Start prometheus server.
 
 Bind-mount your `prometheus.yml` from the host by running
 
-```bash
+```console
 docker run -p 9090:9090 -v /tmp/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
 ```
 
 Or use an additional volume for the config
 
-```bash
+```console
 docker run -p 9090:9090 -v /prometheus-data prom/prometheus --config.file=/prometheus-data/prometheus.yml
 ```
 
@@ -122,7 +122,7 @@ docker run -p 9090:9090 -v /prometheus-data prom/prometheus --config.file=/prome
 
 we can add `localhost:5000` to be scraped and run new app with [flask](http://flask.pocoo.org/) listening on port `5000`:
 
-```bash
+```console
 pip install Flask
 ```
 
@@ -137,7 +137,7 @@ def hello():
     return 'item_to_trace 46'
 ````
 
-```bash
+```console
 FLASK_APP=hello.py flask run --host=0.0.0.0
 ```
 
@@ -146,7 +146,7 @@ Grafana
 
 ### Install With Docker
 
-```bash
+```console
 docker run \
   -d \
   -p 3000:3000 \

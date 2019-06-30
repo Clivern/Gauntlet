@@ -11,7 +11,7 @@ Load balancers aren't efficient in a dynamic environment where we scale services
 
 To Install Consul on Ubuntu
 
-```bash
+```console
 apt-get update
 cd /usr/local/bin
 wget https://releases.hashicorp.com/consul/1.2.2/consul_1.2.2_linux_amd64.zip
@@ -39,7 +39,7 @@ mkdir /tmp/consul
 
 You need to create a system service for consul `nano /etc/systemd/system/consul.service`
 
-```bash
+```console
 [Unit]
 Description=Consul
 Documentation=https://www.consul.io/
@@ -55,7 +55,7 @@ WantedBy=multi-user.target
 
 Then
 
-```bash
+```console
 systemctl daemon-reload
 systemctl start consul.service
 ```
@@ -64,7 +64,7 @@ systemctl start consul.service
 
 You need to create a system service for consul `nano /etc/systemd/system/consul.service`
 
-```bash
+```console
 [Unit]
 Description=Consul
 Documentation=https://www.consul.io/
@@ -80,7 +80,7 @@ WantedBy=multi-user.target
 
 Then
 
-```bash
+```console
 systemctl daemon-reload
 systemctl start consul.service
 ```
@@ -90,7 +90,7 @@ systemctl start consul.service
 
 You need to create a system service for consul `nano /etc/systemd/system/consul.service`
 
-```bash
+```console
 [Unit]
 Description=Consul
 Documentation=https://www.consul.io/
@@ -106,7 +106,7 @@ WantedBy=multi-user.target
 
 Then
 
-```bash
+```console
 systemctl daemon-reload
 systemctl start consul.service
 ```
@@ -150,15 +150,15 @@ Just create a [web services definition](https://www.consul.io/docs/agent/service
 
 Services should interact on realtime with consul cluster to register, unregister itself and enable & disable maintenance mode. So if we have microservice `Mocha` running on server x.x.x.x on port 5000 and Consul already running on that server. Service can simply do the following to join the cluster and also to leave on failure.
 
-```bash
-# Register A Service (Mocha) 
+```console
+# Register A Service (Mocha)
 curl -X PUT \
     -d '{
         "ID": "mocha",
         "Name": "Mocha",
         "Port": 5000,
         "Address": "x.x.x.x",
-        "Tags": 
+        "Tags":
             [
                 "primary",
                 "v1"
@@ -190,7 +190,7 @@ curl -X PUT \
 
 For a complete guide, [go here](https://www.consul.io/api/health.html) but for the important stuff, check the following:
 
-```bash
+```console
 # Get All Healthy Services on Consul Cluster
 curl -X GET \
     http://localhost:8500/v1/health/state/passing | python -m json.tool
@@ -237,7 +237,7 @@ curl -X GET \
 
         ],
         "Node": {
- 
+
         },
         "Service": {
             "Address": "y.y.y.y",
@@ -265,7 +265,7 @@ curl -X GET \
 
 ### KV Store Endpoints
 
-```bash
+```console
 # Create & Update Item
 curl -X PUT \
     -d '2days' http://localhost:8500/v1/kv/mocha_flush

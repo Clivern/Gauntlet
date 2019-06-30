@@ -8,14 +8,14 @@ Install Docker
 
 To install docker on Ubuntu.
 
-```bash
+```console
 $ apt-get update
 $ sudo apt install docker.io
 ```
 
 Then ensure that it is enabled to start after reboot:
 
-```bash
+```console
 $ sudo systemctl enable docker
 ```
 
@@ -23,7 +23,7 @@ Working With Images
 -------------------
 Docker images are essentially a snapshot of a container. we're going to explore Docker images a bit more:
 
-```bash
+```console
 # To List Images
 $ docker images
 
@@ -44,7 +44,7 @@ $ apt-get install -y nginx
 # Get Container ID
 $ docker ps -a
 # In another Terminal Get the Diff and Create the Image
-$ docker diff <container_id> 
+$ docker diff <container_id>
 $ docker commit -a "Clivern" -m "Nginx installed" <container_id> clivernnginx:latest
 
 # Then you able to see your new image
@@ -67,7 +67,7 @@ Dockerfile
 ----------
 Docker can build images automatically by reading the instructions from a `Dockerfile`. A `Dockerfile` is a text document that contains all the commands a user could call on the command line to assemble an image.
 
-```bash
+```console
 docker build -t clivern/app .
 ```
 
@@ -170,7 +170,7 @@ EXPOSE 80/udp
 
 Regardless of the `EXPOSE` settings, you can override them at runtime by using the `-p` flag.
 
-```bash
+```console
 docker run -p 80:80/tcp ...
 ```
 
@@ -184,7 +184,7 @@ ENV myDog Rex The Dog
 ENV myCat fluffy
 ```
 
-```bash
+```console
 # Override ENV vars
 docker run --env <key>=<value>
 ```
@@ -296,7 +296,7 @@ ARG buildno
 RUN echo $user
 ```
 
-```bash
+```console
 docker build --build-arg user=what_user .
 ```
 
@@ -319,7 +319,7 @@ Using Dockerfiles
 
 Also we can use a Dockerfile to build a new image:
 
-```bash
+```console
 # Create App Folder
 $ mkdir app
 ```
@@ -356,13 +356,13 @@ RUN apt-get update \
 
 Then let's build our image
 
-```bash
+```console
 $ docker build -t clivern/app:latest -f app/Dockerfile app/
 ```
 
 Now we can build container from that image `clivern/app:latest`
 
-```bash
+```console
 $ docker run -it clivern/app bash
 ```
 
@@ -401,7 +401,7 @@ ADD default /etc/nginx/sites-available/default
 
 Then create the default virualhost file inside app to be `app/default`:
 
-```bash
+```console
 server {
     listen 80 default_server;
 
@@ -446,7 +446,7 @@ docker build -t app .
 
 We can create a container that run this command `/bin/ping localhost` or override it.
 
-```bash
+```console
 $ docker run -it app
 PING localhost (127.0.0.1) 56(84) bytes of data.
 64 bytes from localhost (127.0.0.1): icmp_seq=1 ttl=64 time=0.043 ms
@@ -467,7 +467,7 @@ docker build -t app .
 ```
 
 Then you can run a container as interactive or daemon.
-```bash
+```console
 # interactive
 $ docker run -it app
 
@@ -475,7 +475,7 @@ $ docker run -it app
 $ docker run -d app
 ```
 
-the recommendation is use `CMD` in your Dockerfile when you want the user of your image to have the flexibility to run whichever executable they choose when starting the container. 
+the recommendation is use `CMD` in your Dockerfile when you want the user of your image to have the flexibility to run whichever executable they choose when starting the container.
 In contrast, `ENTRYPOINT` should be used in scenarios where you want the container to behave exclusively as if it were the executable it's wrapping. That is, when you don't want or expect the user to override the executable you've specified.
 
 For More Info, [Please read this guide.](https://www.ctl.io/developers/blog/post/dockerfile-entrypoint-vs-cmd/)
@@ -486,7 +486,7 @@ Networks
 
 We can create a network for containers to be added to:
 
-```bash
+```console
 # List networks
 $ docker network ls
 
@@ -496,7 +496,7 @@ $ docker network create appnet
 
 Then Create a MySQL Container
 
-```bash
+```console
 $ docker run -d \
     --name=mysql \
     --network=appnet \
@@ -526,7 +526,7 @@ $ docker run -d \
 
 You can access the app container with the following command
 
-```bash
+```console
 $ docker exec -it app bash
 
 $ ping mysql
@@ -568,7 +568,7 @@ mysql> show databases;
 
 Add another container which is published on port `8080`
 
-```bash
+```console
 $ docker create --name my-nginx \
     --network appnet \
     --publish 8080:80 \
@@ -580,21 +580,21 @@ $ docker start my-nginx
 
 You can connect and disconnect containers from network like this:
 
-```bash
+```console
 $ docker network disconnect appnet app
 $ docker network connect appnet app
 ```
 
 You can also inspect the container or the network to get some info about container network or containers connected to same network or even ip of container to access from another.
 
-```bash
+```console
 $ docker inspect app
 $ docker network inspect appnet
 ```
 
 Replace and Connect containers to a new network.
 
-```bash
+```console
 $ docker network disconnect appnet app
 $ docker network disconnect appnet mysql
 
@@ -620,7 +620,7 @@ Docker Storage
 
 ### Volumes
 
-```bash
+```console
 # Create a Volume
 $ docker volume create my-vol
 
@@ -664,7 +664,7 @@ $ docker run --rm --volumes-from nginx1 -v $(pwd):/backup ubuntu tar cvf /backup
 
 ### Bind mounts
 
-```bash
+```console
 $ mkdir app
 $ echo "Hello World" > app/README.md
 
@@ -690,7 +690,7 @@ $ ls ./app
 
 As opposed to volumes and bind mounts, a `tmpfs` mount is temporary, and only persisted in the host memory. When the container stops, the `tmpfs` mount is removed, and files written there won’t be persisted.
 
-```bash
+```console
 $ docker run -d \
     --name=nginx1 \
     --mount type=tmpfs,destination=/app \
@@ -722,7 +722,7 @@ Docker Compose
 
 To Install docker compose, run the following command:
 
-```bash
+```console
 sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
@@ -734,13 +734,13 @@ docker-compose version 1.21.2, build a133471
 
 Let's create a simple python app running with two containers.
 
-```bash
+```console
 $ mkdir app
 ```
 
 Create `app/app.py`, `app/requirements.txt`, `app/Dockerfile` and `app/docker-compose.yml`.
 
-```bash
+```console
 ## app/app.py
 
 import time
@@ -777,7 +777,7 @@ if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
 ```
 
-```bash
+```console
 ## app/requirements.txt
 
 flask
@@ -812,7 +812,7 @@ services:
 
 Now Build and run your app with Compose.
 
-```bash
+```console
 $ cd app
 
 $ docker-compose run web env
@@ -858,7 +858,7 @@ $ docker-compose down --volumes
 ```
 
 
-Compose file Version 3 
+Compose file Version 3
 ----------------------
 
 The Compose file is a YAML file defining `services`, `networks` and `volumes`. The default path for a Compose file is `./docker-compose.yml`.
@@ -889,7 +889,7 @@ services:
     webapp:
         build:
             context: ./dir  # Either a path to a directory containing a Dockerfile, or a url to a git repository.
-                            # When the value supplied is a relative path, it is interpreted as relative to the location of the Compose file. 
+                            # When the value supplied is a relative path, it is interpreted as relative to the location of the Compose file.
                             # This directory is also the build context that is sent to the Docker daemon.
             dockerfile: Dockerfile-alternate    # Compose uses an alternate file to build with. A build path must also be specified
         args:
@@ -911,7 +911,7 @@ services:
 ```
 
 ```Dockerfile
-# Dockerfile-alternate file 
+# Dockerfile-alternate file
 
 ARG buildno
 ARG gitcommithash
@@ -985,7 +985,7 @@ services:
         build:
             context: .
             shm_size: '2gb'
-``` 
+```
 ```yaml
 version: '3'
 
@@ -1070,7 +1070,7 @@ configs:
 
 To work with configs through docker commands
 
-```bash
+```console
 docker config create
 docker config inspect
 docker config ls
@@ -1079,7 +1079,7 @@ docker config rm
 
 a simple example to attach config to redis container
 
-```bash
+```console
 $ echo "This is a config" | docker config create my-config -
 
 
@@ -1089,7 +1089,7 @@ $ docker service create --name redis --config my-config redis:alpine
 $ docker service ps redis
 
 ID            NAME     IMAGE         NODE              DESIRED STATE  CURRENT STATE          ERROR  PORTS
-bkna6bpn8r1a  redis.1  redis:alpine  ip-172-31-46-109  Running        Running 8 seconds ago  
+bkna6bpn8r1a  redis.1  redis:alpine  ip-172-31-46-109  Running        Running 8 seconds ago
 
 
 $ docker ps --filter name=redis -q
@@ -1098,7 +1098,7 @@ $ docker ps --filter name=redis -q
 
 $ docker container exec $(docker ps --filter name=redis -q) ls -l /my-config
 
--r--r--r--    1 root     root            12 Jun  5 20:49 my-config                                                     
+-r--r--r--    1 root     root            12 Jun  5 20:49 my-config
 
 $ docker container exec $(docker ps --filter name=redis -q) cat /my-config
 
@@ -1197,7 +1197,7 @@ services:
 
 Recap and Cheat Sheet
 ---------------------
-```bash
+```console
 ## List Docker CLI commands
 $ docker
 $ docker container --help

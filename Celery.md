@@ -1,7 +1,7 @@
 Celery ~ Distributed Task Queue
 ===============================
 
-```bash
+```console
 # Run RabbitMQ Container
 docker pull rabbitmq
 docker run -d --hostname my-rabbit --name some-rabbit -p 4369:4369 -p 5671:5671 -p 5672:5672 -p 15672:15672 rabbitmq
@@ -11,7 +11,7 @@ docker exec some-rabbit rabbitmq-plugins enable rabbitmq_management
 # using guest/guest
 ```
 
-```bash
+```console
 # Run Redis Container
 docker run -d --name redis -p 6379:6379 redis
 ```
@@ -28,8 +28,8 @@ pip install -U "celery[redis]"
 from celery import Celery
 
 app = Celery(
-    'tasks', 
-    backend='redis://x.x.x.x:6379', 
+    'tasks',
+    backend='redis://x.x.x.x:6379',
     broker='amqp://guest:guest@x.x.x.x:5672'
 )
 
@@ -38,7 +38,7 @@ def add(x, y):
     return x + y
 ```
 
-```bash
+```console
 ~ python
 
 >>> from tasks import add
@@ -54,7 +54,7 @@ def add(x, y):
 >>> AsyncResult('c1bc24dc-fb27-4133-bd16-25230f67eedd').forget()
 ```
 
-```bash
+```console
 # To Run Workers
 celery -A tasks worker --loglevel=info -n worker1
 celery -A tasks worker --loglevel=info -n worker2

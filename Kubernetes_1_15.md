@@ -12,7 +12,7 @@ Follow the following to run Kubernetes 1.10 Cluster Using Kubeadm on Ubuntu 16.0
 
 First we need to create at least two or three servers with Ubuntu 16.04 Installed.
 
-```bash
+```console
 kub-master           http(s)://$kub_master/
 kub-worker-01        http(s)://$kub_worker_01/
 kub-worker-02        http(s)://$kub_worker_02/
@@ -23,14 +23,14 @@ kub-worker-02        http(s)://$kub_worker_02/
 
 You need to install docker on all these nodes
 
-```bash
+```console
 $ apt-get update
 $ sudo apt install docker.io
 ```
 
 Then ensure that it is enabled to start after reboot:
 
-```bash
+```console
 $ sudo systemctl enable docker
 ```
 
@@ -41,13 +41,13 @@ Also we need to install Kubernetes on all these nodes
 
 Let's start by adding the Kubernetes signing key:
 
-```bash
+```console
 $ curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add
 ```
 
 Add Kubernetes repository for server OS
 
-```bash
+```console
 $ sudo apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main"
 // Or
 $ sudo apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-bionic main"
@@ -58,7 +58,7 @@ $ sudo apt install kubeadm
 
 We need to disable swap memory on all your nodes (master & slave) If Kubernetes will refuse to function:
 
-```bash
+```console
 $ sudo swapoff -a
 ```
 
@@ -67,7 +67,7 @@ $ sudo swapoff -a
 
 Now we can initialize the Kubernetes master node. To do so execute the following on your master node:
 
-```bash
+```console
 kub-master:~$ sudo kubeadm init --pod-network-cidr=10.244.0.0/16
 ```
 
@@ -76,7 +76,7 @@ kub-master:~$ sudo kubeadm init --pod-network-cidr=10.244.0.0/16
 
 To start using your cluster, you need to run the following as a regular user:
 
-```bash
+```console
 kub-master:~$ mkdir -p $HOME/.kube
 kub-master:~$ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 kub-master:~$ sudo chown $(id -u):$(id -g) $HOME/.kube/config
@@ -87,13 +87,13 @@ kub-master:~$ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 We need to deploy a pod network. The pod network is used for communication between nodes within the Kubernetes cluster.
 
-```bash
+```console
 kub-master:~$ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
 
 it may take some time to bring the entire flannel network up. Use the kubectl command to confirm that everything is up and ready:
 
-```bash
+```console
 kub-master:~$ kubectl get pods --all-namespaces
 ```
 
@@ -102,7 +102,7 @@ kub-master:~$ kubectl get pods --all-namespaces
 
 Do you remember the join command that appear in master node initialization output, It is time to run it on the worker or slave nodes.
 
-```bash
+```console
 kub-worker-01:~$ kubeadm join $kub_master:6443 --token fbfinf.sismkgworgoa5319 --discovery-token-ca-cert-hash sha256:abe4cf3ee491d8e89c2c32bb9e7dba5c09061229a318e995d9617464f5e5144c
 
 kub-worker-02:~$ kubeadm join $kub_master:6443 --token fbfinf.sismkgworgoa5319 --discovery-token-ca-cert-hash sha256:abe4cf3ee491d8e89c2c32bb9e7dba5c09061229a318e995d9617464f5e5144c
@@ -110,7 +110,7 @@ kub-worker-02:~$ kubeadm join $kub_master:6443 --token fbfinf.sismkgworgoa5319 -
 
 On your Kubernetes master node confirm that the node `kub-worker-01` and `kub-worker-01` is now part of our Kubernetes cluster:
 
-```bash
+```console
 kub-master:~$ kubectl get nodes
 ```
 
@@ -119,7 +119,7 @@ kub-master:~$ kubectl get nodes
 
 Still within the master node, execute the following command to create a deployment with nginx:
 
-```bash
+```console
 kub-master:~$ kubectl run nginx --image=nginx --port 80
 ```
 
@@ -127,13 +127,13 @@ Then run the following command to create a service named nginx that will expose 
 
 It will do so through a NodePort, a scheme that will make the pod accessible through an arbitrary port opened on each node of the cluster:
 
-```bash
+```console
 kub-master:~$ kubectl expose deploy nginx --port 80 --target-port 80 --type NodePort
 ```
 
 Run the following command to get services:
 
-```bash
+```console
 kub-master:~$ kubectl get services
 ```
 
@@ -143,13 +143,13 @@ To test that everything is working, visit `http://$kub_worker_01:$nginx_port` or
 
 If you would like to remove the Nginx application, first delete the nginx service from the master node:
 
-```bash
+```console
 kub-master:~$ kubectl delete service nginx
 ```
 
 Then delete the deployment:
 
-```bash
+```console
 kub-master:~$ kubectl delete deployment nginx
 ```
 
@@ -193,7 +193,7 @@ metadata:
 Pocket Reference
 ----------------
 
-```bash
+```console
 // kubectl on linux
 $ curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.15.0/bin/linux/amd64/kubectl
 $ chmod +x ./kubectl

@@ -1,9 +1,9 @@
-Message Brokers 
+Message Brokers
 ===============
 
 Apache Kafka
 ------------
-```bash
+```console
 # Install Java
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt update; sudo apt install oracle-java8-installer
@@ -31,7 +31,7 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --f
 
 To Send and Receive with Python
 
-```bash
+```console
 pip install kafka-python
 ```
 
@@ -59,9 +59,9 @@ for msg in consumer:
 RabbitMQ
 --------
 
-### Install with Docker 
+### Install with Docker
 
-```bash
+```console
 docker pull rabbitmq
 docker run -d --hostname my-rabbit --name some-rabbit -p 4369:4369 -p 5671:5671 -p 5672:5672 -p 15672:15672 rabbitmq
 docker exec some-rabbit rabbitmq-plugins enable rabbitmq_management
@@ -73,6 +73,6 @@ docker exec some-rabbit rabbitmq-plugins enable rabbitmq_management
 
 ### Simple Use Case
 
-```bash
+```console
 pip install pika
 ```
