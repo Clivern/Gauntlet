@@ -45,6 +45,7 @@
 <li><a href="https://medium.com/s/story/technical-debt-is-like-tetris-168f64d8b700">📋 Technical Debt Is Like Tetris.</a></li>
 <li><a href="https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04">📋 How To Configure BIND as a Private Network DNS Server on Ubuntu 18.04.</a></li>
 <li><a href="https://www.digitalocean.com/community/tutorials/how-to-deploy-and-manage-your-dns-using-dnscontrol-on-ubuntu-18-04">📋 How To Deploy and Manage Your DNS using DNSControl on Ubuntu 18.04</a></li>
+<li><a href="https://medium.com/opentracing/take-opentracing-for-a-hotrod-ride-f6e3141f7941">📋 Take OpenTracing for a HotROD ride.</a></li>
 </ul>
 
 :newspaper: Nice Blogs:
@@ -60,6 +61,7 @@
   <li><a href="https://serversforhackers.com/">📹 Servers For Hackers.</a></li>
   <li><a href="https://www.youtube.com/watch?v=sqnDAnZgyLs">📹 Microservices at Squarespace - Doug Jones and Kevin Lynch.</a></li>
   <li><a href="https://www.youtube.com/playlist?list=PL7Og3MgqGrDR6YjnwJTphPQmkaZNWjEBS">📹 Microservices.com Practitioner Summit 2017.</a></li>
+      <li><a href="https://www.youtube.com/watch?v=s7IrYt1igSM">📹 Jaeger: Distributed Tracing at Uber.</a></li>
 </ul>
 
 :sound: Podcasts to Listen:
