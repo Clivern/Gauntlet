@@ -1,5 +1,10 @@
-Jaeger
--------
+<p align="center">
+    <img alt="jaeger Logo" src="https://www.jaegertracing.io/img/jaeger-logo.png" height="100" />
+</p>
+
+
+Install Jaeger
+--------------
 
 To install jaeger on Ubuntu.
 
