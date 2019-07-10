@@ -53,6 +53,27 @@
 :newspaper: Nice Blogs:
 <ul>
   <li><a href="https://8thlight.com/blog/">:cookie: 8thlight Blog.</a></li>
+    <li><a href="https://engineering.quora.com/">:cookie: Quora Engineering.</a></li>
+    <li><a href="https://redditblog.com/">:cookie: Reddit Engineering.</a></li>
+    <li><a href="https://engineering.shopify.com/">:cookie: Shopify Engineering.</a></li>
+    <li><a href="https://slack.engineering/">:cookie: Slack Engineering Blog.</a></li>
+    <li><a href="https://labs.spotify.com/">:cookie: Spotify Labs.</a></li>
+    <li><a href="https://blog.twitter.com/engineering/en_us.html">:cookie: Twitter Engineering.</a></li>
+    <li><a href="https://engineeringblog.yelp.com/">:cookie: Yelp Engineering Blog.</a></li>
+    <li><a href="https://youtube-eng.googleblog.com/">:cookie: YouTube Engineering and Developers Blog.</a></li>
+    <li><a href="https://www.import.io/blog/">:cookie: Import.io Blog.</a></li>
+    <li><a href="https://instagram-engineering.com/">:cookie: Instagram Engineering.</a></li>
+    <li><a href="http://blog.kaggle.com/">:cookie: Kaggle No Free Hunch.</a></li>
+    <li><a href="https://engineering.linkedin.com/blog">:cookie: LinkedIn Engineering Blog.</a></li>
+    <li><a href="https://medium.engineering/">:cookie: Medium Engineering.</a></li>
+    <li><a href="https://mixpanel.com/blog/">:cookie: Mixpanel Blog.</a></li>
+    <li><a href="https://medium.com/netflix-techblog">:cookie: Netflix Tech Blog.</a></li>
+    <li><a href="https://medium.com/@Pinterest_Engineering">:cookie: Pinterest Engineering.</a></li>
+    <li><a href="https://medium.com/airbnb-engineering">:cookie: Airbnb Engineering and Data Science.</a></li>
+    <li><a href="https://blog.booking.com/">:cookie: Booking.com Tech Blog.</a></li>
+    <li><a href="https://blogs.dropbox.com/tech/">:cookie: Dropbox Tech Blog.</a></li>
+    <li><a href="https://www.ebayinc.com/stories/blogs/tech/">:cookie: eBay Tech Blog.</a></li>
+    <li><a href="https://codeascraft.com/">:cookie: Etsy Code as Craft.</a></li>
 </ul>
 
 
