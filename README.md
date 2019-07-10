@@ -63,7 +63,6 @@
     <li><a href="https://youtube-eng.googleblog.com/">:cookie: YouTube Engineering and Developers Blog.</a></li>
     <li><a href="https://www.import.io/blog/">:cookie: Import.io Blog.</a></li>
     <li><a href="https://instagram-engineering.com/">:cookie: Instagram Engineering.</a></li>
-    <li><a href="http://blog.kaggle.com/">:cookie: Kaggle No Free Hunch.</a></li>
     <li><a href="https://engineering.linkedin.com/blog">:cookie: LinkedIn Engineering Blog.</a></li>
     <li><a href="https://medium.engineering/">:cookie: Medium Engineering.</a></li>
     <li><a href="https://mixpanel.com/blog/">:cookie: Mixpanel Blog.</a></li>
