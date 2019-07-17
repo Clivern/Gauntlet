@@ -48,6 +48,7 @@
 <li><a href="https://medium.com/opentracing/take-opentracing-for-a-hotrod-ride-f6e3141f7941">📋 Take OpenTracing for a HotROD ride.</a></li>
   <li><a href="https://thenewstack.io/monitoring-microservices-self-healing-and-the-connection-to-antifragile-systems/">📋 Monitoring, Microservices, Self-Healing and the Connection to “AntiFragile” Systems.</li>
   <li><a href="https://medium.com/netflix-techblog/the-netflix-simian-army-16e57fbab116">📋 The Netflix Simian Army.</li>
+       <li><a href="https://martinfowler.com/bliki/StranglerFigApplication.html">📋 Strangler Fig Application.</li>
 </ul>
 
 :newspaper: Nice Blogs:
