@@ -49,6 +49,7 @@
   <li><a href="https://thenewstack.io/monitoring-microservices-self-healing-and-the-connection-to-antifragile-systems/">📋 Monitoring, Microservices, Self-Healing and the Connection to “AntiFragile” Systems.</li>
   <li><a href="https://medium.com/netflix-techblog/the-netflix-simian-army-16e57fbab116">📋 The Netflix Simian Army.</li>
        <li><a href="https://martinfowler.com/bliki/StranglerFigApplication.html">📋 Strangler Fig Application.</li>
+           <li><a href="https://martinfowler.com/articles/break-monolith-into-microservices.html">📋 How to break a Monolith into Microservices.</a></li>
 </ul>
 
 :newspaper: Nice Blogs:
