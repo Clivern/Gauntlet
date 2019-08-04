@@ -76,6 +76,7 @@
     <li><a href="https://blogs.dropbox.com/tech/">:cookie: Dropbox Tech Blog.</a></li>
     <li><a href="https://www.ebayinc.com/stories/blogs/tech/">:cookie: eBay Tech Blog.</a></li>
     <li><a href="https://codeascraft.com/">:cookie: Etsy Code as Craft.</a></li>
+    <li><a href="https://stripe.com/blog/engineering">:cookie: Stripe Engineering.</a></li>
 </ul>
 
 
