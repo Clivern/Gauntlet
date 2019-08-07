@@ -51,9 +51,11 @@
     <li><a href="https://martinfowler.com/articles/break-monolith-into-microservices.html">📋 How to break a Monolith into Microservices.</a></li>
     <li><a href="https://martinfowler.com/articles/refactoring-dependencies.html">📋 Refactoring Module Dependencies.</a></li>
     <li><a href="https://stripe.com/en-nl/blog/canonical-log-lines">📋 Fast and flexible observability with canonical log lines.</a></li>
+    <li><a href="https://brandur.org/minimalism">📋 In Pursuit of Production Minimalism.</a></li>
 </ul>
 
-:newspaper: Nice Blogs:
+
+:newspaper: Engineering Blogs:
 <ul>
   <li><a href="https://8thlight.com/blog/">:cookie: 8thlight Blog.</a></li>
     <li><a href="https://engineering.quora.com/">:cookie: Quora Engineering.</a></li>
@@ -79,6 +81,12 @@
     <li><a href="https://stripe.com/blog/engineering">:cookie: Stripe Engineering.</a></li>
 </ul>
 
+
+:newspaper: Personal Blogs:
+<ul>
+  <li><a href="https://brandur.org/articles">:cookie: Brandur Blog.</a></li>
+</ul>
+    
 
 📹  Some Videos to Watch:
 <ul>
