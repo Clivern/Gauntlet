@@ -52,6 +52,7 @@
     <li><a href="https://martinfowler.com/articles/refactoring-dependencies.html">📋 Refactoring Module Dependencies.</a></li>
     <li><a href="https://stripe.com/en-nl/blog/canonical-log-lines">📋 Fast and flexible observability with canonical log lines.</a></li>
     <li><a href="https://brandur.org/minimalism">📋 In Pursuit of Production Minimalism.</a></li>
+    <li><a href="https://medium.com/capital-one-tech/container-ready-applications-with-twelve-factor-app-and-microservices-architecture-16af683a767f">📋 Container Ready Applications with Twelve-Factor App and Microservices Architecture.</a></li>
 </ul>
 
 
