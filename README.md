@@ -123,6 +123,7 @@
     <li><a href="https://github.com/github/orchestrator">:zap: Orchestrator.</a></li>
     <li><a href="https://github.com/hellofresh/janus">:zap: Janus.</a></li>
     <li><a href="https://github.com/hashicorp/nomad-guides">:zap: Nomand.</a></li>
+    <li><a href="https://github.com/fluent/fluentd">:zap: Fluentd.</a></li>
 </ul>
 
 🐉 Books to Delve Into:
