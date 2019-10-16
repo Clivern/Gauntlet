@@ -133,6 +133,7 @@
     <li><a href="https://github.com/hellofresh/janus">:zap: Janus.</a></li>
     <li><a href="https://github.com/hashicorp/nomad-guides">:zap: Nomand.</a></li>
     <li><a href="https://github.com/fluent/fluentd">:zap: Fluentd.</a></li>
+    <li><a href="https://github.com/vitessio/vitess">:zap: Vitess.</a></li>
 </ul>
 
 🐉 Books to Delve Into:
