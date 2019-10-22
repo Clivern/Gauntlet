@@ -50,6 +50,7 @@
     <li><a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">📋 Unicode and Character Sets.</a></li>
     <li><a href="https://www.digitalocean.com/community/tutorials/customizing-go-binaries-with-build-tags">📋 Customizing Go Binaries with Build Tags.</a></li>
     <li><a href="https://github.com/uber-go/guide">📋 Uber Go Guide.</a></li>
+    <li><a href="https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6">📋 How Sharding Works.</a></li>
 </ul>
 
 :orange_book: Epic Articles:
