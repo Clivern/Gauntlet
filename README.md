@@ -108,6 +108,7 @@
   <li><a href="https://www.youtube.com/playlist?list=PL7Og3MgqGrDR6YjnwJTphPQmkaZNWjEBS">📹 Microservices.com Practitioner Summit 2017.</a></li>
       <li><a href="https://www.youtube.com/watch?v=s7IrYt1igSM">📹 Jaeger: Distributed Tracing at Uber.</a></li>
     <li><a href="https://www.youtube.com/watch?v=EVvnBgSX04c">📹 Strangling the Monolith.</a></li>
+    <li><a href="https://www.youtube.com/watch?v=DhYQms3QF3o">📹 The Role of Catastrophic Failure in Software Design.</a></li>
 </ul>
 
 :sound: Podcasts to Listen:
