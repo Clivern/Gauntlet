@@ -145,4 +145,7 @@
   <li><a href="http://shop.oreilly.com/product/0636920033158.do">🐉 Building Microservices: Designing Fine-Grained Systems.</a></li>
   <li><a href="http://shop.oreilly.com/product/0636920050308.do">🐉 Microservice Architecture: Aligning Principles, Practices, and Culture.</a></li>
     <li><a href="https://landing.google.com/sre/books/">🐉 Site Reliability Engineering & The Site Reliability Workbook.</a></li>
+    <li><a href="https://www.amazon.com/Search-Engine-Optimization-SEO-Hour/dp/0470902590">🐉 Search Engine Optimization (SEO).</a></li>
+    <li><a href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">🐉 Clean Code.</a></li>
+    <li><a href="https://www.amazon.com/dp/0134494164/">🐉 Clean Architecture.</a></li>
 </ul>
