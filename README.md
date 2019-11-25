@@ -64,6 +64,7 @@
     <li><a href="https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8">📋 Modern Software Over-Engineering Mistakes.</a></li>
     <li><a href="https://medium.com/s/story/technical-debt-is-like-tetris-168f64d8b700">📋 Technical Debt Is Like Tetris.</a></li>
     <li><a href="https://programmingisterrible.com/post/173883533613/code-to-debug">📋 Write code that’s easy to delete, and easy to debug too.</a></li>
+    <li><a href="https://research.swtch.com/vgo-import">📋 Semantic Import Versioning (Go & Versioning)</a></li>
 </ul>
 
 :newspaper: Engineering Blogs:
