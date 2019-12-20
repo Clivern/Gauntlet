@@ -52,6 +52,7 @@
     <li><a href="https://github.com/uber-go/guide">📋 Uber Go Guide.</a></li>
     <li><a href="https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6">📋 How Sharding Works.</a></li>
     <li><a href="https://developer.mastercard.com/blog/the-vertx-worker-model">📋 The Vert.x Worker Model.</a></li>
+    <li><a href="https://www.alexedwards.net/blog/an-overview-of-go-tooling">📋 An Overview of Go's Tooling.</a></li>
 </ul>
 
 :orange_book: Epic Articles:
