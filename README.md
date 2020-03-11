@@ -1,7 +1,7 @@
 <p align="center">
     <img alt="Scalability Logo" src="https://raw.githubusercontent.com/Clivern/Scalability/master/images/logo.png" height="80" />
     <h3 align="center">Scalability</h3>
-    <p align="center"><b>“Hope is not a strategy.”</b> ~ Probably someone said that</p>
+    <p align="center">Guides, Open Source Projects, Podcasts, Videos and Notes to Build Reliable Large-Scale Distributed Systems.</p>
 </p>
 <br/>
 
