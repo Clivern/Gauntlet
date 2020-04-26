@@ -144,6 +144,7 @@
     <li><a href="https://github.com/fluent/fluentd">:zap: Fluentd.</a></li>
     <li><a href="https://github.com/vitessio/vitess">:zap: Vitess.</a></li>
     <li><a href="https://vertx.io/">:zap: Eclipse Vert.x.</a></li>
+    <li><a href="https://github.com/mgechev/revive">:zap: Revive.</a></li>
 </ul>
 
 🐉 Books to Delve Into:
