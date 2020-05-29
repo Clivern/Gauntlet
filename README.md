@@ -106,6 +106,7 @@
 
 📹  Some Videos to Watch:
 <ul>
+    <li><a href="https://www.dotconferences.com/talks">📹 dot Conferences.</a></li>
     <li><a href="https://www.youtube.com/watch?v=y1N8Zah7aSg">📹 Hatch Talk Series: Three Startup Failures... And The Success That Made Up For It All.</a></li>
   <li><a href="https://www.youtube.com/watch?v=hnpzNAPiC0E">📹 Scaling Instagram.</a></li>
   <li><a href="https://serversforhackers.com/">📹 Servers For Hackers.</a></li>
@@ -115,12 +116,13 @@
     <li><a href="https://www.youtube.com/watch?v=EVvnBgSX04c">📹 Strangling the Monolith.</a></li>
     <li><a href="https://www.youtube.com/watch?v=DhYQms3QF3o">📹 The Role of Catastrophic Failure in Software Design.</a></li>
     <li><a href="https://www.youtube.com/watch?v=8aGhZQkoFbQ">📹 What is the event loop anyway?</a></li>
-    
+    <li><a href="https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing">📹 Observability 3 ways logging metrics tracing.</a></li>
 </ul>
 
 :sound: Podcasts to Listen:
 <ul>
-<li><a href="https://softwareengineeringdaily.com/">:sound: Software Engineering Daily.</a></li>
+    <li><a href="https://softwareengineeringdaily.com/">:sound: Software Engineering Daily.</a></li>
+    <li><a href="https://changelog.com/podcasts">:sound: Podcasts for Developers.</a></li>
 </ul>
 
 :zap: Some Tools to Consider:
