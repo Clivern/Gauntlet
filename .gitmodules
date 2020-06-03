@@ -11,3 +11,6 @@
 [submodule "mongodb"]
 	path = mongodb
 	url = git@github.com:Clivern/MongoPlaybook.git
+[submodule "awesome-sre"]
+	path = awesome-sre
+	url = https://github.com/dastergon/awesome-sre.git
