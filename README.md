@@ -117,6 +117,7 @@
     <li><a href="https://www.youtube.com/watch?v=DhYQms3QF3o">📹 The Role of Catastrophic Failure in Software Design.</a></li>
     <li><a href="https://www.youtube.com/watch?v=8aGhZQkoFbQ">📹 What is the event loop anyway?</a></li>
     <li><a href="https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing">📹 Observability 3 ways logging metrics tracing.</a></li>
+    <li><a href="https://www.youtube.com/watch?time_continue=2&v=jET4FTTwB5E">📹 Breaking Things on Purpose.</a></li>
 </ul>
 
 :sound: Podcasts to Listen:
