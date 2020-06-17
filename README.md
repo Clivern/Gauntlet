@@ -58,6 +58,7 @@
 
 :orange_book: Epic Articles:
 <ul>
+    <li><a href="https://medium.com/swlh/how-to-manage-technical-debt-e18904dd9e27">📋 How to Manage Technical Debt.</a></li>
     <li><a href="https://brandur.org/minimalism">📋 In Pursuit of Production Minimalism.</a></li>
   	<li><a href="https://medium.com/netflix-techblog/the-netflix-simian-army-16e57fbab116">📋 The Netflix Simian Army.</li>
     <li><a href="https://martinfowler.com/bliki/StranglerFigApplication.html">📋 Strangler Fig Application.</li>
