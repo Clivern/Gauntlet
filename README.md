@@ -68,6 +68,7 @@
     <li><a href="https://medium.com/s/story/technical-debt-is-like-tetris-168f64d8b700">📋 Technical Debt Is Like Tetris.</a></li>
     <li><a href="https://programmingisterrible.com/post/173883533613/code-to-debug">📋 Write code that’s easy to delete, and easy to debug too.</a></li>
     <li><a href="https://research.swtch.com/vgo-import">📋 Semantic Import Versioning (Go & Versioning)</a></li>
+    <li><a href="https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">📋 Making sense of MVP.</a></li>
 </ul>
 
 :newspaper: Engineering Blogs:
