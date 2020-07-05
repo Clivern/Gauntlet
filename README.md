@@ -106,7 +106,8 @@
     <li><a href="https://www.joelonsoftware.com/">:cookie: Joel on Software.</a></li>
     <li><a href="https://sivers.org/blog">:cookie: Derek Sivers.</a></li>
     <li><a href="https://blog.codinghorror.com/">:cookie: Coding Horror.</a></li>
-    <li><a href="https://yourbasic.org/">:cookie: Yourbasic.</a></li>
+    <li><a href="https://yourbasic.org/">:cookie: Yourbasic.</a></li>   
+    <li><a href="https://simpleisbetterthancomplex.com/">:cookie: Simple is better than complex.</a></li>
 </ul>
     
 
