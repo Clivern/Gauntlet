@@ -5,7 +5,7 @@
 </p>
 <br/>
 
-:orange_book: How-To Guides:
+:orange_book: Guides:
 <ul>
     <li><a href="https://www.nginx.com/blog/scaling-web-applications-nginx-part-load-balancing/">📋 Scaling Web Applications with NGINX, Part 1: Load Balancing.</li>
   <li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04">📋 Running Nginx as Web Server/Reverse Proxy for Python Apps.</a></li>
@@ -54,6 +54,7 @@
     <li><a href="https://developer.mastercard.com/blog/the-vertx-worker-model">📋 The Vert.x Worker Model.</a></li>
     <li><a href="https://www.alexedwards.net/blog/an-overview-of-go-tooling">📋 An Overview of Go's Tooling.</a></li>
     <li><a href="https://reflectoring.io/logging-levels/">📋 Logging Levels.</a></li>
+    <li><a href="https://github.com/dwmkerr/hacker-laws">📋 Hacker Laws.</a></li>
 </ul>
 
 :orange_book: Epic Articles:
