@@ -70,6 +70,7 @@
     <li><a href="https://programmingisterrible.com/post/173883533613/code-to-debug">📋 Write code that’s easy to delete, and easy to debug too.</a></li>
     <li><a href="https://research.swtch.com/vgo-import">📋 Semantic Import Versioning (Go & Versioning)</a></li>
     <li><a href="https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">📋 Making sense of MVP.</a></li>
+    <li><a href="https://www.mrlacey.com/2020/07/youve-only-added-two-lines-why-did-that.html">📋 You've only added two lines.</a></li>
 </ul>
 
 :newspaper: Engineering Blogs:
