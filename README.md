@@ -71,6 +71,7 @@
     <li><a href="https://research.swtch.com/vgo-import">📋 Semantic Import Versioning (Go & Versioning)</a></li>
     <li><a href="https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">📋 Making sense of MVP.</a></li>
     <li><a href="https://www.mrlacey.com/2020/07/youve-only-added-two-lines-why-did-that.html">📋 You've only added two lines.</a></li>
+    <li><a href="https://www.netmeister.org/blog/ops-lessons.html">📋 (A few) Ops Lessons We All Learn The Hard Way.</a></li>
 </ul>
 
 :newspaper: Engineering Blogs:
@@ -112,6 +113,7 @@
     <li><a href="https://yourbasic.org/">:cookie: Yourbasic.</a></li>   
     <li><a href="https://simpleisbetterthancomplex.com/">:cookie: Simple is better than complex.</a></li>
     <li><a href="https://neilonsoftware.com/blog/">:cookie: Neil on Software.</a></li> 
+    <li><a href="https://www.netmeister.org/blog">:cookie: Netmeister.</a></li> 
 </ul>
     
 
