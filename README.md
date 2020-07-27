@@ -72,6 +72,7 @@
     <li><a href="https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">📋 Making sense of MVP.</a></li>
     <li><a href="https://www.mrlacey.com/2020/07/youve-only-added-two-lines-why-did-that.html">📋 You've only added two lines.</a></li>
     <li><a href="https://www.netmeister.org/blog/ops-lessons.html">📋 (A few) Ops Lessons We All Learn The Hard Way.</a></li>
+    <li><a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/">📋 Cloud Design Patterns.</a></li>
 </ul>
 
 :newspaper: Engineering Blogs:
