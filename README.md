@@ -55,6 +55,7 @@
     <li><a href="https://www.alexedwards.net/blog/an-overview-of-go-tooling">📋 An Overview of Go's Tooling.</a></li>
     <li><a href="https://reflectoring.io/logging-levels/">📋 Logging Levels.</a></li>
     <li><a href="https://github.com/dwmkerr/hacker-laws">📋 Hacker Laws.</a></li>
+    <li><a href="https://www.brianstorti.com/the-actor-model/">📋 The actor model in 10 minutes.</a></li>
 </ul>
 
 :orange_book: Epic Articles:
