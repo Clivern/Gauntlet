@@ -56,6 +56,7 @@
     <li><a href="https://reflectoring.io/logging-levels/">📋 Logging Levels.</a></li>
     <li><a href="https://github.com/dwmkerr/hacker-laws">📋 Hacker Laws.</a></li>
     <li><a href="https://www.brianstorti.com/the-actor-model/">📋 The actor model in 10 minutes.</a></li>
+    <li><a href="https://www.cloudamqp.com/blog/2015-09-03-part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html">📋 RabbitMQ Exchanges, routing keys and bindings.</a></li>
 </ul>
 
 :orange_book: Epic Articles:
