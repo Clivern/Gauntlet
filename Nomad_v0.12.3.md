@@ -17,8 +17,10 @@ $ mv nomad /usr/local/bin/
 
 ```
 $ sudo mkdir --parents /opt/nomad
+$ sudo mkdir --parents /opt/data
 $ sudo mkdir --parents /etc/nomad.d
 $ sudo chmod 700 /etc/nomad.d
+$ sudo chmod 700 /opt/data
 
 $ sudo touch /etc/nomad.d/nomad.hcl
 $ sudo touch /etc/nomad.d/server.hcl
@@ -37,6 +39,11 @@ data_dir = "/opt/nomad"
 ```hcl
 client {
   enabled = true
+
+  host_volume "redis_data" {
+    path      = "/opt/data"
+    read_only = false
+  }
 }
 ```
 
@@ -96,6 +103,17 @@ sudo systemctl status nomad
 
 ```
 $ nomad acl bootstrap
+Accessor ID  = 57ae3a71-037a-a34f-1a08-dc4385995807
+Secret ID    = c5bb4122-9393-fb86-b3e6-91aa62697e4f
+Name         = Bootstrap Token
+Type         = management
+Global       = true
+Policies     = n/a
+Create Time  = 2020-08-29 22:04:59.419597143 +0000 UTC
+Create Index = 10
+Modify Index = 10
+
+$ export NOMAD_TOKEN=c5bb4122-9393-fb86-b3e6-91aa62697e4f
 ```
 
 - Create your first job from the server ui `http://127.0.0.1:4646/ui`
@@ -138,8 +156,22 @@ job "cache" {
   datacenters = ["dc1"]
 
   group "redis" {
+
+    volume "redis_data" {
+      type      = "host"
+      read_only = false
+      source    = "redis_data"
+    }
+
     task "redis" {
       driver = "docker"
+
+      volume_mount {
+        volume      = "redis_data"
+        destination = "/data"
+        read_only   = false
+      }
+
       config {
         image = "redis:3.2"
         labels {
