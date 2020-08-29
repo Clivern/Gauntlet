@@ -142,6 +142,10 @@ job "cache" {
       driver = "docker"
       config {
         image = "redis:3.2"
+        labels {
+          "com.clivern.foo" = "bar"
+          "com.clivern.zip" = "zap"
+        }
       }
 
       resources {
