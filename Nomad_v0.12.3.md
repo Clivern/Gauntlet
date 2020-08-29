@@ -3,7 +3,7 @@
 </p>
 
 
-### Basic Setup 
+### Basic Setup
 
 - Download nomad binary & make it executable:
 
@@ -52,7 +52,7 @@ server {
 }
 ```
 
-- Create a nomad service file 
+- Create a nomad service file
 
 ```
 sudo touch /etc/systemd/system/nomad.service
@@ -100,7 +100,7 @@ $ nomad acl bootstrap
 
 - Create your first job from the server ui `http://127.0.0.1:4646/ui`
 
-```
+```hcl
 job "api" {
   datacenters = ["dc1"]
 
@@ -125,6 +125,32 @@ job "api" {
 
           port "http" {
             static = "5678"
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+```hcl
+job "cache" {
+  datacenters = ["dc1"]
+
+  group "redis" {
+    task "redis" {
+      driver = "docker"
+      config {
+        image = "redis:3.2"
+      }
+
+      resources {
+        cpu    = 500
+        memory = 128
+        network {
+          mbits = 10
+          port "tcp" {
+            static = "6379"
           }
         }
       }
