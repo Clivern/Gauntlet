@@ -116,7 +116,7 @@ Modify Index = 10
 $ export NOMAD_TOKEN=c5bb4122-9393-fb86-b3e6-91aa62697e4f
 ```
 
-- Create your first job from the server ui `http://127.0.0.1:4646/ui`
+- Create your first job to deploy a stateless container from the server ui `http://127.0.0.1:4646/ui`
 
 ```hcl
 job "api" {
@@ -150,6 +150,8 @@ job "api" {
   }
 }
 ```
+
+- And another one for stateful container
 
 ```hcl
 job "cache" {
