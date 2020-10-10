@@ -355,4 +355,5 @@
 * [Cosine similarity using GPT models](https://medium.com/@khiljidanial/cosine-similarity-using-gpt-models-35b6b9685d70)
 * [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413)
 * [Introduction to Machine Learning with scikit-learn](https://courses.dataschool.io/introduction-to-machine-learning-with-scikit-learn)
+* [Email Spam Detection using Machine Learning Scikit Python](https://medium.com/@oluyaled/email-spam-detection-using-machine-learning-scikit-python-1b15ee1c6f75)
 
