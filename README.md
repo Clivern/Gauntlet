@@ -64,6 +64,7 @@
 
 💮 Articles:
 
+* [Are You a Doer or a Talker?](https://blog.codinghorror.com/are-you-a-doer-or-a-talker/)
 * [How to Manage Technical Debt.](https://medium.com/swlh/how-to-manage-technical-debt-e18904dd9e27)
 * [In Pursuit of Production Minimalism.](https://brandur.org/minimalism)
 * [The Netflix Simian Army.](https://medium.com/netflix-techblog/the-netflix-simian-army-16e57fbab116)
