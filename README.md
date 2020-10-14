@@ -163,6 +163,7 @@
 
 * [Software Engineering Daily](https://softwareengineeringdaily.com/)
 * [Podcasts for Developers](https://changelog.com/podcasts)
+* [Cloud Chats](https://www.youtube.com/hashtag/cloudchats)
 
 
 💮 Books:
