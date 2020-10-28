@@ -116,7 +116,8 @@
     <li><a href="https://yourbasic.org/">:cookie: Yourbasic.</a></li>   
     <li><a href="https://simpleisbetterthancomplex.com/">:cookie: Simple is better than complex.</a></li>
     <li><a href="https://neilonsoftware.com/blog/">:cookie: Neil on Software.</a></li> 
-    <li><a href="https://www.netmeister.org/blog">:cookie: Netmeister.</a></li> 
+    <li><a href="https://www.netmeister.org/blog">:cookie: Netmeister.</a></li>
+    <li><a href="https://understandlegacycode.com/">:cookie: Understand Legacy Code.</a></li>
 </ul>
     
 
