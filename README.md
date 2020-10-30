@@ -167,6 +167,11 @@
     <li><a href="https://github.com/mgechev/revive">:zap: Revive.</a></li>
 </ul>
 
+🐉 Epic Books:
+<ul>
+    <li><a href="https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master-ebook-dp-B003GCTQAE/dp/B003GCTQAE">🐉 The Pragmatic Programmer.</a></li>
+</ul>
+
 🐉 Books to Delve Into:
 <ul>
   <li><a href="http://shop.oreilly.com/product/0636920033158.do">🐉 Building Microservices: Designing Fine-Grained Systems.</a></li>
@@ -176,6 +181,5 @@
     <li><a href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">🐉 Clean Code.</a></li>
     <li><a href="https://www.amazon.com/dp/0134494164/">🐉 Clean Architecture.</a></li>
     <li><a href="https://www.amazon.com/Software-Engineering-Google-Lessons-Programming/dp/1492082791">🐉 Software Engineering at Google: Lessons Learned from Programming Over Time.</a></li>
-    <li><a href="https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master-ebook-dp-B003GCTQAE/dp/B003GCTQAE">🐉 The Pragmatic Programmer.</a></li>
     <li><a href="https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127">🐉 Building Secure & Reliable Systems.</a></li>
 </ul>
