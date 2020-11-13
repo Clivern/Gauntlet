@@ -75,6 +75,7 @@
     <li><a href="https://www.mrlacey.com/2020/07/youve-only-added-two-lines-why-did-that.html">📋 You've only added two lines.</a></li>
     <li><a href="https://www.netmeister.org/blog/ops-lessons.html">📋 (A few) Ops Lessons We All Learn The Hard Way.</a></li>
     <li><a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/">📋 Cloud Design Patterns.</a></li>
+    <li><a href="https://www.aeracode.org/2018/02/19/python-async-simplified/">📋 Python & Async Simplified.</a></li>
 </ul>
 
 :newspaper: Engineering Blogs:
