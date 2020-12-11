@@ -257,6 +257,7 @@
 * [Prometheus: The Documentary](https://www.youtube.com/watch?v=rT4fJNbfe14)
 * [AWS Networking Fundamentals](https://www.youtube.com/watch?v=hiKPPy584Mg)
 * [Elixir Casts](https://elixircasts.io/)
+* [What runs ChatGPT? Inside Microsoft's AI supercomputer](https://www.youtube.com/watch?v=Rk3nTUfRZmo)
 
 
 💮 Podcasts:
