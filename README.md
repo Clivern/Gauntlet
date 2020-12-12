@@ -280,6 +280,7 @@
 
 * [The Complete Elixir and Phoenix Bootcamp](https://www.udemy.com/course/the-complete-elixir-and-phoenix-bootcamp-and-tutorial/)
 * [Apache Kafka Series - Learn Apache Kafka for Beginners v3](https://www.udemy.com/course/apache-kafka)
+* [DevOps with Terraform](https://cloudcasts.io/course/terraform)
 
 
 💮 Languages:
