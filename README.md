@@ -190,6 +190,7 @@
 * [Fly.IO](https://fly.io/blog/)
 * [Build Your Own](https://build-your-own.org/)
 * [Spacelift](https://spacelift.io/blog)
+* [Linux Administration](http://www.linux-admins.net/)
 
 
 💮 Personal Blogs:
