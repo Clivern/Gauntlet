@@ -340,3 +340,4 @@
 * [OLlama](https://ollama.ai/)
 * [huggingface](https://huggingface.co/)
 * [Integrating Llama 2 with Hugging Face and Langchain](https://blog.futuresmart.ai/integrating-llama-2-with-hugging-face-and-langchain)
+* [Deep Learning on Core with ML in a Box](https://docs.paperspace.com/core/tutorials/dl-on-core/)
