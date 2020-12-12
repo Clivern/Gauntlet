@@ -351,3 +351,4 @@
 * [Chroma Vector DB](https://github.com/chroma-core/chroma)
 * [Deploy Llama 2 for your Entire Organisation](https://www.youtube.com/watch?v=Ror2xOOA-VE)
 * [Greg Kamradt - Data Indy](https://www.youtube.com/@DataIndependent/featured)
+* [Learn LangChain](https://github.com/gkamradt/langchain-tutorials)
