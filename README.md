@@ -95,6 +95,7 @@
 * [Turning IPTables into a TCP load balancer for fun and profit](https://scalingo.com/blog/iptables)
 * [Iptables Essentials: Common Firewall Rules and Commands](https://www.digitalocean.com/community/tutorials/iptables-essentials-common-firewall-rules-and-commands)
 * [Backend Basics](https://eblog.fly.dev/backendbasics.html)
+* [Troubleshooting SYNs to LISTEN Sockets dropped message from Netstat](http://www.linux-admins.net/2020/08/troubleshooting-syns-to-listen-sockets.html)
 
 
 💮 Articles:
