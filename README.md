@@ -341,3 +341,4 @@
 * [huggingface](https://huggingface.co/)
 * [Integrating Llama 2 with Hugging Face and Langchain](https://blog.futuresmart.ai/integrating-llama-2-with-hugging-face-and-langchain)
 * [Deep Learning on Core with ML in a Box](https://docs.paperspace.com/core/tutorials/dl-on-core/)
+* [How to Create Custom Datasets To Train Llama-2](https://www.youtube.com/watch?v=z2QE12p3kMM)
