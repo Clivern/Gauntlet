@@ -332,3 +332,11 @@
 * [$100 from Linode](https://www.linode.com/lp/affiliate-referral/)
 * [OCI Cloud Free Tier](https://www.oracle.com/cloud/free/)
 * [$250 from Vultr.](https://www.vultr.com/promo/try250/)
+
+
+💮 AI & ML:
+
+* [Llama](https://ai.meta.com/llama/)
+* [OLlama](https://ollama.ai/)
+* [huggingface](https://huggingface.co/)
+* [Integrating Llama 2 with Hugging Face and Langchain](https://blog.futuresmart.ai/integrating-llama-2-with-hugging-face-and-langchain)
