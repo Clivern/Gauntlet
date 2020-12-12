@@ -346,3 +346,6 @@
 * [Run Llama-2 Locally within Text Generation WebUI](https://www.youtube.com/watch?v=19MfOJjkyg0)
 * [Prompt Engineering](https://www.youtube.com/@engineerprompt)
 * [Paperspace](https://www.paperspace.com/)
+* [RAG Architecture](https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-foundation-models-customize-rag.html)
+* [LangChain](https://www.langchain.com/)
+* [Chroma Vector DB](https://github.com/chroma-core/chroma)
