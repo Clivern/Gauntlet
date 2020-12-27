@@ -192,6 +192,7 @@
 * [nginx Admins Handbook](https://github.com/trimstray/nginx-admins-handbook)
 * [Mongo Playbook](https://github.com/Clivern/MongoPlaybook)
 * [Awesome SRE](https://github.com/dastergon/awesome-sre)
+* [Awesome Prometheus Alerts](https://github.com/samber/awesome-prometheus-alerts)
 
 
 💮 Videos:
