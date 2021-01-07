@@ -63,6 +63,7 @@
 * [Kafka Cluster Connect](https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/)
 * [An Introduction to Networking Terminology, Interfaces, and Protocols.](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
 * [Understanding IP Addresses, Subnets, and CIDR Notation for Networking.](https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking)
+* [Functools - The Power of Higher-Order Functions in Python](https://martinheinz.dev/blog/52)
 
 
 💮 Articles:
