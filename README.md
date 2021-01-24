@@ -89,6 +89,7 @@
 * [Decouple your Symfony application using Domain Events.](https://romaricdrigon.github.io/2019/08/09/domain-events)
 * [Circuit Breaker pattern.](https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker)
 * [The Broken Window Theory.](https://blog.codinghorror.com/the-broken-window-theory/)
+* [The Service Mesh Manifesto](https://buoyant.io/service-mesh-manifesto)
 
 
 💮 System Capacity:
@@ -128,6 +129,7 @@
 * [IBM Developer.](https://developer.ibm.com/)
 * [Digitalocean Tutorials.](https://www.digitalocean.com/community/tutorials)
 * [Digitalocean Tech Talks.](https://www.digitalocean.com/community/tags/tech-talks)
+* [Monzo Technology](https://monzo.com/blog/technology)
 
 
 💮 Personal Blogs:
