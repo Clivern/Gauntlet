@@ -1,10 +1,10 @@
 <p align="center">
-    <img alt="Scalability Logo" src="https://raw.githubusercontent.com/Clivern/Scalability/main/images/logo.png" height="90" />
+    <img alt="Scalability Logo" src="https://raw.githubusercontent.com/Clivern/Scalability/main/images/dependency.png" width="30%" />
     <h3 align="center">Scalability</h3>
     <p align="center">Guides, Articles, Podcasts, Videos and Notes to Build Reliable Large-Scale Distributed Systems.</p>
 </p>
 <br/>
-
+<img alt="Scalability Logo" src="/images/dependency.png" height="45%" />
 
 💮 Guides:
 
