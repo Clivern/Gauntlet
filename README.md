@@ -4,7 +4,7 @@
     <p align="center">Guides, Articles, Podcasts, Videos and Notes to Build Reliable Large-Scale Distributed Systems.</p>
 </p>
 <br/>
-<img alt="Scalability Logo" src="/images/dependency.png" height="45%" />
+
 
 💮 Guides:
 
