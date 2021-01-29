@@ -92,6 +92,7 @@
 * [Circuit Breaker pattern.](https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker)
 * [The Broken Window Theory.](https://blog.codinghorror.com/the-broken-window-theory/)
 * [The Service Mesh Manifesto](https://buoyant.io/service-mesh-manifesto)
+* [Building Blocks of TCP](https://hpbn.co/building-blocks-of-tcp/)
 
 
 💮 System Capacity:
@@ -150,6 +151,7 @@
 * [The Modern JavaScript Tutorial.](https://javascript.info/)
 * [Learning Rust.](https://learning-rust.github.io/)
 * [Tutorial Works.](https://www.tutorialworks.com/)
+* [High Performance Browser Networking.](https://hpbn.co/)
 
 
 💮 Awesome List:
