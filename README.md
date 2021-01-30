@@ -202,3 +202,4 @@
 * [Software Engineering at Google: Lessons Learned from Programming Over Time](https://www.amazon.com/Software-Engineering-Google-Lessons-Programming/dp/1492082791)
 * [Building Secure & Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
 * [Designing Data Intensive Applications](https://dataintensive.net/)
+* [High Performance Browser Networking](https://www.oreilly.com/library/view/high-performance-browser/9781449344757/)
