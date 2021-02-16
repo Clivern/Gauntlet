@@ -206,6 +206,7 @@
 * [Building Streaming Microservices with Apache Kafka](https://www.youtube.com/watch?v=Hlb-Ss3q3as)
 * [Hashicorp Learn](https://learn.hashicorp.com/)
 * [The Soul of Erlang and Elixir](https://www.youtube.com/watch?v=JvBT4XBdoUE)
+* [Rust Programming Course for Beginners](https://www.youtube.com/watch?v=MsocPEZBd-M)
 * [Rust Crash Course](https://www.youtube.com/watch?v=zF34dRivLOw)
 * [Sales Is Just Bad Marketing By GaryVee.](https://www.youtube.com/watch?v=nGW3yBpffsY)
 * [Tech Talks](https://www.digitalocean.com/community/tags/tech-talks)
