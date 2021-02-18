@@ -117,6 +117,7 @@
 * [Latency Is Everywhere And It Costs You Sales - How To Crush It](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
 * [Waltz: A Distributed Write-Ahead Log.](https://wecode.wepay.com/posts/waltz-a-distributed-write-ahead-log)
 * [Write-Ahead Log.](https://martinfowler.com/articles/patterns-of-distributed-systems/wal.html)
+* [Bitcask - a log-structured fast KV store](https://www.codementor.io/@arpitbhayani/bitcask-a-log-structured-fast-kv-store-18ii4982tu)
 
 
 💮 Engineering Blogs:
