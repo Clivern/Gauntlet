@@ -115,6 +115,8 @@
 * [How We Saved 70K Cores Across 30 Mission-Critical Services](https://eng.uber.com/how-we-saved-70k-cores-across-30-mission-critical-services/)
 * [How to Estimate How Many Website Visitors Your Server Can Deal With.](https://servebolt.com/articles/calculate-how-many-simultaneous-website-visitors/)
 * [Latency Is Everywhere And It Costs You Sales - How To Crush It](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
+* [Waltz: A Distributed Write-Ahead Log.](https://wecode.wepay.com/posts/waltz-a-distributed-write-ahead-log)
+* [Write-Ahead Log.](https://martinfowler.com/articles/patterns-of-distributed-systems/wal.html)
 
 
 💮 Engineering Blogs:
