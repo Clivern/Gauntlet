@@ -5,7 +5,8 @@
 </p>
 <br/>
 
-:orange_book: Guides:
+
+:orange_book: Guides/Articles:
 <ul>
     <li><a href="https://www.nginx.com/blog/scaling-web-applications-nginx-part-load-balancing/">📋 Scaling Web Applications with NGINX, Part 1: Load Balancing.</li>
   <li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04">📋 Running Nginx as Web Server/Reverse Proxy for Python Apps.</a></li>
@@ -59,7 +60,7 @@
     <li><a href="https://www.cloudamqp.com/blog/2015-09-03-part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html">📋 RabbitMQ Exchanges, routing keys and bindings.</a></li>
 </ul>
 
-:orange_book: Epic Articles:
+:orange_book: Nice Articles:
 <ul>
     <li><a href="https://medium.com/swlh/how-to-manage-technical-debt-e18904dd9e27">📋 How to Manage Technical Debt.</a></li>
     <li><a href="https://brandur.org/minimalism">📋 In Pursuit of Production Minimalism.</a></li>
@@ -76,6 +77,7 @@
     <li><a href="https://www.netmeister.org/blog/ops-lessons.html">📋 (A few) Ops Lessons We All Learn The Hard Way.</a></li>
     <li><a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/">📋 Cloud Design Patterns.</a></li>
     <li><a href="https://www.aeracode.org/2018/02/19/python-async-simplified/">📋 Python & Async Simplified.</a></li>
+    <li><a href="https://tailscale.com/blog/modules-monoliths-and-microservices/">📋 Modules, monoliths, and microservices.</a></li>
 </ul>
 
 :newspaper: Engineering Blogs:
@@ -103,6 +105,7 @@
     <li><a href="https://codeascraft.com/">:cookie: Etsy Code as Craft.</a></li>
     <li><a href="https://stripe.com/blog/engineering">:cookie: Stripe Engineering.</a></li>
     <li><a href="https://semaphoreci.com/category/engineering">:cookie: Semaphore CI.</a></li>
+    <li><a href="https://tailscale.com/blog/">:cookie: Tailscale.</a></li>
 </ul>
 
 
@@ -138,40 +141,19 @@
     <li><a href="https://www.youtube.com/watch?time_continue=2&v=jET4FTTwB5E">📹 Breaking Things on Purpose.</a></li>
 </ul>
 
+
 :sound: Podcasts to Listen:
 <ul>
     <li><a href="https://softwareengineeringdaily.com/">:sound: Software Engineering Daily.</a></li>
     <li><a href="https://changelog.com/podcasts">:sound: Podcasts for Developers.</a></li>
 </ul>
 
-:zap: Some Tools to Consider:
-<ul>
-  <li><a href="https://docs.locust.io/en/latest/what-is-locust.html">:zap: Load Testing Tool</a></li>
-  <li><a href="https://github.com/clivern/monk">:zap: Chef to Automate IT Infrastructure.</a></li>
-  <li><a href="https://github.com/Kong/kong">:zap: The Microservice API Gateway.</a></li>
-  <li><a href="https://github.com/deviantony/docker-elk">:zap: ELK Stack on Docker.</a></li>
-  <li><a href="https://www.minio.io/">:zap: Minio - Object Storage Server.</a></li>
-  <li><a href="https://vibora.io/">:zap: Vibora - Asynchronous Python Framework.</a></li>
-  <li><a href="https://zipkin.io/">:zap: Zipkin - a Distributed Tracing System.</a></li>
-  <li><a href="https://www.jaegertracing.io/">:zap: Jaeger - End-to-End Distributed Tracing.</a></li>
-  <li><a href="https://jenkins.io/doc/">:zap: Jenkins User Docs.</a></li>
-  <li><a href="https://swagger.io/solutions/api-design/">:zap: API Desing with Swagger.</a></li>
-  <li><a href="https://github.com/celery/celery">:zap: Celery.</a></li>
-  <li><a href="https://github.com/mher/flower">:zap: Flower.</a></li>
-    <li><a href="https://clickhouse.yandex/">:zap: Clickhouse.</a></li>
-    <li><a href="https://github.com/github/orchestrator">:zap: Orchestrator.</a></li>
-    <li><a href="https://github.com/hellofresh/janus">:zap: Janus.</a></li>
-    <li><a href="https://github.com/hashicorp/nomad-guides">:zap: Nomand.</a></li>
-    <li><a href="https://github.com/fluent/fluentd">:zap: Fluentd.</a></li>
-    <li><a href="https://github.com/vitessio/vitess">:zap: Vitess.</a></li>
-    <li><a href="https://vertx.io/">:zap: Eclipse Vert.x.</a></li>
-    <li><a href="https://github.com/mgechev/revive">:zap: Revive.</a></li>
-</ul>
 
-🐉 Epic Books:
+🐉 Nice Books:
 <ul>
     <li><a href="https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master-ebook-dp-B003GCTQAE/dp/B003GCTQAE">🐉 The Pragmatic Programmer.</a></li>
 </ul>
+
 
 🐉 Books to Delve Into:
 <ul>
