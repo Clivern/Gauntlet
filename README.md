@@ -1,168 +1,167 @@
 <p align="center">
-    <img alt="Scalability Logo" src="https://raw.githubusercontent.com/Clivern/Scalability/master/images/logo.png" height="80" />
+    <img alt="Scalability Logo" src="https://raw.githubusercontent.com/Clivern/Scalability/main/images/logo.png" height="80" />
     <h3 align="center">Scalability</h3>
-    <p align="center">Guides, Open Source Projects, Podcasts, Videos and Notes to Build Reliable Large-Scale Distributed Systems.</p>
+    <p align="center">Guides, Articles, Podcasts, Videos and Notes to Build Reliable Large-Scale Distributed Systems.</p>
 </p>
 <br/>
 
 
-:orange_book: Guides/Articles:
-<ul>
-    <li><a href="https://www.nginx.com/blog/scaling-web-applications-nginx-part-load-balancing/">📋 Scaling Web Applications with NGINX, Part 1: Load Balancing.</li>
-  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04">📋 Running Nginx as Web Server/Reverse Proxy for Python Apps.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04">📋 Running Nginx as Web Server/Reverse Proxy for PHP Apps.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04">📋 How To Install LEMP stack on Ubuntu 18.04.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-manage-logfiles-with-logrotate-on-ubuntu-16-04">📋 Manage Log Files with logrotate on Ubuntu.</a></li>
-    <li><a href="https://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/">📋 Stack Overflow: The Architecture - 2016 Edition.</a></li>
-    <li><a href="https://architecht.io/lessons-from-facebook-on-engineering-for-scale-f5716f0afc7a">📋 Automate and abstract: Lessons from Facebook on engineering for scale.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-prometheus-on-ubuntu-16-04">📋 How To Install Prometheus on Ubuntu 16.04.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-kubernetes-1-10-cluster-using-kubeadm-on-ubuntu-16-04">📋 How To Create a Kubernetes 1.10 Cluster Using Kubeadm on Ubuntu 16.04.</a></li>
-    <li><a href="https://linuxconfig.org/how-to-install-kubernetes-on-ubuntu-18-04-bionic-beaver-linux">📋 How to Install Kubernetes on Ubuntu 18.04 Bionic Beaver Linux.</a></li>
-    <li><a href="http://containertutorials.com/index.html#">📋 Container Tutorials.</a></li>
-    <li><a href="https://www.martinfowler.com/articles/microservices.html">📋 Microservices by Martin Fowler.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04">📋 How To Install Jenkins on Ubuntu 18.04.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/object-storage-vs-block-storage-services">📋 Object Storage vs. Block Storage Services.</a></li>
-    <li><a href="https://github.com/donnemartin/system-design-primer">📋 System Design Primer.</a></li>
-    <li><a href="https://medium.com/@Pinterest_Engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f">📋 Sharding Pinterest: How we scaled our MySQL fleet.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-configure-a-galera-cluster-with-mariadb-on-ubuntu-18-04-servers">📋 How To Configure a Galera Cluster with MariaDB on Ubuntu 18.04 Servers.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/modernizing-applications-for-kubernetes">📋 Modernizing Applications for Kubernetes.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-18-04">📋 How to Set Up an NFS Mount on Ubuntu 18.04.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-and-use-lxd-on-ubuntu-16-04">📋 Setting Up LXD 16.04.</a></li>
-    <li><a href="https://tutorials.ubuntu.com/tutorial/tutorial-setting-up-lxd-1604">📋 Setting Up LXD 16.04.</a></li>
-    <li><a href="https://www.hostinger.com/tutorials/iptables-tutorial">📋 Securing Ubuntu VPS with Linux Firewall.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-multi-node-mysql-cluster-on-ubuntu-18-04">📋 How To Create a Multi-Node MySQL Cluster on Ubuntu 18.04.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-migrate-a-docker-compose-workflow-to-kubernetes">📋 How To Migrate a Docker Compose Workflow to Kubernetes.</a></li>
-    <li><a href="https://blog.disqus.com/scaling-django-to-8-billion-page-views">📋 Scaling Django to 8 Billion Page Views.</a>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-zabbix-to-securely-monitor-remote-servers-on-ubuntu-18-04">📋 Configure Zabbix to Securely Monitor Remote Servers on Ubuntu 18.04.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorial_series/how-to-troubleshoot-issues-in-mysql">📋 Troubleshoot Issues in MySQL.</a></li>
-    <li><a href="https://www.unixmen.com/how-to-install-and-configure-qemu-in-ubuntu/">📋 Install And Configure QEMU In Ubuntu.</a></li>
-    <li><a href="https://blog.digitalocean.com/introducing-go-qemu-and-go-libvirt/">📋 Introducing go-qemu and go-libvirt.</a></li>
-    <li><a href="https://github.blog/2016-12-08-orchestrator-github/">📋 Orchestrator at GitHub.</a></li>
-    <li><a href="https://ericchiang.github.io/post/containers-from-scratch/">📋 Containers from Scratch.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04">📋 How To Configure BIND as a Private Network DNS Server on Ubuntu 18.04.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/how-to-deploy-and-manage-your-dns-using-dnscontrol-on-ubuntu-18-04">📋 How To Deploy and Manage Your DNS using DNSControl on Ubuntu 18.04</a></li>
-    <li><a href="https://medium.com/opentracing/take-opentracing-for-a-hotrod-ride-f6e3141f7941">📋 Take OpenTracing for a HotROD ride.</a></li>
-    <li><a href="https://thenewstack.io/monitoring-microservices-self-healing-and-the-connection-to-antifragile-systems/">📋 Monitoring, Microservices, Self-Healing and the Connection to “AntiFragile” Systems.</li>
-    <li><a href="https://martinfowler.com/articles/break-monolith-into-microservices.html">📋 How to break a Monolith into Microservices.</a></li>
-    <li><a href="https://martinfowler.com/articles/refactoring-dependencies.html">📋 Refactoring Module Dependencies.</a></li>
-    <li><a href="https://stripe.com/en-nl/blog/canonical-log-lines">📋 Fast and flexible observability with canonical log lines.</a></li>
-    <li><a href="https://medium.com/capital-one-tech/container-ready-applications-with-twelve-factor-app-and-microservices-architecture-16af683a767f">📋 Container Ready Applications with Twelve-Factor App and Microservices Architecture.</a></li>
-    <li><a href="https://devopscube.com/setup-etcd-cluster-linux/">📋 How To Setup a etcd Cluster.</a></li>
-    <li><a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">📋 Unicode and Character Sets.</a></li>
-    <li><a href="https://www.digitalocean.com/community/tutorials/customizing-go-binaries-with-build-tags">📋 Customizing Go Binaries with Build Tags.</a></li>
-    <li><a href="https://github.com/uber-go/guide">📋 Uber Go Guide.</a></li>
-    <li><a href="https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6">📋 How Sharding Works.</a></li>
-    <li><a href="https://developer.mastercard.com/blog/the-vertx-worker-model">📋 The Vert.x Worker Model.</a></li>
-    <li><a href="https://www.alexedwards.net/blog/an-overview-of-go-tooling">📋 An Overview of Go's Tooling.</a></li>
-    <li><a href="https://reflectoring.io/logging-levels/">📋 Logging Levels.</a></li>
-    <li><a href="https://github.com/dwmkerr/hacker-laws">📋 Hacker Laws.</a></li>
-    <li><a href="https://www.brianstorti.com/the-actor-model/">📋 The actor model in 10 minutes.</a></li>
-    <li><a href="https://www.cloudamqp.com/blog/2015-09-03-part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html">📋 RabbitMQ Exchanges, routing keys and bindings.</a></li>
-</ul>
+:orange_book: Guides:
 
-:orange_book: Nice Articles:
-<ul>
-    <li><a href="https://medium.com/swlh/how-to-manage-technical-debt-e18904dd9e27">📋 How to Manage Technical Debt.</a></li>
-    <li><a href="https://brandur.org/minimalism">📋 In Pursuit of Production Minimalism.</a></li>
-  	<li><a href="https://medium.com/netflix-techblog/the-netflix-simian-army-16e57fbab116">📋 The Netflix Simian Army.</li>
-    <li><a href="https://martinfowler.com/bliki/StranglerFigApplication.html">📋 Strangler Fig Application.</li>
-    <li><a href="https://12factor.net/">📋 12 Factor.</a></li>
-    <li><a href="https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/">📋 12 Design Principles.</a></li>
-    <li><a href="https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8">📋 Modern Software Over-Engineering Mistakes.</a></li>
-    <li><a href="https://medium.com/s/story/technical-debt-is-like-tetris-168f64d8b700">📋 Technical Debt Is Like Tetris.</a></li>
-    <li><a href="https://programmingisterrible.com/post/173883533613/code-to-debug">📋 Write code that’s easy to delete, and easy to debug too.</a></li>
-    <li><a href="https://research.swtch.com/vgo-import">📋 Semantic Import Versioning (Go & Versioning)</a></li>
-    <li><a href="https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">📋 Making sense of MVP.</a></li>
-    <li><a href="https://www.mrlacey.com/2020/07/youve-only-added-two-lines-why-did-that.html">📋 You've only added two lines.</a></li>
-    <li><a href="https://www.netmeister.org/blog/ops-lessons.html">📋 (A few) Ops Lessons We All Learn The Hard Way.</a></li>
-    <li><a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/">📋 Cloud Design Patterns.</a></li>
-    <li><a href="https://www.aeracode.org/2018/02/19/python-async-simplified/">📋 Python & Async Simplified.</a></li>
-    <li><a href="https://tailscale.com/blog/modules-monoliths-and-microservices/">📋 Modules, monoliths, and microservices.</a></li>
-</ul>
+* [Scaling Web Applications with NGINX, Part 1: Load Balancing.](https://www.nginx.com/blog/scaling-web-applications-nginx-part-load-balancing/)
+* [Running Nginx as Web Server/Reverse Proxy for Python Apps.](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04)
+* [Running Nginx as Web Server/Reverse Proxy for PHP Apps.](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04)
+* [How To Install LEMP stack on Ubuntu 18.04.](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04)
+* [Manage Log Files with logrotate on Ubuntu.](https://www.digitalocean.com/community/tutorials/how-to-manage-logfiles-with-logrotate-on-ubuntu-16-04)
+* [Stack Overflow: The Architecture - 2016 Edition.](https://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/)
+* [Automate and abstract: Lessons from Facebook on engineering for scale.](https://architecht.io/lessons-from-facebook-on-engineering-for-scale-f5716f0afc7a)
+* [How To Install Prometheus on Ubuntu 16.04.](https://www.digitalocean.com/community/tutorials/how-to-install-prometheus-on-ubuntu-16-04)
+* [How To Create a Kubernetes 1.10 Cluster Using Kubeadm on Ubuntu 16.04.](https://www.digitalocean.com/community/tutorials/how-to-create-a-kubernetes-1-10-cluster-using-kubeadm-on-ubuntu-16-04)
+* [How to Install Kubernetes on Ubuntu 18.04 Bionic Beaver Linux.](https://linuxconfig.org/how-to-install-kubernetes-on-ubuntu-18-04-bionic-beaver-linux)
+* [Container Tutorials.](http://containertutorials.com/index.html#)
+* [Microservices by Martin Fowler.](https://www.martinfowler.com/articles/microservices.html)
+* [How To Install Jenkins on Ubuntu 18.04.](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04)
+* [Object Storage vs. Block Storage Services.](https://www.digitalocean.com/community/tutorials/object-storage-vs-block-storage-services)
+* [System Design Primer.](https://github.com/donnemartin/system-design-primer)
+* [Sharding Pinterest: How we scaled our MySQL fleet.](https://medium.com/@Pinterest_Engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f)
+* [How To Configure a Galera Cluster with MariaDB on Ubuntu 18.04 Servers.](https://www.digitalocean.com/community/tutorials/how-to-configure-a-galera-cluster-with-mariadb-on-ubuntu-18-04-servers)
+* [Modernizing Applications for Kubernetes.](https://www.digitalocean.com/community/tutorials/modernizing-applications-for-kubernetes)
+* [How to Set Up an NFS Mount on Ubuntu 18.04.](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-18-04)
+* [Setting Up LXD 16.04.](https://www.digitalocean.com/community/tutorials/how-to-set-up-and-use-lxd-on-ubuntu-16-04)
+* [Setting Up LXD 16.04.](https://tutorials.ubuntu.com/tutorial/tutorial-setting-up-lxd-1604)
+* [Securing Ubuntu VPS with Linux Firewall.](https://www.hostinger.com/tutorials/iptables-tutorial)
+* [How To Create a Multi-Node MySQL Cluster on Ubuntu 18.04.](https://www.digitalocean.com/community/tutorials/how-to-create-a-multi-node-mysql-cluster-on-ubuntu-18-04)
+* [How To Migrate a Docker Compose Workflow to Kubernetes.](https://www.digitalocean.com/community/tutorials/how-to-migrate-a-docker-compose-workflow-to-kubernetes)
+* [Scaling Django to 8 Billion Page Views.](https://blog.disqus.com/scaling-django-to-8-billion-page-views)
+* [Configure Zabbix to Securely Monitor Remote Servers on Ubuntu 18.04.](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-zabbix-to-securely-monitor-remote-servers-on-ubuntu-18-04)
+* [Troubleshoot Issues in MySQL.](https://www.digitalocean.com/community/tutorial_series/how-to-troubleshoot-issues-in-mysql)
+* [Install And Configure QEMU In Ubuntu.](https://www.unixmen.com/how-to-install-and-configure-qemu-in-ubuntu/)
+* [Introducing go-qemu and go-libvirt.](https://blog.digitalocean.com/introducing-go-qemu-and-go-libvirt/)
+* [Orchestrator at GitHub.](https://github.blog/2016-12-08-orchestrator-github/)
+* [Containers from Scratch.](https://ericchiang.github.io/post/containers-from-scratch/)
+* [How To Configure BIND as a Private Network DNS Server on Ubuntu 18.04.](https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04)
+* [How To Deploy and Manage Your DNS using DNSControl on Ubuntu 18.04.](https://www.digitalocean.com/community/tutorials/how-to-deploy-and-manage-your-dns-using-dnscontrol-on-ubuntu-18-04)
+* [Take OpenTracing for a HotROD ride.](https://medium.com/opentracing/take-opentracing-for-a-hotrod-ride-f6e3141f7941)
+* [Monitoring, Microservices, Self-Healing and the Connection to “AntiFragile” Systems.](https://thenewstack.io/monitoring-microservices-self-healing-and-the-connection-to-antifragile-systems/)
+* [How to break a Monolith into Microservices.](https://martinfowler.com/articles/break-monolith-into-microservices.html)
+* [Refactoring Module Dependencies.](https://martinfowler.com/articles/refactoring-dependencies.html)
+* [Fast and flexible observability with canonical log lines.](https://stripe.com/en-nl/blog/canonical-log-lines)
+* [Container Ready Applications with Twelve-Factor App and Microservices Architecture.](https://medium.com/capital-one-tech/container-ready-applications-with-twelve-factor-app-and-microservices-architecture-16af683a767f)
+* [How To Setup a etcd Cluster.](https://devopscube.com/setup-etcd-cluster-linux/)
+* [Unicode and Character Sets.](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+* [Customizing Go Binaries with Build Tags.](https://www.digitalocean.com/community/tutorials/customizing-go-binaries-with-build-tags)
+* [Uber Go Guide.](https://github.com/uber-go/guide)
+* [How Sharding Works.](https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6)
+* [The Vert.x Worker Model.](https://developer.mastercard.com/blog/the-vertx-worker-model)
+* [An Overview of Go's Tooling.](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
+* [Logging Levels.](https://reflectoring.io/logging-levels/)
+* [Hacker Laws.](https://github.com/dwmkerr/hacker-laws)
+* [The actor model in 10 minutes.](https://www.brianstorti.com/the-actor-model/)
+* [RabbitMQ Exchanges, routing keys and bindings.](https://www.cloudamqp.com/blog/2015-09-03-part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html)
+
+
+:orange_book: Articles:
+
+* [How to Manage Technical Debt.](https://medium.com/swlh/how-to-manage-technical-debt-e18904dd9e27)
+* [In Pursuit of Production Minimalism.](https://brandur.org/minimalism)
+* [The Netflix Simian Army.](https://medium.com/netflix-techblog/the-netflix-simian-army-16e57fbab116)
+* [Strangler Fig Application.](https://martinfowler.com/bliki/StranglerFigApplication.html)
+* [12 Factor.](https://12factor.net/)
+* [12 Design Principles.](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/)
+* [Modern Software Over-Engineering Mistakes.](https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8)
+* [Technical Debt Is Like Tetris.](https://medium.com/s/story/technical-debt-is-like-tetris-168f64d8b700)
+* [Write code that’s easy to delete, and easy to debug too.](https://programmingisterrible.com/post/173883533613/code-to-debug)
+* [Semantic Import Versioning (Go & Versioning).](https://research.swtch.com/vgo-import)
+* [Making sense of MVP.](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
+* [You've only added two lines.](https://www.mrlacey.com/2020/07/youve-only-added-two-lines-why-did-that.html)
+* [(A few) Ops Lessons We All Learn The Hard Way.](https://www.netmeister.org/blog/ops-lessons.html)
+* [Cloud Design Patterns.](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
+* [Python & Async Simplified.](https://www.aeracode.org/2018/02/19/python-async-simplified/)
+* [Modules, monoliths, and microservices.](https://tailscale.com/blog/modules-monoliths-and-microservices/)
+
 
 :newspaper: Engineering Blogs:
-<ul>
-  <li><a href="https://8thlight.com/blog/">:cookie: 8thlight Blog.</a></li>
-    <li><a href="https://engineering.quora.com/">:cookie: Quora Engineering.</a></li>
-    <li><a href="https://redditblog.com/">:cookie: Reddit Engineering.</a></li>
-    <li><a href="https://engineering.shopify.com/">:cookie: Shopify Engineering.</a></li>
-    <li><a href="https://slack.engineering/">:cookie: Slack Engineering Blog.</a></li>
-    <li><a href="https://labs.spotify.com/">:cookie: Spotify Labs.</a></li>
-    <li><a href="https://blog.twitter.com/engineering/en_us.html">:cookie: Twitter Engineering.</a></li>
-    <li><a href="https://engineeringblog.yelp.com/">:cookie: Yelp Engineering Blog.</a></li>
-    <li><a href="https://youtube-eng.googleblog.com/">:cookie: YouTube Engineering and Developers Blog.</a></li>
-    <li><a href="https://www.import.io/blog/">:cookie: Import.io Blog.</a></li>
-    <li><a href="https://instagram-engineering.com/">:cookie: Instagram Engineering.</a></li>
-    <li><a href="https://engineering.linkedin.com/blog">:cookie: LinkedIn Engineering Blog.</a></li>
-    <li><a href="https://medium.engineering/">:cookie: Medium Engineering.</a></li>
-    <li><a href="https://mixpanel.com/blog/">:cookie: Mixpanel Blog.</a></li>
-    <li><a href="https://medium.com/netflix-techblog">:cookie: Netflix Tech Blog.</a></li>
-    <li><a href="https://medium.com/@Pinterest_Engineering">:cookie: Pinterest Engineering.</a></li>
-    <li><a href="https://medium.com/airbnb-engineering">:cookie: Airbnb Engineering and Data Science.</a></li>
-    <li><a href="https://blog.booking.com/">:cookie: Booking.com Tech Blog.</a></li>
-    <li><a href="https://blogs.dropbox.com/tech/">:cookie: Dropbox Tech Blog.</a></li>
-    <li><a href="https://www.ebayinc.com/stories/blogs/tech/">:cookie: eBay Tech Blog.</a></li>
-    <li><a href="https://codeascraft.com/">:cookie: Etsy Code as Craft.</a></li>
-    <li><a href="https://stripe.com/blog/engineering">:cookie: Stripe Engineering.</a></li>
-    <li><a href="https://semaphoreci.com/category/engineering">:cookie: Semaphore CI.</a></li>
-    <li><a href="https://tailscale.com/blog/">:cookie: Tailscale.</a></li>
-</ul>
+
+* [8thlight Blog.](https://8thlight.com/blog/)
+* [Quora Engineering.](https://engineering.quora.com/)
+* [Reddit Engineering.](https://redditblog.com/)
+* [Shopify Engineering.](https://engineering.shopify.com/)
+* [Slack Engineering Blog.](https://slack.engineering/)
+* [Spotify Labs.](https://labs.spotify.com/)
+* [Twitter Engineering.](https://blog.twitter.com/engineering/en_us.html)
+* [Yelp Engineering Blog.](https://engineeringblog.yelp.com/)
+* [YouTube Engineering and Developers Blog.](https://youtube-eng.googleblog.com/)
+* [Import.io Blog.](https://www.import.io/blog/)
+* [Instagram Engineering.](https://instagram-engineering.com/)
+* [LinkedIn Engineering Blog.](https://engineering.linkedin.com/blog)
+* [Medium Engineering.](https://medium.engineering/)
+* [Mixpanel Blog.](https://mixpanel.com/blog/)
+* [Netflix Tech Blog.](https://medium.com/netflix-techblog)
+* [Pinterest Engineering.](https://medium.com/@Pinterest_Engineering)
+* [Airbnb Engineering and Data Science.](https://medium.com/airbnb-engineering)
+* [Booking.com Tech Blog.](https://blog.booking.com/)
+* [Dropbox Tech Blog.](https://blogs.dropbox.com/tech/)
+* [eBay Tech Blog.](https://www.ebayinc.com/stories/blogs/tech/)
+* [Etsy Code as Craft.](https://codeascraft.com/)
+* [Stripe Engineering.](https://stripe.com/blog/engineering)
+* [Semaphore CI.](https://semaphoreci.com/category/engineering)
+* [Tailscale.](https://tailscale.com/blog/)
 
 
 :newspaper: Personal Blogs:
-<ul>
-  <li><a href="https://brandur.org/articles">:cookie: Brandur Blog.</a></li>
-    <a href="https://martinfowler.com/">:cookie: Martin fowler Blog.</a></li>
-    <li><a href="https://programmingisterrible.com">:cookie: Programming is Terrible.</a></li>
-    <li><a href="https://www.joelonsoftware.com/">:cookie: Joel on Software.</a></li>
-    <li><a href="https://sivers.org/blog">:cookie: Derek Sivers.</a></li>
-    <li><a href="https://blog.codinghorror.com/">:cookie: Coding Horror.</a></li>
-    <li><a href="https://yourbasic.org/">:cookie: Yourbasic.</a></li>   
-    <li><a href="https://simpleisbetterthancomplex.com/">:cookie: Simple is better than complex.</a></li>
-    <li><a href="https://neilonsoftware.com/blog/">:cookie: Neil on Software.</a></li> 
-    <li><a href="https://www.netmeister.org/blog">:cookie: Netmeister.</a></li>
-    <li><a href="https://understandlegacycode.com/">:cookie: Understand Legacy Code.</a></li>
-</ul>
-    
 
-📹  Some Videos to Watch:
-<ul>
-    <li><a href="https://www.dotconferences.com/talks">📹 dot Conferences.</a></li>
-    <li><a href="https://www.youtube.com/watch?v=y1N8Zah7aSg">📹 Hatch Talk Series: Three Startup Failures... And The Success That Made Up For It All.</a></li>
-  <li><a href="https://www.youtube.com/watch?v=hnpzNAPiC0E">📹 Scaling Instagram.</a></li>
-  <li><a href="https://serversforhackers.com/">📹 Servers For Hackers.</a></li>
-  <li><a href="https://www.youtube.com/watch?v=sqnDAnZgyLs">📹 Microservices at Squarespace - Doug Jones and Kevin Lynch.</a></li>
-  <li><a href="https://www.youtube.com/playlist?list=PL7Og3MgqGrDR6YjnwJTphPQmkaZNWjEBS">📹 Microservices.com Practitioner Summit 2017.</a></li>
-      <li><a href="https://www.youtube.com/watch?v=s7IrYt1igSM">📹 Jaeger: Distributed Tracing at Uber.</a></li>
-    <li><a href="https://www.youtube.com/watch?v=EVvnBgSX04c">📹 Strangling the Monolith.</a></li>
-    <li><a href="https://www.youtube.com/watch?v=DhYQms3QF3o">📹 The Role of Catastrophic Failure in Software Design.</a></li>
-    <li><a href="https://www.youtube.com/watch?v=8aGhZQkoFbQ">📹 What is the event loop anyway?</a></li>
-    <li><a href="https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing">📹 Observability 3 ways logging metrics tracing.</a></li>
-    <li><a href="https://www.youtube.com/watch?time_continue=2&v=jET4FTTwB5E">📹 Breaking Things on Purpose.</a></li>
-</ul>
+* [Brandur Blog.](https://brandur.org/articles)
+* [Martin fowler Blog.](https://martinfowler.com/)
+* [Programming is Terrible.](https://programmingisterrible.com)
+* [Joel on Software.](https://www.joelonsoftware.com/)
+* [Derek Sivers.](https://sivers.org/blog)
+* [Coding Horror.](https://blog.codinghorror.com/)
+* [Yourbasic.](https://yourbasic.org/)
+* [Simple is better than complex.](https://simpleisbetterthancomplex.com/)
+* [Neil on Software.](https://neilonsoftware.com/blog/)
+* [Netmeister.](https://www.netmeister.org/blog)
+* [Understand Legacy Code.](https://understandlegacycode.com/)
 
 
-:sound: Podcasts to Listen:
-<ul>
-    <li><a href="https://softwareengineeringdaily.com/">:sound: Software Engineering Daily.</a></li>
-    <li><a href="https://changelog.com/podcasts">:sound: Podcasts for Developers.</a></li>
-</ul>
+:newspaper: Awesome List:
+
+* [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
+* [Awesome](https://github.com/sindresorhus/awesome)
+* [nginx Admins Handbook](https://github.com/trimstray/nginx-admins-handbook)
+* [Mongo Playbook](https://github.com/Clivern/MongoPlaybook)
+* [Awesome SRE](https://github.com/dastergon/awesome-sre)
 
 
-🐉 Nice Books:
-<ul>
-    <li><a href="https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master-ebook-dp-B003GCTQAE/dp/B003GCTQAE">🐉 The Pragmatic Programmer.</a></li>
-</ul>
+:movie_camera: Videos:
+
+* [dot Conferences.](https://www.dotconferences.com/talks)
+* [Hatch Talk Series: Three Startup Failures... And The Success That Made Up For It All.](https://www.youtube.com/watch?v=y1N8Zah7aSg)
+* [Scaling Instagram.](https://www.youtube.com/watch?v=hnpzNAPiC0E)
+* [Servers For Hackers.](https://serversforhackers.com/)
+* [Microservices at Squarespace - Doug Jones and Kevin Lynch.](https://www.youtube.com/watch?v=sqnDAnZgyLs)
+* [Microservices.com Practitioner Summit 2017.](https://www.youtube.com/playlist?list=PL7Og3MgqGrDR6YjnwJTphPQmkaZNWjEBS)
+* [Jaeger: Distributed Tracing at Uber.](https://www.youtube.com/watch?v=s7IrYt1igSM)
+* [Strangling the Monolith](https://www.youtube.com/watch?v=EVvnBgSX04c)
+* [The Role of Catastrophic Failure in Software Design.](https://www.youtube.com/watch?v=DhYQms3QF3o)
+* [What is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+* [Observability 3 ways logging metrics tracing.](https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing)
+* [Breaking Things on Purpose.](https://www.youtube.com/watch?time_continue=2&v=jET4FTTwB5E)
 
 
-🐉 Books to Delve Into:
-<ul>
-  <li><a href="http://shop.oreilly.com/product/0636920033158.do">🐉 Building Microservices: Designing Fine-Grained Systems.</a></li>
-  <li><a href="http://shop.oreilly.com/product/0636920050308.do">🐉 Microservice Architecture: Aligning Principles, Practices, and Culture.</a></li>
-    <li><a href="https://landing.google.com/sre/books/">🐉 Site Reliability Engineering & The Site Reliability Workbook.</a></li>
-    <li><a href="https://www.amazon.com/Search-Engine-Optimization-SEO-Hour/dp/0470902590">🐉 Search Engine Optimization (SEO).</a></li>
-    <li><a href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">🐉 Clean Code.</a></li>
-    <li><a href="https://www.amazon.com/dp/0134494164/">🐉 Clean Architecture.</a></li>
-    <li><a href="https://www.amazon.com/Software-Engineering-Google-Lessons-Programming/dp/1492082791">🐉 Software Engineering at Google: Lessons Learned from Programming Over Time.</a></li>
-    <li><a href="https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127">🐉 Building Secure & Reliable Systems.</a></li>
-</ul>
+:sound: Podcasts:
+
+* [Software Engineering Daily](https://softwareengineeringdaily.com/)
+* [Podcasts for Developers](https://changelog.com/podcasts)
+
+
+:books: Books:
+
+* [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master-ebook-dp-B003GCTQAE/dp/B003GCTQAE)
+* [Building Microservices: Designing Fine-Grained Systems](http://shop.oreilly.com/product/0636920033158.do)
+* [Microservice Architecture: Aligning Principles, Practices, and Culture](http://shop.oreilly.com/product/0636920050308.do)
+* [Site Reliability Engineering & The Site Reliability Workbook](https://landing.google.com/sre/books/)
+* [Search Engine Optimization (SEO)](https://www.amazon.com/Search-Engine-Optimization-SEO-Hour/dp/0470902590)
+* [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+* [Clean Architecture](https://www.amazon.com/dp/0134494164/)
+* [Software Engineering at Google: Lessons Learned from Programming Over Time](https://www.amazon.com/Software-Engineering-Google-Lessons-Programming/dp/1492082791)
+* [Building Secure & Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
