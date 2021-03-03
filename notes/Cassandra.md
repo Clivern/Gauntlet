@@ -318,7 +318,6 @@ timeout = 60
 
 ;; a timeout in seconds to execute queries
 request_timeout = 60
-Bring up the cluster node and wait
 ```
 
 Bring up the cluster node and wait
