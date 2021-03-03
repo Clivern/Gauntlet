@@ -306,7 +306,6 @@ and create `Dockerfile`
 FROM cassandra:4.0
 
 COPY cqlshrc /root/.cqlshrc
-and create cqlshrc file
 ```
 
 and create `cqlshrc` file
