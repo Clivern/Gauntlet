@@ -61,6 +61,8 @@
 * [Consistent Hashing - An Efficient & Scalable Data Distribution Algorithm.](https://medium.datadriveninvestor.com/consistent-hashing-an-efficient-scalable-data-distribution-algorithm-a81fc5c0a6c7)
 * [K8S CSI Developer Documentation.](https://kubernetes-csi.github.io/docs/introduction.html)
 * [Kafka Cluster Connect](https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/)
+* [An Introduction to Networking Terminology, Interfaces, and Protocols.](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
+* [Understanding IP Addresses, Subnets, and CIDR Notation for Networking.](https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking)
 
 
 💮 Articles:
