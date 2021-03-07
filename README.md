@@ -122,7 +122,9 @@
 * [AWS Builders.](https://aws.amazon.com/builders-library/?cards-body.sort-by=item.additionalFields.customSort&cards-body.sort-order=asc)
 * [Changelog.](https://changelog.com/posts)
 * [Reddit.](https://redditblog.com/topic/technology/)
-* [IBM](https://developer.ibm.com/)
+* [IBM Developer.](https://developer.ibm.com/)
+* [Digitalocean Tutorials.](https://www.digitalocean.com/community/tutorials)
+* [Digitalocean Tech Talks.](https://www.digitalocean.com/community/tags/tech-talks)
 
 
 💮 Personal Blogs:
