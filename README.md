@@ -85,6 +85,7 @@
 * [Difference between Internet Gateway and NAT Gateway - AWS](https://medium.com/awesome-cloud/aws-vpc-difference-between-internet-gateway-and-nat-gateway-c9177e710af6)
 * [AWS Networking Masterclass - VPC](https://www.youtube.com/watch?v=LX5lHYGFcnA)
 * [Terraform workspace explained!](https://www.devopsschool.com/blog/terraform-workspace-explained/)
+* [Kubernetes Monitoring](https://www.tigera.io/learn/guides/kubernetes-monitoring/)
 
 
 💮 Articles:
