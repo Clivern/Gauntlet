@@ -60,6 +60,7 @@
 * [RabbitMQ Exchanges, routing keys and bindings.](https://www.cloudamqp.com/blog/2015-09-03-part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html)
 * [Consistent Hashing - An Efficient & Scalable Data Distribution Algorithm.](https://medium.datadriveninvestor.com/consistent-hashing-an-efficient-scalable-data-distribution-algorithm-a81fc5c0a6c7)
 * [K8S CSI Developer Documentation.](https://kubernetes-csi.github.io/docs/introduction.html)
+* [Kafka Cluster Connect](https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/)
 
 
 💮 Articles:
