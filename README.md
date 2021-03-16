@@ -159,6 +159,7 @@
 * [Breaking Things on Purpose.](https://www.youtube.com/watch?time_continue=2&v=jET4FTTwB5E)
 * [Creating event-driven microservices: the why, how and what by Katherine Stanley](https://www.youtube.com/watch?v=M_ahLEb_fI4)
 * [Building Streaming Microservices with Apache Kafka](https://www.youtube.com/watch?v=Hlb-Ss3q3as)
+* [Hashicorp Learn](https://learn.hashicorp.com/)
 
 
 💮 Podcasts:
