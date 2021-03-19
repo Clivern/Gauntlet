@@ -138,6 +138,7 @@
 * [Understand Legacy Code.](https://understandlegacycode.com/)
 * [The Modern JavaScript Tutorial.](https://javascript.info/)
 * [Learning Rust.](https://learning-rust.github.io/)
+* [Tutorial Works.](https://www.tutorialworks.com/)
 
 
 💮 Awesome List:
