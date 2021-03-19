@@ -86,6 +86,11 @@
 * [Decouple your Symfony application using Domain Events.](https://romaricdrigon.github.io/2019/08/09/domain-events)
 
 
+💮 System Capacity:
+
+* [How to Estimate How Many Website Visitors Your Server Can Deal With.](https://servebolt.com/articles/calculate-how-many-simultaneous-website-visitors/)
+
+
 💮 Engineering Blogs:
 
 * [8thlight Blog.](https://8thlight.com/blog/)
