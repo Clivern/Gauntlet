@@ -122,6 +122,7 @@
 * [Neil on Software.](https://neilonsoftware.com/blog/)
 * [Netmeister.](https://www.netmeister.org/blog)
 * [Understand Legacy Code.](https://understandlegacycode.com/)
+* [The Modern JavaScript Tutorial.](https://javascript.info/)
 
 
 :newspaper: Awesome List:
