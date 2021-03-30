@@ -1,12 +1,12 @@
 <p align="center">
-    <img alt="Scalability Logo" src="https://raw.githubusercontent.com/Clivern/Scalability/main/images/logo.png" height="80" />
+    <img alt="Scalability Logo" src="https://raw.githubusercontent.com/Clivern/Scalability/main/images/logo.png" height="90" />
     <h3 align="center">Scalability</h3>
     <p align="center">Guides, Articles, Podcasts, Videos and Notes to Build Reliable Large-Scale Distributed Systems.</p>
 </p>
 <br/>
 
 
-:orange_book: Guides:
+💮 Guides:
 
 * [Scaling Web Applications with NGINX, Part 1: Load Balancing.](https://www.nginx.com/blog/scaling-web-applications-nginx-part-load-balancing/)
 * [Running Nginx as Web Server/Reverse Proxy for Python Apps.](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04)
@@ -61,7 +61,7 @@
 * [Consistent Hashing - An Efficient & Scalable Data Distribution Algorithm.](https://medium.datadriveninvestor.com/consistent-hashing-an-efficient-scalable-data-distribution-algorithm-a81fc5c0a6c7)
 
 
-:orange_book: Articles:
+💮 Articles:
 
 * [How to Manage Technical Debt.](https://medium.com/swlh/how-to-manage-technical-debt-e18904dd9e27)
 * [In Pursuit of Production Minimalism.](https://brandur.org/minimalism)
@@ -81,7 +81,7 @@
 * [Modules, monoliths, and microservices.](https://tailscale.com/blog/modules-monoliths-and-microservices/)
 
 
-:newspaper: Engineering Blogs:
+💮 Engineering Blogs:
 
 * [8thlight Blog.](https://8thlight.com/blog/)
 * [Quora Engineering.](https://engineering.quora.com/)
@@ -110,7 +110,7 @@
 * [AWS Builders.](https://aws.amazon.com/builders-library/?cards-body.sort-by=item.additionalFields.customSort&cards-body.sort-order=asc)
 
 
-:newspaper: Personal Blogs:
+💮 Personal Blogs:
 
 * [Brandur Blog.](https://brandur.org/articles)
 * [Martin fowler Blog.](https://martinfowler.com/)
@@ -127,7 +127,7 @@
 * [Learning Rust.](https://learning-rust.github.io/)
 
 
-:newspaper: Awesome List:
+💮 Awesome List:
 
 * [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
 * [Awesome](https://github.com/sindresorhus/awesome)
@@ -136,7 +136,7 @@
 * [Awesome SRE](https://github.com/dastergon/awesome-sre)
 
 
-:movie_camera: Videos:
+💮 Videos:
 
 * [dot Conferences.](https://www.dotconferences.com/talks)
 * [Hatch Talk Series: Three Startup Failures... And The Success That Made Up For It All.](https://www.youtube.com/watch?v=y1N8Zah7aSg)
@@ -152,13 +152,13 @@
 * [Breaking Things on Purpose.](https://www.youtube.com/watch?time_continue=2&v=jET4FTTwB5E)
 
 
-:sound: Podcasts:
+💮 Podcasts:
 
 * [Software Engineering Daily](https://softwareengineeringdaily.com/)
 * [Podcasts for Developers](https://changelog.com/podcasts)
 
 
-:books: Books:
+💮 Books:
 
 * [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master-ebook-dp-B003GCTQAE/dp/B003GCTQAE)
 * [Building Microservices: Designing Fine-Grained Systems](http://shop.oreilly.com/product/0636920033158.do)
