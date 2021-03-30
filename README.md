@@ -124,6 +124,7 @@
 * [Netmeister.](https://www.netmeister.org/blog)
 * [Understand Legacy Code.](https://understandlegacycode.com/)
 * [The Modern JavaScript Tutorial.](https://javascript.info/)
+* [Learning Rust.](https://learning-rust.github.io/)
 
 
 :newspaper: Awesome List:
