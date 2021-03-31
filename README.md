@@ -108,6 +108,7 @@
 * [Semaphore CI.](https://semaphoreci.com/category/engineering)
 * [Tailscale.](https://tailscale.com/blog/)
 * [AWS Builders.](https://aws.amazon.com/builders-library/?cards-body.sort-by=item.additionalFields.customSort&cards-body.sort-order=asc)
+* [Changelog](https://changelog.com/posts)
 
 
 💮 Personal Blogs:
