@@ -79,6 +79,7 @@
 * [Cloud Design Patterns.](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
 * [Python & Async Simplified.](https://www.aeracode.org/2018/02/19/python-async-simplified/)
 * [Modules, monoliths, and microservices.](https://tailscale.com/blog/modules-monoliths-and-microservices/)
+* [Principles of Chaos Engineering](https://principlesofchaos.org/)
 
 
 💮 Engineering Blogs:
