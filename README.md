@@ -80,6 +80,7 @@
 * [Python & Async Simplified.](https://www.aeracode.org/2018/02/19/python-async-simplified/)
 * [Modules, monoliths, and microservices.](https://tailscale.com/blog/modules-monoliths-and-microservices/)
 * [Principles of Chaos Engineering](https://principlesofchaos.org/)
+* [Decouple your Symfony application using Domain Events](https://romaricdrigon.github.io/2019/08/09/domain-events)
 
 
 💮 Engineering Blogs:
