@@ -154,6 +154,7 @@
 * [What is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 * [Observability 3 ways logging metrics tracing.](https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing)
 * [Breaking Things on Purpose.](https://www.youtube.com/watch?time_continue=2&v=jET4FTTwB5E)
+* [Creating event-driven microservices: the why, how and what by Katherine Stanley](https://www.youtube.com/watch?v=M_ahLEb_fI4)
 
 
 💮 Podcasts:
