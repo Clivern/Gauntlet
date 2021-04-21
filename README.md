@@ -59,6 +59,7 @@
 * [The actor model in 10 minutes.](https://www.brianstorti.com/the-actor-model/)
 * [RabbitMQ Exchanges, routing keys and bindings.](https://www.cloudamqp.com/blog/2015-09-03-part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html)
 * [Consistent Hashing - An Efficient & Scalable Data Distribution Algorithm.](https://medium.datadriveninvestor.com/consistent-hashing-an-efficient-scalable-data-distribution-algorithm-a81fc5c0a6c7)
+* [K8S CSI Developer Documentation.](https://kubernetes-csi.github.io/docs/introduction.html)
 
 
 💮 Articles:
@@ -79,8 +80,8 @@
 * [Cloud Design Patterns.](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
 * [Python & Async Simplified.](https://www.aeracode.org/2018/02/19/python-async-simplified/)
 * [Modules, monoliths, and microservices.](https://tailscale.com/blog/modules-monoliths-and-microservices/)
-* [Principles of Chaos Engineering](https://principlesofchaos.org/)
-* [Decouple your Symfony application using Domain Events](https://romaricdrigon.github.io/2019/08/09/domain-events)
+* [Principles of Chaos Engineering.](https://principlesofchaos.org/)
+* [Decouple your Symfony application using Domain Events.](https://romaricdrigon.github.io/2019/08/09/domain-events)
 
 
 💮 Engineering Blogs:
@@ -110,8 +111,8 @@
 * [Semaphore CI.](https://semaphoreci.com/category/engineering)
 * [Tailscale.](https://tailscale.com/blog/)
 * [AWS Builders.](https://aws.amazon.com/builders-library/?cards-body.sort-by=item.additionalFields.customSort&cards-body.sort-order=asc)
-* [Changelog](https://changelog.com/posts)
-* [Reddit](https://redditblog.com/topic/technology/)
+* [Changelog.](https://changelog.com/posts)
+* [Reddit.](https://redditblog.com/topic/technology/)
 
 
 💮 Personal Blogs:
