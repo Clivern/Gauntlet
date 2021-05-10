@@ -1,9 +1,9 @@
 <p align="center">
-    <img alt="Nomad" src="https://www.datocms-assets.com/2885/1506458566-blog-nomad.svg" width="120" />
+    <img alt="Nomad" src="https://www.datocms-assets.com/2885/1506458566-blog-nomad.svg" width="35%" />
 </p>
 
 
-### Basic Setup
+#### Basic Setup:
 
 - Download nomad binary & make it executable:
 
@@ -195,7 +195,7 @@ job "cache" {
 ```
 
 
-### References
+#### References:
 
 - [Nomad Docs](https://www.nomadproject.io/docs)
 - [Learn Nomad](https://learn.hashicorp.com/collections/nomad/get-started)
