@@ -17,7 +17,7 @@ $ mv nomad /usr/local/bin/
 
 ```bash
 $ sudo mkdir --parents /opt/nomad
-$ sudo mkdir --parents /opt/data
+$ sudo mkdir --parents /opt/data/redis
 $ sudo mkdir --parents /etc/nomad.d
 $ sudo chmod 700 /etc/nomad.d
 $ sudo chmod 700 /opt/data
