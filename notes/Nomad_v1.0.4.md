@@ -41,8 +41,17 @@ client {
   enabled = true
 
   host_volume "redis_data" {
-    path      = "/opt/data"
+    path      = "/opt/data/redis"
     read_only = false
+  }
+}
+
+plugin "docker" {
+  config {
+    volumes {
+      enabled      = true
+      selinuxlabel = "z"
+    }
   }
 }
 ```
@@ -162,7 +171,7 @@ job "cache" {
       source    = "redis_data"
     }
 
-    task "redis" {
+    task "server" {
       driver = "docker"
 
       volume_mount {
@@ -172,19 +181,37 @@ job "cache" {
       }
 
       config {
-        image = "redis:3.2"
-        labels {
-          "com.clivern.foo" = "bar"
-          "com.clivern.zip" = "zap"
+        image = "redis:4-alpine"
+
+        labels = {
+          "sh.hippo.service" = "redis"
+          "sh.hippo.service_type" = "cache"
         }
+
+        port_map {
+          http = 6379
+        }
+
+        command = "redis-server"
+
+        args = [
+          "--requirepass",
+          "mystery",
+        ]
+      }
+
+      env = {
+        HEALTHY_FOR    = -1,
       }
 
       resources {
-        cpu    = 500
-        memory = 128
+        cpu    = 100
+        memory = 256
+
         network {
           mbits = 10
-          port "tcp" {
+
+          port "http" {
             static = "6379"
           }
         }
