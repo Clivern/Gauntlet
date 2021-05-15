@@ -155,6 +155,7 @@
 * [TLDR Engineering](http://tldr.engineering/)
 * [Hashicorp](https://learn.hashicorp.com/)
 * [Gitlab](https://about.gitlab.com/blog/archives.html)
+* [Redhat](https://www.redhat.com/sysadmin/)
 
 
 💮 Personal Blogs:
