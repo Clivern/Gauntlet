@@ -195,3 +195,4 @@
 * [Clean Architecture](https://www.amazon.com/dp/0134494164/)
 * [Software Engineering at Google: Lessons Learned from Programming Over Time](https://www.amazon.com/Software-Engineering-Google-Lessons-Programming/dp/1492082791)
 * [Building Secure & Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
+* [Designing Data Intensive Applications](https://dataintensive.net/)
