@@ -181,6 +181,7 @@
 * [Building Streaming Microservices with Apache Kafka](https://www.youtube.com/watch?v=Hlb-Ss3q3as)
 * [Hashicorp Learn](https://learn.hashicorp.com/)
 * [The Soul of Erlang and Elixir](https://www.youtube.com/watch?v=JvBT4XBdoUE)
+* [Rust Crash Course](https://www.youtube.com/watch?v=zF34dRivLOw)
 
 
 💮 Podcasts:
