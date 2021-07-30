@@ -66,6 +66,8 @@
 * [An Introduction to Networking Terminology, Interfaces, and Protocols.](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
 * [Understanding IP Addresses, Subnets, and CIDR Notation for Networking.](https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking)
 * [Functools - The Power of Higher-Order Functions in Python](https://martinheinz.dev/blog/52)
+* [VPCs, subnets, and gateways – fundamentals for working with containers in AWS](https://tomgregory.com/aws-networking-fundamentals-for-working-with-containers/)
+* [AWS Networking Fundamentals](https://openupthecloud.com/engineers-guide-aws-networking-fundamentals/)
 
 
 💮 Articles:
@@ -152,6 +154,7 @@
 * [Learning Rust.](https://learning-rust.github.io/)
 * [Tutorial Works.](https://www.tutorialworks.com/)
 * [High Performance Browser Networking.](https://hpbn.co/)
+* [Tomgregory.](https://tomgregory.com/)
 
 
 💮 Awesome List:
