@@ -68,6 +68,9 @@
 * [Functools - The Power of Higher-Order Functions in Python](https://martinheinz.dev/blog/52)
 * [VPCs, subnets, and gateways – fundamentals for working with containers in AWS](https://tomgregory.com/aws-networking-fundamentals-for-working-with-containers/)
 * [AWS Networking Fundamentals](https://openupthecloud.com/engineers-guide-aws-networking-fundamentals/)
+* [How to Configure a Droplet as a VPC Gateway | DigitalOcean](https://docs.digitalocean.com/products/networking/vpc/resources/droplet-as-gateway/)
+* [DigitalOcean VPC Service](https://mohsensy.github.io/sysadmin/2020/04/28/digitalocean-vpc-service.html)
+* [Use VPC Networks to Secure Your Servers and Other Best Practices](https://docs.digitalocean.com/products/networking/vpc/resources/best-practices/)
 
 
 💮 Articles:
