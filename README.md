@@ -98,6 +98,7 @@
 * [The Broken Window Theory.](https://blog.codinghorror.com/the-broken-window-theory/)
 * [The Service Mesh Manifesto](https://buoyant.io/service-mesh-manifesto)
 * [Building Blocks of TCP](https://hpbn.co/building-blocks-of-tcp/)
+* [Understanding How Facebook Disappeared from the Internet](https://blog.cloudflare.com/october-2021-facebook-outage/)
 
 
 💮 System Capacity:
@@ -138,6 +139,7 @@
 * [Digitalocean Tutorials.](https://www.digitalocean.com/community/tutorials)
 * [Digitalocean Tech Talks.](https://www.digitalocean.com/community/tags/tech-talks)
 * [Monzo Technology](https://monzo.com/blog/technology)
+* [Cloudflare](https://blog.cloudflare.com/)
 
 
 💮 Personal Blogs:
