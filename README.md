@@ -141,6 +141,7 @@
 * [Digitalocean Tech Talks.](https://www.digitalocean.com/community/tags/tech-talks)
 * [Monzo Technology](https://monzo.com/blog/technology)
 * [Cloudflare](https://blog.cloudflare.com/)
+* [YoLinux](http://www.yolinux.com/)
 
 
 💮 Personal Blogs:
