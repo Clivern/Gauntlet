@@ -245,4 +245,5 @@
 * [Kafka Definitive Guide](https://www.confluent.io/resources/kafka-the-definitive-guide/)
 * [MongoDB: The Definitive Guide](https://www.amazon.com/MongoDB-Definitive-Powerful-Scalable-Storage/dp/1491954469)
 * [The Rust Programming Language](https://doc.rust-lang.org/book/)
+* [The Rust Reference](https://doc.rust-lang.org/reference/introduction.html)
 * [Prometheus: Up & Running](https://www.oreilly.com/library/view/prometheus-up/9781492034131/)
