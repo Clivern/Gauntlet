@@ -118,6 +118,7 @@
 * [Waltz: A Distributed Write-Ahead Log.](https://wecode.wepay.com/posts/waltz-a-distributed-write-ahead-log)
 * [Write-Ahead Log.](https://martinfowler.com/articles/patterns-of-distributed-systems/wal.html)
 * [Bitcask - a log-structured fast KV store](https://www.codementor.io/@arpitbhayani/bitcask-a-log-structured-fast-kv-store-18ii4982tu)
+* [Platform Teams](https://blog.pragmaticengineer.com/platform-teams/)
 
 
 💮 Engineering Blogs:
@@ -161,6 +162,7 @@
 * [Gitlab](https://about.gitlab.com/blog/archives.html)
 * [Redhat](https://www.redhat.com/sysadmin/)
 * [Highscalability](http://highscalability.com/)
+* [.Cult](https://cult.honeypot.io/)
 
 
 💮 Personal Blogs:
@@ -183,6 +185,7 @@
 * [Tomgregory.](https://tomgregory.com/)
 * [Going the distance](https://jeiwan.net/)
 * [Sbcode Tuturials](https://sbcode.net/)
+* [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
 
 
 💮 Awesome List:
