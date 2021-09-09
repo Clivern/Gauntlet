@@ -193,6 +193,7 @@
 * [Hashicorp Learn](https://learn.hashicorp.com/)
 * [The Soul of Erlang and Elixir](https://www.youtube.com/watch?v=JvBT4XBdoUE)
 * [Rust Crash Course](https://www.youtube.com/watch?v=zF34dRivLOw)
+* [Sales Is Just Bad Marketing By GaryVee | BUILD IT Keynote 2021](https://www.youtube.com/watch?v=nGW3yBpffsY)
 
 
 💮 Podcasts:
@@ -200,6 +201,7 @@
 * [Software Engineering Daily](https://softwareengineeringdaily.com/)
 * [Podcasts for Developers](https://changelog.com/podcasts)
 * [Cloud Chats](https://www.youtube.com/hashtag/cloudchats)
+* [GaryVee](https://www.youtube.com/channel/UCctXZhXmG-kf3tlIXgVZUlw)
 
 
 💮 Books:
