@@ -233,6 +233,11 @@
 * [GaryVee](https://www.youtube.com/channel/UCctXZhXmG-kf3tlIXgVZUlw)
 
 
+💮 References:
+
+* [Devdocs](https://devdocs.io/)
+
+
 💮 Books:
 
 * [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master-ebook-dp-B003GCTQAE/dp/B003GCTQAE)
