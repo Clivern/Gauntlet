@@ -238,6 +238,18 @@
 * [Devdocs](https://devdocs.io/)
 
 
+💮 Observability:
+
+* [Intro to Grafana Mimir](https://grafana.com/go/webinar/intro-to-grafana-mimir/?pg=docs-mimir&plcmt=footer-resources-2)
+* [Deep dive into Grafana 9](https://grafana.com/go/grafanaconline/2022/grafana-9-deep-dive/)
+
+
+💮 Courses:
+
+* [The Complete Elixir and Phoenix Bootcamp](https://www.udemy.com/course/the-complete-elixir-and-phoenix-bootcamp-and-tutorial/)
+* [Apache Kafka Series - Learn Apache Kafka for Beginners v3](https://www.udemy.com/course/apache-kafka)
+
+
 💮 Books:
 
 * [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master-ebook-dp-B003GCTQAE/dp/B003GCTQAE)
