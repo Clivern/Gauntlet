@@ -196,6 +196,7 @@
 * [Mongo Playbook](https://github.com/Clivern/MongoPlaybook)
 * [Awesome SRE](https://github.com/dastergon/awesome-sre)
 * [Awesome Prometheus Alerts](https://github.com/samber/awesome-prometheus-alerts)
+* [UML Sequence Diagram](https://www.lucidchart.com/pages/uml-sequence-diagram)
 
 
 💮 Videos:
