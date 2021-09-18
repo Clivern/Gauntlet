@@ -251,6 +251,18 @@
 * [Apache Kafka Series - Learn Apache Kafka for Beginners v3](https://www.udemy.com/course/apache-kafka)
 
 
+💮 Languages:
+
+* [Javascript Language](https://javascript.info/)
+* [Python Language](https://docs.python.org/3/)
+* [NodeJs Language](https://nodejs.org/docs/latest-v17.x/api/)
+* [PHP Language](https://www.php.net/manual/en/index.php)
+* [Golang Language](https://go.dev/doc/)
+* [Rust Language](https://doc.rust-lang.org/std/index.html)
+* [Elixir School](https://elixirschool.com/en/lessons/basics/basics)
+* [Elixir Language](https://hexdocs.pm/elixir/Kernel.html)
+
+
 💮 Books:
 
 * [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master-ebook-dp-B003GCTQAE/dp/B003GCTQAE)
