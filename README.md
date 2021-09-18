@@ -163,6 +163,7 @@
 * [Redhat](https://www.redhat.com/sysadmin/)
 * [Highscalability](http://highscalability.com/)
 * [.Cult](https://cult.honeypot.io/)
+* [Babbel Tech.](https://www.babbel.com/en/magazine/category/babbel-bytes)
 
 
 💮 Personal Blogs:
