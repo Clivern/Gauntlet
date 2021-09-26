@@ -226,6 +226,7 @@
 * [Grafana 9 deep dive](https://grafana.com/go/grafanaconline/2022/grafana-9-deep-dive/)
 * [ObservabilityCON 2021](https://grafana.com/about/events/observabilitycon/2021/)
 * [Prometheus: The Documentary](https://www.youtube.com/watch?v=rT4fJNbfe14)
+* [AWS Networking Fundamentals](https://www.youtube.com/watch?v=hiKPPy584Mg)
 
 
 💮 Podcasts:
