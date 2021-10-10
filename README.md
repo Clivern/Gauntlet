@@ -164,6 +164,7 @@
 * [Highscalability](http://highscalability.com/)
 * [.Cult](https://cult.honeypot.io/)
 * [Babbel Tech.](https://www.babbel.com/en/magazine/category/babbel-bytes)
+* [Learn X in Y minutes](https://learnxinyminutes.com/)
 
 
 💮 Personal Blogs:
