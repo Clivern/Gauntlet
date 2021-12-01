@@ -81,6 +81,7 @@
 * [Handling Unix Signals in Python](https://stackabuse.com/handling-unix-signals-in-python/)
 * [How To Add Swap Space on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04)
 * [The Life of a Packet Through Consul Service Mesh](https://www.hashicorp.com/blog/the-life-of-a-packet-through-consul-service-mesh)
+* [Connecting to a private network from GitHub-hosted Actions runners](https://github.blog/2022-06-01-connecting-to-a-private-network-from-github-hosted-actions-runners/)
 
 
 💮 Articles:
