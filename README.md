@@ -71,6 +71,7 @@
 * [How to Configure a Droplet as a VPC Gateway | DigitalOcean](https://docs.digitalocean.com/products/networking/vpc/resources/droplet-as-gateway/)
 * [DigitalOcean VPC Service](https://mohsensy.github.io/sysadmin/2020/04/28/digitalocean-vpc-service.html)
 * [Use VPC Networks to Secure Your Servers and Other Best Practices](https://docs.digitalocean.com/products/networking/vpc/resources/best-practices/)
+* [An Introduction to PHP-FPM Tuning](https://tideways.com/profiler/blog/an-introduction-to-php-fpm-tuning)
 * [Handling Unix Signals in Python](https://stackabuse.com/handling-unix-signals-in-python/)
 
 
