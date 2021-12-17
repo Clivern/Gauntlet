@@ -1,8 +1,8 @@
 <p align="center">
     <a href="https://www.explainxkcd.com/wiki/index.php/2347:_Dependency">
-        <img alt="Scalability Logo" src="https://raw.githubusercontent.com/Clivern/Scalability/main/images/dependency.png" width="30%" />
+        <img alt="Gauntlet Logo" src="https://raw.githubusercontent.com/Clivern/Gauntlet/main/images/dependency.png" width="30%" />
     </a>
-    <h3 align="center">Scalability</h3>
+    <h3 align="center">Gauntlet</h3>
     <p align="center">Guides, Articles, Podcasts, Videos and Notes to Build Reliable Large-Scale Distributed Systems.</p>
 </p>
 <br/>
