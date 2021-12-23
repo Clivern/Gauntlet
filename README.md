@@ -197,6 +197,7 @@
 * [The Soul of Erlang and Elixir](https://www.youtube.com/watch?v=JvBT4XBdoUE)
 * [Rust Crash Course](https://www.youtube.com/watch?v=zF34dRivLOw)
 * [Sales Is Just Bad Marketing By GaryVee.](https://www.youtube.com/watch?v=nGW3yBpffsY)
+* [Tech Talks](https://www.digitalocean.com/community/tags/tech-talks)
 
 
 💮 Podcasts:
