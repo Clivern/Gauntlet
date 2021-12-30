@@ -125,6 +125,7 @@
 * [LinkedIn Engineering Blog.](https://engineering.linkedin.com/blog)
 * [Medium Engineering.](https://medium.engineering/)
 * [Mixpanel Blog.](https://mixpanel.com/blog/)
+* [Grafana](https://grafana.com/blog/)
 * [Netflix Tech Blog.](https://medium.com/netflix-techblog)
 * [Pinterest Engineering.](https://medium.com/@Pinterest_Engineering)
 * [Airbnb Engineering and Data Science.](https://medium.com/airbnb-engineering)
@@ -198,6 +199,7 @@
 * [Rust Crash Course](https://www.youtube.com/watch?v=zF34dRivLOw)
 * [Sales Is Just Bad Marketing By GaryVee.](https://www.youtube.com/watch?v=nGW3yBpffsY)
 * [Tech Talks](https://www.digitalocean.com/community/tags/tech-talks)
+* [Getting started with Grafana 8](https://grafana.com/go/webinar/getting-started-with-grafana/)
 
 
 💮 Podcasts:
