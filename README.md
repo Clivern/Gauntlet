@@ -223,3 +223,5 @@
 * [Building Secure & Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
 * [Designing Data Intensive Applications](https://dataintensive.net/)
 * [High Performance Browser Networking](https://www.oreilly.com/library/view/high-performance-browser/9781449344757/)
+* [Cassandra The Definitive Guide](https://www.amazon.com/Cassandra-Definitive-Guide-Distributed-Scale/dp/1491933666)
+* [Kafka Definitive Guide](https://www.confluent.io/resources/kafka-the-definitive-guide/)
