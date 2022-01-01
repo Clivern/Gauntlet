@@ -229,4 +229,4 @@
 * [Cassandra The Definitive Guide](https://www.amazon.com/Cassandra-Definitive-Guide-Distributed-Scale/dp/1491933666)
 * [Kafka Definitive Guide](https://www.confluent.io/resources/kafka-the-definitive-guide/)
 * [MongoDB: The Definitive Guide](https://www.amazon.com/MongoDB-Definitive-Powerful-Scalable-Storage/dp/1491954469)
-
+* [The Rust Programming Language](https://doc.rust-lang.org/book/)
