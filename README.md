@@ -228,3 +228,5 @@
 * [High Performance Browser Networking](https://www.oreilly.com/library/view/high-performance-browser/9781449344757/)
 * [Cassandra The Definitive Guide](https://www.amazon.com/Cassandra-Definitive-Guide-Distributed-Scale/dp/1491933666)
 * [Kafka Definitive Guide](https://www.confluent.io/resources/kafka-the-definitive-guide/)
+* [MongoDB: The Definitive Guide](https://www.amazon.com/MongoDB-Definitive-Powerful-Scalable-Storage/dp/1491954469)
+
