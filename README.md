@@ -64,6 +64,8 @@
 * [The actor model in 10 minutes.](https://www.brianstorti.com/the-actor-model/)
 * [RabbitMQ Exchanges, routing keys and bindings.](https://www.cloudamqp.com/blog/2015-09-03-part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html)
 * [Consistent Hashing - An Efficient & Scalable Data Distribution Algorithm.](https://medium.datadriveninvestor.com/consistent-hashing-an-efficient-scalable-data-distribution-algorithm-a81fc5c0a6c7)
+* [How To Install Cassandra and Run a Single-Node Cluster on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-install-cassandra-and-run-a-single-node-cluster-on-ubuntu-14-04)
+* [How To Run a Multi-Node Cluster Database with Cassandra on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-run-a-multi-node-cluster-database-with-cassandra-on-ubuntu-14-04)
 * [K8S CSI Developer Documentation.](https://kubernetes-csi.github.io/docs/introduction.html)
 * [Kafka Cluster Connect](https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/)
 * [An Introduction to Networking Terminology, Interfaces, and Protocols.](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
