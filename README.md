@@ -144,6 +144,7 @@
 * [Monzo Technology](https://monzo.com/blog/technology)
 * [Cloudflare](https://blog.cloudflare.com/)
 * [YoLinux](http://www.yolinux.com/)
+* [TLDR Engineering](http://tldr.engineering/)
 
 
 💮 Personal Blogs:
