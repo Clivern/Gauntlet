@@ -107,6 +107,7 @@
 * [Building Blocks of TCP](https://hpbn.co/building-blocks-of-tcp/)
 * [Understanding How Facebook Disappeared from the Internet](https://blog.cloudflare.com/october-2021-facebook-outage/)
 * [Git from the inside out](https://maryrosecook.com/blog/post/git-from-the-inside-out)
+* [How We Saved 70K Cores Across 30 Mission-Critical Services](https://eng.uber.com/how-we-saved-70k-cores-across-30-mission-critical-services/)
 
 
 💮 System Capacity:
