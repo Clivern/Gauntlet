@@ -91,6 +91,7 @@
 * [Getting Started with Tilt](https://tanzu.vmware.com/developer/guides/dev-workflow-tilt/)
 * [Defining, Measuring, and Managing Technical Debt](https://ieeexplore.ieee.org/document/10109339)
 * [Consul Service Discovery for HAProxy](https://www.haproxy.com/blog/consul-service-discovery-for-haproxy)
+* [Load Balancing with HAProxy Service Discovery Integration](https://developer.hashicorp.com/consul/tutorials/load-balancing/load-balancing-haproxy)
 
 
 💮 Articles:
