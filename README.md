@@ -92,6 +92,7 @@
 * [Defining, Measuring, and Managing Technical Debt](https://ieeexplore.ieee.org/document/10109339)
 * [Consul Service Discovery for HAProxy](https://www.haproxy.com/blog/consul-service-discovery-for-haproxy)
 * [Load Balancing with HAProxy Service Discovery Integration](https://developer.hashicorp.com/consul/tutorials/load-balancing/load-balancing-haproxy)
+* [Turning IPTables into a TCP load balancer for fun and profit](https://scalingo.com/blog/iptables)
 
 
 💮 Articles:
