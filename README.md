@@ -93,6 +93,7 @@
 * [Consul Service Discovery for HAProxy](https://www.haproxy.com/blog/consul-service-discovery-for-haproxy)
 * [Load Balancing with HAProxy Service Discovery Integration](https://developer.hashicorp.com/consul/tutorials/load-balancing/load-balancing-haproxy)
 * [Turning IPTables into a TCP load balancer for fun and profit](https://scalingo.com/blog/iptables)
+* [Iptables Essentials: Common Firewall Rules and Commands](https://www.digitalocean.com/community/tutorials/iptables-essentials-common-firewall-rules-and-commands)
 
 
 💮 Articles:
