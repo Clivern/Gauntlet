@@ -89,6 +89,7 @@
 * [Network issues simulation: How to test against bad network conditions](https://medium.com/docler-engineering/network-issues-simulation-how-to-test-against-bad-network-conditions-b28f651d8a96)
 * [How to Use the Linux Traffic Control](https://netbeez.net/blog/how-to-use-the-linux-traffic-control/)
 * [Getting Started with Tilt](https://tanzu.vmware.com/developer/guides/dev-workflow-tilt/)
+* [Defining, Measuring, and Managing Technical Debt](https://ieeexplore.ieee.org/document/10109339)
 
 
 💮 Articles:
