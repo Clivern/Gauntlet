@@ -90,6 +90,7 @@
 * [How to Use the Linux Traffic Control](https://netbeez.net/blog/how-to-use-the-linux-traffic-control/)
 * [Getting Started with Tilt](https://tanzu.vmware.com/developer/guides/dev-workflow-tilt/)
 * [Defining, Measuring, and Managing Technical Debt](https://ieeexplore.ieee.org/document/10109339)
+* [Consul Service Discovery for HAProxy](https://www.haproxy.com/blog/consul-service-discovery-for-haproxy)
 
 
 💮 Articles:
