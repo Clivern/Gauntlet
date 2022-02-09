@@ -78,8 +78,7 @@
 * [Use VPC Networks to Secure Your Servers and Other Best Practices](https://docs.digitalocean.com/products/networking/vpc/resources/best-practices/)
 * [An Introduction to PHP-FPM Tuning](https://tideways.com/profiler/blog/an-introduction-to-php-fpm-tuning)
 * [Handling Unix Signals in Python](https://stackabuse.com/handling-unix-signals-in-python/)
-* [How To Add Swap Space on Ubuntu 20.04
-](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04)
+* [How To Add Swap Space on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04)
 
 
 💮 Articles:
