@@ -23,6 +23,7 @@
 * [Container Tutorials.](http://containertutorials.com/index.html#)
 * [Microservices by Martin Fowler.](https://www.martinfowler.com/articles/microservices.html)
 * [How To Install Jenkins on Ubuntu 18.04.](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04)
+* [How To Install Jenkins on Ubuntu 20.04.](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04)
 * [Object Storage vs. Block Storage Services.](https://www.digitalocean.com/community/tutorials/object-storage-vs-block-storage-services)
 * [System Design Primer.](https://github.com/donnemartin/system-design-primer)
 * [Sharding Pinterest: How we scaled our MySQL fleet.](https://medium.com/@Pinterest_Engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f)
