@@ -80,6 +80,7 @@
 * [An Introduction to PHP-FPM Tuning](https://tideways.com/profiler/blog/an-introduction-to-php-fpm-tuning)
 * [Handling Unix Signals in Python](https://stackabuse.com/handling-unix-signals-in-python/)
 * [How To Add Swap Space on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04)
+* [The Life of a Packet Through Consul Service Mesh](https://www.hashicorp.com/blog/the-life-of-a-packet-through-consul-service-mesh)
 
 
 💮 Articles:
@@ -154,6 +155,7 @@
 * [Cloudflare](https://blog.cloudflare.com/)
 * [YoLinux](http://www.yolinux.com/)
 * [TLDR Engineering](http://tldr.engineering/)
+* [Hashicorp](https://learn.hashicorp.com/)
 
 
 💮 Personal Blogs:
