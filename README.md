@@ -125,6 +125,7 @@
 * [Platform Teams](https://blog.pragmaticengineer.com/platform-teams/)
 * [After All These Years, the World is Still Powered by C Programming](https://www.toptal.com/c/after-all-these-years-the-world-is-still-powered-by-c-programming)
 * [What is Anycast? | How does Anycast work?](https://www.cloudflare.com/en-gb/learning/cdn/glossary/anycast-network/)
+* [How to use Kubernetes events for effective alerting and monitoring](https://grafana.com/blog/2023/01/23/how-to-use-kubernetes-events-for-effective-alerting-and-monitoring/?mdm=social)
 
 
 💮 Engineering Blogs:
