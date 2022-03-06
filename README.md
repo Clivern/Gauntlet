@@ -124,6 +124,7 @@
 * [Bitcask - a log-structured fast KV store](https://www.codementor.io/@arpitbhayani/bitcask-a-log-structured-fast-kv-store-18ii4982tu)
 * [Platform Teams](https://blog.pragmaticengineer.com/platform-teams/)
 * [After All These Years, the World is Still Powered by C Programming](https://www.toptal.com/c/after-all-these-years-the-world-is-still-powered-by-c-programming)
+* [What is Anycast? | How does Anycast work?](https://www.cloudflare.com/en-gb/learning/cdn/glossary/anycast-network/)
 
 
 💮 Engineering Blogs:
