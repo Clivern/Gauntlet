@@ -129,6 +129,7 @@
 * [What is Anycast? | How does Anycast work?](https://www.cloudflare.com/en-gb/learning/cdn/glossary/anycast-network/)
 * [How to use Kubernetes events for effective alerting and monitoring](https://grafana.com/blog/2023/01/23/how-to-use-kubernetes-events-for-effective-alerting-and-monitoring/?mdm=social)
 * [5 Reasons to Use Elixir in Production](https://semaphoreci.com/blog/elixir-production)
+* [A week with Elixir](https://joearms.github.io/published/2013-05-31-a-week-with-elixir.html)
 
 
 💮 Engineering Blogs:
