@@ -84,6 +84,7 @@
 * [Connecting to a private network from GitHub-hosted Actions runners](https://github.blog/2022-06-01-connecting-to-a-private-network-from-github-hosted-actions-runners/)
 * [Difference between Internet Gateway and NAT Gateway - AWS](https://medium.com/awesome-cloud/aws-vpc-difference-between-internet-gateway-and-nat-gateway-c9177e710af6)
 * [AWS Networking Masterclass - VPC](https://www.youtube.com/watch?v=LX5lHYGFcnA)
+* [Terraform workspace explained!](https://www.devopsschool.com/blog/terraform-workspace-explained/)
 
 
 💮 Articles:
