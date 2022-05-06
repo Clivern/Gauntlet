@@ -304,3 +304,5 @@
 * [$200 from Digitalocean.](https://m.do.co/c/7f92efa0b9c1)
 * [$100 from Linode](https://www.linode.com/lp/affiliate-referral/)
 * [OCI Cloud Free Tier](https://www.oracle.com/cloud/free/)
+* [$250 from Vultr.](https://www.vultr.com/promo/try250/)
+
