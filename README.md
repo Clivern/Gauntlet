@@ -123,6 +123,7 @@
 * [Write-Ahead Log.](https://martinfowler.com/articles/patterns-of-distributed-systems/wal.html)
 * [Bitcask - a log-structured fast KV store](https://www.codementor.io/@arpitbhayani/bitcask-a-log-structured-fast-kv-store-18ii4982tu)
 * [Platform Teams](https://blog.pragmaticengineer.com/platform-teams/)
+* [After All These Years, the World is Still Powered by C Programming](https://www.toptal.com/c/after-all-these-years-the-world-is-still-powered-by-c-programming)
 
 
 💮 Engineering Blogs:
@@ -169,6 +170,7 @@
 * [.Cult](https://cult.honeypot.io/)
 * [Babbel Tech.](https://www.babbel.com/en/magazine/category/babbel-bytes)
 * [Learn X in Y minutes](https://learnxinyminutes.com/)
+* [Toptal](https://www.toptal.com/developers/blog)
 
 
 💮 Personal Blogs:
@@ -296,5 +298,5 @@
 
 * [$200 from Digitalocean.](https://m.do.co/c/7f92efa0b9c1)
 * [$300 from Google Cloud.](https://cloud.google.com/free)
-* [12 Month free AWS](https://aws.amazon.com/free/)
-* [~ $1700 Alibaba Cloud](https://www.alibabacloud.com/free)
+* [12 Month free from AWS](https://aws.amazon.com/free/)
+* [~ $1700 free from Alibaba Cloud](https://www.alibabacloud.com/free)
