@@ -295,3 +295,5 @@
 💮 Cloud Credits:
 
 * [$200 from Digitalocean.](https://m.do.co/c/7f92efa0b9c1)
+* [$300 from Google Cloud.](https://cloud.google.com/free)
+
