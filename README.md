@@ -296,4 +296,5 @@
 
 * [$200 from Digitalocean.](https://m.do.co/c/7f92efa0b9c1)
 * [$300 from Google Cloud.](https://cloud.google.com/free)
-* [12 Month free AWS] (https://aws.amazon.com/free/)
+* [12 Month free AWS](https://aws.amazon.com/free/)
+* [~ $1700 Alibaba Cloud](https://www.alibabacloud.com/free)
