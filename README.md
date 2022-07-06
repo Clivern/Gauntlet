@@ -86,6 +86,8 @@
 * [AWS Networking Masterclass - VPC](https://www.youtube.com/watch?v=LX5lHYGFcnA)
 * [Terraform workspace explained!](https://www.devopsschool.com/blog/terraform-workspace-explained/)
 * [Kubernetes Monitoring](https://www.tigera.io/learn/guides/kubernetes-monitoring/)
+* [Network issues simulation: How to test against bad network conditions](https://medium.com/docler-engineering/network-issues-simulation-how-to-test-against-bad-network-conditions-b28f651d8a96)
+* [How to Use the Linux Traffic Control](https://netbeez.net/blog/how-to-use-the-linux-traffic-control/)
 
 
 💮 Articles:
