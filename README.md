@@ -177,6 +177,7 @@
 * [Babbel Tech.](https://www.babbel.com/en/magazine/category/babbel-bytes)
 * [Learn X in Y minutes](https://learnxinyminutes.com/)
 * [Toptal](https://www.toptal.com/developers/blog)
+* [Fly.IO](https://fly.io/blog/)
 
 
 💮 Personal Blogs:
