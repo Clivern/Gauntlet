@@ -299,6 +299,8 @@
 * [The Rust Programming Language](https://doc.rust-lang.org/book/)
 * [The Rust Reference](https://doc.rust-lang.org/reference/introduction.html)
 * [Prometheus: Up & Running](https://www.oreilly.com/library/view/prometheus-up/9781492034131/)
+* [Joy of Elixir](https://joyofelixir.com/toc.html)
+* [Introducing Elixir](https://www.oreilly.com/library/view/introducing-elixir/9781449369989/)
 
 
 💮 Cloud Free Credits:
