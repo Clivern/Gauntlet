@@ -365,4 +365,4 @@
 * [Introduction to Machine Learning with scikit-learn](https://courses.dataschool.io/introduction-to-machine-learning-with-scikit-learn)
 * [Email Spam Detection using Machine Learning Scikit Python](https://medium.com/@oluyaled/email-spam-detection-using-machine-learning-scikit-python-1b15ee1c6f75)
 * [CS50's Introduction to Artificial Intelligence with Python](https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python)
-* [Elevating Code Quality Through LLM Integration: Adyen's](https://www.adyen.com/knowledge-hub/elevating-code-quality-through-llm-integration)
+* [Elevating Code Quality Through LLM Integration](https://www.adyen.com/knowledge-hub/elevating-code-quality-through-llm-integration)
