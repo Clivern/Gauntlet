@@ -294,9 +294,13 @@
 * [Prometheus: Up & Running](https://www.oreilly.com/library/view/prometheus-up/9781492034131/)
 
 
-💮 Cloud Credits:
+💮 Cloud Free Credits:
 
-* [$200 from Digitalocean.](https://m.do.co/c/7f92efa0b9c1)
 * [$300 from Google Cloud.](https://cloud.google.com/free)
-* [12 Month free from AWS](https://aws.amazon.com/free/)
-* [~ $1700 free from Alibaba Cloud](https://www.alibabacloud.com/free)
+* [12 Month free from AWS.](https://aws.amazon.com/free/)
+* [~ $1700 free from Alibaba Cloud.](https://www.alibabacloud.com/free)
+* [IBM Cloud Free Tier.](https://www.ibm.com/cloud/free)
+* [Microsoft Azure Free Tier](https://azure.microsoft.com/en-us/free/)
+* [$200 from Digitalocean.](https://m.do.co/c/7f92efa0b9c1)
+* [$100 from Linode](https://www.linode.com/lp/affiliate-referral/)
+* [OCI Cloud Free Tier](https://www.oracle.com/cloud/free/)
