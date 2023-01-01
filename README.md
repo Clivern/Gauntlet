@@ -320,6 +320,7 @@
 * [Prometheus: Up & Running](https://www.oreilly.com/library/view/prometheus-up/9781492034131/)
 * [Joy of Elixir](https://joyofelixir.com/toc.html)
 * [Introducing Elixir](https://www.oreilly.com/library/view/introducing-elixir/9781449369989/)
+* [Terraform: Up & Running Code](https://www.terraformupandrunning.com/)
 
 
 💮 Cloud Free Credits:
