@@ -131,6 +131,7 @@
 * [How to use Kubernetes events for effective alerting and monitoring](https://grafana.com/blog/2023/01/23/how-to-use-kubernetes-events-for-effective-alerting-and-monitoring/?mdm=social)
 * [5 Reasons to Use Elixir in Production](https://semaphoreci.com/blog/elixir-production)
 * [A week with Elixir](https://joearms.github.io/published/2013-05-31-a-week-with-elixir.html)
+* [Sitting on the bench](https://world.hey.com/dhh/sitting-on-the-bench-ba937b84)
 
 
 💮 Engineering Blogs:
@@ -203,6 +204,7 @@
 * [Going the distance](https://jeiwan.net/)
 * [Sbcode Tuturials](https://sbcode.net/)
 * [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
+* [DHH](https://world.hey.com/dhh)
 
 
 💮 Awesome List:
