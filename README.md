@@ -132,6 +132,7 @@
 * [5 Reasons to Use Elixir in Production](https://semaphoreci.com/blog/elixir-production)
 * [A week with Elixir](https://joearms.github.io/published/2013-05-31-a-week-with-elixir.html)
 * [Sitting on the bench](https://world.hey.com/dhh/sitting-on-the-bench-ba937b84)
+* [We stand with the Underdogs](https://world.hey.com/jason/we-stand-with-the-underdogs-7d487d64)
 
 
 💮 Engineering Blogs:
@@ -204,7 +205,8 @@
 * [Going the distance](https://jeiwan.net/)
 * [Sbcode Tuturials](https://sbcode.net/)
 * [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
-* [DHH](https://world.hey.com/dhh)
+* [dhh](https://world.hey.com/dhh)
+* [Jason Fried](https://world.hey.com/jason)
 
 
 💮 Awesome List:
