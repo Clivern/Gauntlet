@@ -243,6 +243,7 @@
 * [ObservabilityCON 2021](https://grafana.com/about/events/observabilitycon/2021/)
 * [Prometheus: The Documentary](https://www.youtube.com/watch?v=rT4fJNbfe14)
 * [AWS Networking Fundamentals](https://www.youtube.com/watch?v=hiKPPy584Mg)
+* [Elixir Casts](https://elixircasts.io/)
 
 
 💮 Podcasts:
