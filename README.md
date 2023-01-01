@@ -334,6 +334,7 @@
 * [$100 from Linode](https://www.linode.com/lp/affiliate-referral/)
 * [OCI Cloud Free Tier](https://www.oracle.com/cloud/free/)
 * [$250 from Vultr.](https://www.vultr.com/promo/try250/)
+* [Amazon EC2 AMI Locator](https://cloud-images.ubuntu.com/locator/ec2/)
 
 
 💮 AI & ML:
