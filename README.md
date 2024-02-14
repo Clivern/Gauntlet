@@ -286,6 +286,9 @@
 * [Apache Kafka Series - Learn Apache Kafka for Beginners v3](https://www.udemy.com/course/apache-kafka)
 * [DevOps with Terraform](https://cloudcasts.io/course/terraform)
 * [CloudCasts](https://cloudcasts.io/courses)
+* [Ultimate AWS Certified Developer Associate 2024 NEW DVA-C02](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01)
+* [Istio Hands-On for Kubernetes](https://www.udemy.com/course/istio-hands-on-for-kubernetes)
+* [Learn DevOps: Infrastructure Automation With Terraform](https://www.udemy.com/course/learn-devops-infrastructure-automation-with-terraform)
 
 
 💮 Languages:
