@@ -260,6 +260,7 @@
 * [AWS Networking Fundamentals](https://www.youtube.com/watch?v=hiKPPy584Mg)
 * [Elixir Casts](https://elixircasts.io/)
 * [What runs ChatGPT? Inside Microsoft's AI supercomputer](https://www.youtube.com/watch?v=Rk3nTUfRZmo)
+* [Create a Terraform provider with the Plugin Framework](https://www.youtube.com/watch?v=16qs7LJSyps)
 
 
 💮 Podcasts:
